@@ -10,6 +10,13 @@
             "price-tick": ".1f",
             "price-date": "%b %Y",
             "change-tick": ".1f"
+        },
+        "user-menu": {
+        	"signout": "Sign Out",
+        	"switch-t": "Switch Tenants"
+        },
+        "errrors": {
+        "cant-open" : "Can't open file %s!"
         }
     }
 }
