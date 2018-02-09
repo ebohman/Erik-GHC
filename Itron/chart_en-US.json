@@ -1,0 +1,15 @@
+{
+    "multi-chart" : {
+        "title": "Multi-Chart (Bar + Single Line)",
+        "labels": {
+            "x-axis-price": "Price",
+            "x-axis-date": "Date",
+            "y-axis-change": "% Change"
+        },
+        "format" : {
+            "price-tick": ".1f",
+            "price-date": "%b %Y",
+            "change-tick": ".1f"
+        }
+    }
+}
