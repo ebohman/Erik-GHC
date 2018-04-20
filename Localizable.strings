@@ -1,0 +1,721 @@
+"EmptyState.TimeOffBalance.Title" = "No active accruals";
+
+"Button.CancelMyShift" = "Cancel my shift";
+"Button.OfferMyShift" = "Offer my shift";
+"Button.Accept" = "Accept";
+"Button.Decline" = "Decline";
+
+"Label.FromDate(%@)" = "From %@";
+"Label.(%@)HoursClocked" = "%@ clocked";
+"Label.AvailablePreferred" = "Preferred";
+"Label.Unavailable" = "Unavailable";
+"Label.Available" = "Available";
+"Label.AvailableNotPreferred" = "Not Preferred";
+"Label.AvailabilityUnknown" = "Unknown";
+
+"Availability.Layer.Override" = "Override";
+
+"AvailabilitySegment.Type.Unknown" = "Unknown";
+"AvailabilitySegment.Type.Available" = "Available";
+"AvailabilitySegment.Type.Preferred" = "Preferred";
+"AvailabilitySegment.Type.Unavailable" = "Unavailable";
+
+"AvailabilitySegment.Type.NotPreferred" = "Not preferred";
+"Alert.Title.Attestation" = "Attestation";
+"Alert.Message.Attestation" = "I understand that work performed using this function is considered compensable time and acknowledge that I am clocked in and recording all time worked pursuant to policy.";
+
+"RequestTitle.ShiftEmployeeOffer" = "Offer request";
+"Title.Availabilities" = "Availabilities";
+"Title.AvailabilityDetails" = "Availability Details";
+"Title.OfferRequest" = "Offer Request";
+"Title.Day(%d)" = "Day %d";
+"Title.Week(%d)" = "Week %d";
+/*
+Localizable.strings
+Strings for WorkJam app
+*/
+
+"Error.message" = "Oops! Something went wrong";
+"Error.EmailsNotMatching" = "Email addresses didn’t match";
+"Error.EmailNotNew" = "Email address is not new";
+"Error.EmailNotValid" = "Invalid email address";
+"Error.UsernameNotValid" = "Invalid username";
+"Error.PasswordNotMatching" = "Passwords didn’t match";
+"Error.PasswordNotNew" = "Password is not new";
+"Error.PasswordTooShort" = "Password is too short";
+"Error.NoConnectionAvailable" = "No connection available";
+"Error.MuteFailed" = "Mute failed";
+"Error.UnmuteFailed" = "Unmute failed";
+"Error.VideoCannotLoad" = "Snap! Couldn’t load the video.\nThere might be connection issues or the link no longer works.";
+"Error.FeatureBlockedByIp" = "This feature can only be used when you’re connected to the internet at work";
+"Error.FeatureBlockedByGeofence" = "This feature can only be used when you’re present at work";
+"Error.CantDisplayHTMLPage" = "Hmm, nothing to display. This page is either empty or has an invalid URL address.";
+"Error.ForbiddenAccess" = "Sorry, you don't have permission";
+"Error.FailedToDeleteCommentBy(%@)Author" = "Failed to delete comment by %@";
+"Error.FailedToLoadComments" = "Failed to load comments";
+"Error.SSOUsernamePasswordEditNotAllowed" = "Your organization is configured for Single Sign-On (SSO). Please contact your company administrator for username and password issues.";
+"LoginError.InvalidUserType" = "This type of user is not supported in this context";
+"ImpersonatedUserLogInError.AdminSession" = "You cannot impersonate another admin user";
+
+"ImageUpload.Success" = "Image uploaded";
+"ImageUpload.Failure" = "Failed to upload image, please retry";
+
+"App(%@)PermissionAccess.LocationForTraining" = "Give %@ access to Location so we can unlock training materials when you're at work.";
+
+"EmptyState.NoItemsFound" = "No items found";
+"EmptyState.TimecardSummaries" = "No recent timecards";
+"EmptyState.Info" = "No recent activity";
+"EmptyState.OpenShifts.Title" = "No shifts found";
+"EmptyState.OpenShifts.Hint" = "Find more shifts by modifying your search";
+"EmptyState.SurveyPicker.Title" = "No active surveys";
+"EmptyState.Badges.Title" = "No badges yet";
+"EmptyState.Channels.Title" = "No channels yet";
+"EmptyState.Channels.Hint" = "Channels are streams of curated content that your employer can publish";
+"EmptyState.Inbox.Title" = "No messages yet";
+"EmptyState.ChannelMessages.Title" = "No channel messages";
+"EmptyState.ApprovalRequests.Title" = "No requests";
+"EmptyState.ApprovalRequests.Hint" = "Approval requests such as shift offers and cancellations will appear here";
+"EmptyState.Training.Title" = "No trainings";
+"EmptyState.Training.Hint" = "Here you’ll find training materials from your employer, such as videos, memos and other handy documents";
+"EmptyState.Documents.Title" = "Hmm… thanks for looking but no tutorials have been prepared here. Check back later.";
+"HoursPicker.End" = "End";
+"HoursPicker.EndNextDay" = "End (next day)";
+"HoursPicker.Start" = "Start";
+
+"Import.FromCamera" = "Use camera";
+"Import.FromPhotosLibrary" = "Import from library";
+"Import.AddMedia" = "Add media";
+
+"Button.Add" = "Add";
+"Button.AddAccount" = "Add account";
+"Button.AddPhone" = "Add phone";
+"Button.AddToFavorites" = "Add to favorites";
+"Button.Assign" = "Assign";
+"Button.RemoveFromFavorites" = "Remove from favorites";
+"Button.Apply" = "Apply";
+"Button.ApplyToOccurrence" = "Apply to occurrence";
+"Button.ApplyToSeries" = "Apply to series";
+"Button.Cancel" = "Cancel";
+"Button.Close" = "Close";
+"Button.Continue" = "Continue";
+"Button.Create" = "Create";
+"Button.Confirm" = "Confirm";
+"Button.Delete" = "Delete";
+"Button.Change" = "Change";
+"Button.Dismiss" = "Dismiss";
+"Button.Edit" = "Edit";
+"Button.Done" = "Done";
+"Button.Filter" = "Filter";
+"Button.FindShifts" = "Find Shifts";
+"Button.Ignore" = "Ignore";
+"Button.LogIn" = "Log in";
+"Button.LogOut" = "Log out";
+"Button.LogOutAccount(%@)" = "Log out %@";
+"Button.LogOutAllAccounts" = "Log out all";
+"Button.More" = "More";
+"Button.MuteChannel" = "Mute channel";
+"Button.UnmuteChannel" = "Unmute channel";
+"Button.Next" = "Next";
+"Button.OK" = "OK";
+"Button.Open" = "Open";
+"Button.Previous" = "Previous";
+"Button.Publish" = "Publish";
+"Button.Punch" = "Punch";
+"Button.Remove" = "Remove";
+"Button.Reset" = "Reset";
+"Button.Save" = "Save";
+"Button.Settings" = "Settings";
+"Button.TryLater" = "Try later";
+"Button.Send" = "Send";
+"Button.Skip" = "Skip";
+"Button.Share" = "Share";
+"Button.Submit" = "Submit";
+"Button.Search" = "Search";
+"Button.Retry" = "Retry";
+"Button.Show" = "Show";
+"Button.FindShiftsAtOtherLocations" = "Find shifts at other locations";
+"Button.ShowAll" = "Show all";
+"Button.DeleteComment" = "Delete comment";
+
+"Button.Small" = "Small";
+"Button.Medium" = "Medium";
+"Button.Large" = "Large";
+"Button.Low" = "Low";
+"Button.High" = "High";
+"Button.Original" = "Original";
+
+"Button.SendMessage" = "Send message";
+"Button.ReplaceAssignee" = "Find replacement";
+"Button.RemoveAssignee" = "Remove from shift";
+"Button.RemoveAssigneeAndReopenSlot" = "Remove and open slot";
+
+"Button.Punch.ClockIn" = "Clock in";
+"Button.Punch.ClockOut" = "Clock out";
+"Button.Punch.StartBreak" = "Start break";
+"Button.Punch.EndBreak" = "End break";
+"Button.Punch.StartMeal" = "Start meal";
+"Button.Punch.EndMeal" = "End meal";
+
+"Label.AccessCode" = "Access code";
+"Label.Availability" = "Availability";
+"Label.AllSelected" = "All";
+"Label.AllLocations" = "All locations";
+"Label.AllDay" = "All day";
+"Label.Attachments" = "Attachments";
+"Label.RequiresApproval" = "Requires approval";
+"Label.Locations" = "Locations";
+"Label.Positions" = "Positions";
+"Label.Position" = "Position";
+"Label.Congratulations" = "Congratulations";
+"Label.Coworker" = "Co-worker";
+"Label.CurrentDate" = "Current";
+"Label.CancelReason" = "Cancel reason";
+"Label.SelectReason" = "Select Reason";
+"Label.Date" = "Date";
+"Label.DateAtXTime" = "%@ at %@";
+"Label.DueDate(%@)" = "Due %@";
+"Label.Duration" = "Duration";
+"Label.Comments" = "Comments";
+"Label.DeviceTime" = "Device time";
+"Label.Starts" = "Starts";
+"Label.Ends" = "Ends";
+"Label.StartingOn" = "Starting on";
+"Label.StartDate" = "Start date";
+"Label.EndDate" = "End date";
+"Label.Ended" = "Ended";
+"Label.Email" = "Email";
+"Label.Username" = "Username";
+"Label.Error" = "Error";
+"Label.Sorry" = "Sorry";
+"Label.ErrorLoadingItems" = "Error loading data";
+"Label.FetchingItems" = "Searching…";
+"Label.Filters" = "Filters";
+"Label.FilterByLocation" = "Filter by location";
+"Label.FindLocation" = "Find a location";
+"Label.Favorites" = "Favorites";
+"Label.ItemNameNotFound" = "Item name not found";
+"Label.HoldUp" = "Hold up";
+"Label.StayLoggedIn" = "Stay logged in";
+"Label.StayLoggedIn.Hint" = "Switch this off on a public device";
+"Label.Loading" = "Loading";
+"Label.Manager" = "Manager";
+"Label.MissingData" = "Missing data";
+"Label.No" = "No";
+"Label.None" = "None";
+"Label.Note" = "Note";
+"Label.NoItemsFound" = "No items found";
+"Label.NotifyEmployees" = "Notify employees";
+"Label.NoRecipients" = "No recipients";
+"Label.Oops" = "Oops";
+"Label.Phone" = "Phone";
+"Label.SelectAll" = "Select all";
+"Label.SelectAnswer" = "Select an answer";
+"Label.Shift" = "Shift";
+"Label.Recurring" = "Recurring";
+"Label.TimeOff" = "Time off";
+"Label.Summary" = "Summary";
+/* Started school or started a job on a specific date */
+"Label.Started" = "Started";
+"Label.Suggestions" = "Suggestions";
+"Label.NoNetworkConnection" = "No Internet connection";
+"Label.Today" = "Today";
+"Label.Answer" = "Answer";
+"Label.Tomorrow" = "Tomorrow";
+"Label.ToRecipients" = "To";
+"Label.Warning" = "Warning";
+"Label.Time" = "Time";
+"Label.Yes" = "Yes";
+"Label.Yesterday" = "Yesterday";
+/* This refers to a time span, eg. a payment period */
+"Label.Period" = "Period";
+"Label.ClockedHours" = "Clocked";
+"Label.PrimaryLocation" = "Primary";
+"Label.Info" = "Info";
+"Label.NoDescription" = "No description";
+"Label.Version" = "Version";
+"Label.Muted" = "Muted";
+"Label.Unmuted" = "Unmuted";
+"Label.AddedToFavorites" = "Added to favorites";
+"Label.RemovedFromFavorites" = "Removed from favorites";
+"Label.Preferences" = "Preferences";
+"Label.Account" = "Account";
+"Label.General" = "General";
+"Label.About" = "About";
+"Label.EditPost" = "Edit post";
+"Label.DeletePost" = "Delete post";
+"Label.Success" = "Success!";
+"Label.When" = "When";
+"Label.Wage%@" = "Wage: %@";
+"Label.More" = "More";
+"Label.Quantity" = "Quantity";
+"Label.OpenSpots" = "Open spots";
+"Label.Timezone" = "Timezone";
+"Label.Reason" = "Reason";
+"Label.RequiresAttention" = "Requires attention";
+"Label.Complete" = "Complete";
+"Label.Valid" = "Valid";
+"Label.Invalid" = "Invalid";
+"Label.Incomplete" = "Incomplete";
+"Label.UseSeniorityList" = "Use seniority list";
+"Label.UseMarketplace" = "Publish to marketplace";
+"Label.NotificationInterval" = "Notification interval";
+"Label.SeniorityDate" = "Seniority";
+"Label.ShiftTime" = "Shift time";
+"Label.Where" = "Where";
+"Label.AnywhereInMyRegion" = "Anywhere in my region";
+
+"Label.ShiftBreak.Meal" = "Meal";
+"Label.ShiftBreak.Rest" = "Rest";
+
+"Label.Free" = "Free";
+"Label.Busy" = "Busy";
+"Label.PartiallyFree" = "Partially free";
+"Label.PartiallyBusy" = "Partially busy";
+"Label.Unspecified" = "Unspecified";
+
+"Notification.CantLocate" = "Can’t find your location";
+"Notification.ShiftPublished" = "Shift published";
+"Notification.ShiftUpdated" = "Shift updated";
+"Notification.ShiftDeleted" = "Shift deleted";
+"Notification.TimeOffRequested" = "Time off requested";
+"Notification.PunchAdded" = "Punch added";
+"Notification.PunchFailed" = "Punch failed";
+
+"Search.(%lu)Results" = "Results: %lu";
+"Search.NoResults" = "No results";
+
+"PhoneType.Mobile" = "Cell";
+"PhoneType.Landline" = "Landline";
+"PhoneType.Other" = "Other";
+
+"AboutUs.heading" = "Who are we?";
+"AboutUs.description" = "WorkJam serves to keep the hourly workforce in sync. By rethinking recruitment and shift planning, we are building an app that changes the lives of part-time and seasonal workers.";
+
+"AppUpdateAvailable.AppStoreButton" = "Update";
+"AppUpdateAvailable.VersionDeprecated" = "This version of the app has been deprecated. We recommend that you download a new update as soon as possible.";
+"AppUpdateAvailable.VersionOutdated" = "You must update to the lastest version to continue using WorkJam app";
+
+"Auth.Login.UsernameOrEmail" = "Username or email";
+"Auth.Login.Password" = "Password";
+"Auth.Login.ForgotPassword" = "Forgot your password?";
+"Auth.Login.Error.InvalidCredentials" = "The email and password combination you entered did not match our records. Please double-check and try again.";
+"Auth.Login.Error.ReachedMaximumLoginAttempts" = "Maximum login attempts exceeded.";
+"Auth.Login.Error.UserHasNoEmployers" = "Can't let you in because you don't have any employers right now. Please come back later!";
+"Login.SessionExpired" = "This session has expired.";
+"Login.SessionExpired.subheading" = "Tap continue to log in again.";
+"Login.LoggingInAs(%@)" = "You're logging in as %@";
+
+"Availability.EditAvailability" = "Edit availability";
+"Availability.AddAvailability" = "Add availability";
+"Availability.PastAvailability" = "Past availability";
+"Availability.ClassicModeButton" = "Switch to Quick mode";
+"Availability.WizardModeButton" = "Switch to Tutorial mode";
+"Availability.Edit.Warning.title" = "Important";
+"Availability.Edit.Warning.message" = "Editing your schedule will not affect any assigned shifts for the next 14 days.";
+"Availability.Nickname" = "Memo";
+"Availability.AddHours" = "Add time slot";
+"Availability.WhichEmployer" = "Which employers should be aware?";
+"Availability.BlockTimeSlot" = "Block time slot";
+"Availability.WhichRepeatType" = "How often does it repeat?";
+"Availability.NoAddress" = "(missing address)";
+"Availability.NoLocation" = "(missing location)";
+"Availability.DeleteAvailability" = "Delete availability";
+"Availability.HoursPicker.text" = "Please select the Start and End time of your availability.";
+"Availability.Error.CantSelectDateX" = "Can’t select %@";
+"Availability.Error.InvalidStartDate" = "Start date must be today or later.";
+"Availability.Error.InvalidRecurringStartDate" = "A recurring event must start tomorrow or later.";
+"Availability.Error.InvalidEndDate" = "End date must be greater than start date.";
+"Availability.Error.InvalidHours.title" = "Invalid Time";
+"Availability.Error.InvalidHours.message" = "Please select a start time which is later than current time.";
+"Availability.ScheduleConflict.title" = "Schedule Conflict";
+"Availability.ScheduleConflict.message" = "Would you like to ignore this conflict and save anyway?";
+"Availability.ScheduleConflict.SaveButton" = "Save anyway";
+"Availability.AutoGeneratedDateRange(%@)" = "%@";
+"Availability.GeneralAvailability" = "General availability";
+"Availability.GeneralAvailability.AdjustTimes" = "Adjust times to match your availability";
+"Availability.GeneralAvailability.HoursPicker.text" = "Select times that define this part of your day";
+"Availability.Morning" = "Morning";
+"Availability.Afternoon" = "Afternoon";
+"Availability.Night" = "Night";
+
+"Availability.SelectStoresInOneTimezone" = "Select stores in one timezone";
+
+"Availability.Repeat" = "Repeat";
+"Availability.RepeatEnds" = "Ends on";
+"Availability.RepeatEndsOn(%@)" = "Ends on %@";
+"Availability.GeneralAvailability.Subheading" = "Set your general weekly availability";
+"Availability.Repeat.Never" = "Never";
+"Availability.Repeat.OneTime" = "One time only";
+"Availability.Repeat.Weekly" = "Weekly";
+"Availability.Evening" = "Evening";
+"Availability.Repeat.Weekly.Example" = "Example: Every Mon & Fri";
+"Availability.Repeat.DayInterval.Example" = "Example: Every 9 days";
+
+"Availability.DeleteTimeOff" = "Delete Time Off";
+
+"BookingMethod.Assign" = "Assign";
+"BookingMethod.Offer" = "Offer";
+
+"BadgeDetails.CurrentLevel" = "Achievement";
+"BadgeDetails.NextLevel" = "Next level";
+"BadgeDetails.LeaderboardButton" = "View leaderboard";
+"BadgeDetails.CertificateButton" = "View certificate";
+"Availability.Status" = "Status";
+
+"BadgeDetail.Points" = "Earned";
+"BadgeDetail.CurrentPoints" = "Current balance";
+"BadgeDetail.Level" = "Level";
+"Availability.Repeat.DayInterval"  = "Day interval";
+"Badge.AdjustPoints" = "Adjust Points";
+"AdjustPoints.Add" = "Add";
+"AdjustPoints.Subtract" = "Subtract";
+"AdjustPoints.CurrentBalance" = "Current balance";
+"AdjustPoints.NewBalance" = "New balance";
+
+"EmploymentStatus.ExpireDate(%@)" = "Expires: %@";
+"EmploymentStatus.Active" = "Active";
+"EmploymentStatus.Inactive" = "Inactive";
+"EmploymentStatus.Pending" = "Pending";
+"Employment.Deactivate" = "Deactivate";
+
+"EventSummary.FromDate(%@)" = "from %@";
+"EventSummary.ToDate(%@)" = "to %@";
+
+"Reasons.CommentPlaceholder" = "Briefly explain reason…";
+
+"BadgeDetail.LifetimePoints" = "Lifetime";
+"FindShifts.FromDate" = "From";
+"FindShifts.ToDate" = "To";
+
+"Badges.LevelsInfoButton" = "Need help picking a level?";
+"Badges.CurrentLevel" = "Current Level";
+"ForgotPassword.heading" = "Can't remember your password?";
+"ForgotPassword.subheading" = "We'll send you an email to create a new one.";
+"ForgotPassword.Confirmation.title" = "Check email";
+"ForgotPassword.Confirmation.text" = "Great! Now check your email for a link to reset your password.";
+
+"Home.Greeting(%@)" = "Hi %@,";
+"Home.WelcomeBack" = "welcome back";
+"Home.NextShift" = "Next shift";
+"Home.NextShift.InProgress" = "In progress!";
+"Home.NextShift.UnknownLocation" = "Somewhere in the universe";
+"Home.BadgeCardTitle1" = "Awesome!";
+"Home.BadgeCardTitle2" = "Congrats!";
+"Home.QuickTips" = "Quick tips";
+
+"QuickTip1.Title" = "Keep your availability up to date";
+"QuickTip2.Title" = "Connect with your manager and co-workers";
+"QuickTip2.Body" = "Easily get in touch with your manager or other co-workers. Go to messages and send one today!";
+
+"QuickTip3.Title" = "Wherever you are";
+"Home.BadgeCardTitle3" = "Nice job!";
+"QuickTip3.Body" = "Access your account on smartphones, tablets, and even the web – the same data will be available on all devices.";
+
+"Home.YouEarnedBadge(%@)" = "You earned the %@ badge";
+"QuickTip4.Title" = "Get a step ahead";
+"QuickTip4.Body" = "Check if there is any training waiting for you. Some trainings even reward badges that can help you get ahead!";
+
+"Leaderboard.Type.PrimaryLocation" = "Location";
+"Leaderboard.Type.Company" = "Company";
+"Messenger.Mark" = "Mark";
+"Messenger.MarkRead" = "Mark as read";
+"Messenger.MarkUnread" = "Mark as unread";
+"Messenger.Archive" = "Archive";
+"Messenger.Delete" = "Delete";
+"Messenger.Reply" = "Reply";
+"Messenger.ReplyAll" = "Reply all";
+"Messenger.RecipientPicker.NoMatchingContacts" = "No matching contacts";
+"Messenger.Composer.OnDateUserWrote" = "On %1$@, %2$@ wrote:";
+"QuickTip1.Body" = "By keeping you availability up-to-date, you can ensure that your manager has this information when creating your upcoming schedule.";
+
+"Messenger.Composer.ShowRecipients" = "Show";
+"Messenger.Composer.HideRecipients" = "Hide";
+"Messenger.Composer.send.Error.InvalidRecipients" = "Some recipients are not valid. Send the message to all other recipients?";
+"Title.Sent" = "Sent";
+"Messenger.Composer.send.Success.message" = "Your message was successfully sent";
+"Messenger.Subject" = "Subject";
+"Messenger.NoSubject" = "No subject";
+"Messenger.NoBody" = "(no message body)";
+"Leaderboard.Type.FranchiseParent" = "Parent company";
+
+"Messenger.ReadMore" = "read more";
+"Messenger.DeleteDraft" = "Delete draft";
+
+"Channels.MessageComposer.Comment" = "Comment";
+"Channels.MessageComposer.UnsupportedVideoSize" = "Video is too big, try to upload using web interface";
+
+"Channels.TextEntryPlaceholder" = "Write something…";
+"Channels.Comments.TextEntryPlaceholder" = "Write a comment…";
+"Channels.PostActions.Explanation" = "Actions on a post will affect all users";
+
+"Profile.ChangeProfilePicture" = "Change profile picture";
+"Profile.Avatar.change.Error.NoInputSourcesFound" = "No camera or photo library was detected on your device";
+"Profile.Avatar.save.Error.message" = "Something went wrong while trying to save your image. Please try again.";
+"Profile.BasicDetails.ChangePassword" = "Change password";
+"Profile.BasicDetails.FirstName" = "First name";
+"Profile.BasicDetails.LastName" = "Last name";
+"Profile.BasicDetails.Birthday" = "Birthday";
+"Profile.BasicDetails.NYearsOld" = "(%ld years old)";
+"Profile.BasicDetails.Email" = "Email";
+"Profile.BasicDetails.CurrentEmail" = "Current email";
+"Profile.BasicDetails.NewEmail" = "New email";
+"Profile.BasicDetails.ConfirmEmail" = "Confirm email";
+"Profile.BasicDetails.CurrentPassword" = "Current password";
+"Profile.BasicDetails.NewPassword" = "New password";
+"Profile.BasicDetails.ConfirmPassword" = "Confirm password";
+"Profile.BasicDetails.MinimumPasswordLength" = "Minimum 8 characters";
+"Profile.ChangeUsername" = "Change username";
+"Profile.ChangeUsername(%@)" = "Current: %@";
+"Profile.ChangePassword.SuccessMessage" = "Password has been changed.";
+
+"Title.CreateOpenShift" = "Create Open Shift";
+"Title.EditShift" = "Edit Shift";
+
+"Schedule.AddAvailability" = "Add availability";
+"Schedule.TimeOffRequest" = "Request time off";
+"Schedule.EditAvailability" = "Edit this event";
+"Schedule.EditAvailabilitySeries" = "Edit this series";
+"Schedule.NoEvents" = "No events";
+"Schedule.NoAvailabilityInDateRange(%@)" = "We noticed you don’t have any availability set up between %@";
+"Schedule.LoadingEvents" = "Loading events…";
+"Schedule.ShowingUnfilledShifts" = "You're seeing unfilled shifts only";
+"Schedule.NoShiftsForDate(%@)" = "No shifts on %@";
+"Schedule.PartialLoadFailure" = "Some schedule data failed to load";
+
+"Settings.AboutUs" = "About WorkJam";
+"Settings.AppLanguage" = "App language";
+"Settings.EmailNotifications" = "Email notifications";
+"Settings.ShiftReminder" = "Shift reminder";
+"Settings.AvailableLanguages(%@)" = "WorkJam is available in:\n\n%@\n\nTo change a language, you must change the language of your device in settings app: “General > Language & Region“";
+"Settings.Reminder.NoReminder" = "No reminder";
+"Settings.Reminder.OneHour" = "1 hour";
+"Settings.Reminder.TwoHours" = "2 hours";
+"Settings.Reminder.FourHours" = "4 hours";
+"Settings.Reminder.OneDay" = "1 day";
+"Settings.Reminder.ThirtyMinutes" = "30 minutes";
+"Settings.TermsOfUse" = "Terms of Use";
+"Settings.PrivacyPolicy" = "Privacy policy";
+"Settings.ManageAccounts" = "Manage accounts";
+
+"Shift.status.Declined" = "Declined";
+"Shift.status.Confirmed" = "Confirmed";
+"Shift.status.Pending" = "Pending";
+
+"Shift.ScheduleConflict.Title" = "Shift Conflict";
+"Shift.ScheduleConflict.Message" = "Some assignees have a conflict with another shift. They cannot be assigned to both. Which shift should they remain assigned to?";
+"Shift.ScheduleConflict.RemainOnThisShift" = "This shift";
+"Shift.ScheduleConflict.RemainOnOtherShift" = "The other shift";
+
+"ShiftDetails.SendToTradees" = "Send to";
+"ShiftDetails.WasSentToTradees" = "Sent to";
+"ShiftDetails.WasSentToManagers" = "Sent to managers for approval";
+"ShiftDetails.AcceptedBy" = "Accepted by";
+"ShiftDetails.AcceptedFrom" = "You’ve agreed to pick the following shift for";
+"ShiftDetails.AddMessage" = "Add note";
+"ShiftDetails.AddBreak" = "Add break";
+"ShiftDetails.Breaks" = "Breaks";
+"ShiftDetails.Notes" = "Notes";
+"ShiftDetails.Tasks" = "Tasks";
+"ShiftDetails.AddTasks" = "Add tasks";
+"ShiftDetails.Assignees" = "Assignees";
+"ShiftDetails.Coworkers" = "Co-Workers";
+"ShiftDetails.NoCoworkers" = "No co-workers found";
+"ShiftDetails.DeleteShift.Explanation" = "This shift will be removed from the schedule and anyone already assigned to it will be notified";
+"ShiftDetails.EditShift" = "Edit shift";
+"ShiftDetails.DeleteShift" = "Delete shift";
+"ShiftDetails.DeleteRecurringShift" = "Delete shift series";
+"ShiftDetails.Unfilled" = "Unfilled";
+"ShiftDetails.Filled" = "Filled";
+"ShiftDetails.Approvers" = "Approvers";
+
+"EditShift.Error.FailedToFetchPositions" = "Failed to fetch available positions.";
+"EditShift.Error.FailedToFetchSeniorityLists" = "Failed to fetch seniority lists.";
+"EditShift.Error.SavedShiftButFailedToAssignTasks" = "Successfully created the shift but we could not assign tasks to that shift.";
+
+"ShiftAssignee.Confirmed" = "Confirmed";
+"ShiftAssignee.Offered" = "Offered";
+"ShiftAssignee.Open" = "Open";
+
+"RequestAction.Accept" = "Accept";
+"RequestAction.Apply" = "Apply";
+"RequestAction.Approve" = "Approve";
+"RequestAction.Decline" = "Decline";
+"RequestAction.Delete" = "Delete";
+"RequestAction.Reject" = "Reject";
+
+"ApprovalRequest.ShiftOpen.Pending.Confirmation.Title" = "Shift requested";
+"ApprovalRequest.ShiftOpen.Pending.Confirmation.ShiftAtLocation(%@)SentForApproval" = "Your shift request for [~]%@[/~] has been sent to the manager for approval. Check for status updates on your Requests tab.";
+"ApprovalRequest.ShiftOpen.Approved.Confirmation.Title" = "Shift approved";
+"ApprovalRequest.ShiftOpen.Approved.Confirmation.ShiftAtLocation(%@)Approved" = "You have just picked up a shift at [~]%@[/~]. It’s now on your schedule.";
+
+"ApprovalRequest.SuccessfulSubmitMessage" = "Request was submitted successfully";
+"ApprovalRequest.SuccessfulSubmit.NewStatus(%@)" = "New status: %@";
+
+"RequestTitle.ShiftOpen" = "Open shift";
+"RequestTitle.ShiftOffer" = "Shift offer";
+"RequestTitle.ShiftCancel" = "Cancel request";
+"RequestTitle.TimeOff" = "Time off request";
+
+"RequestStatus.Accepted" = "Accepted";
+"RequestStatus.Applied" = "Applied";
+"RequestStatus.Approved" = "Approved";
+"RequestStatus.Declined" = "Declined";
+"RequestStatus.Pending" = "Pending";
+"RequestStatus.Rejected" = "Rejected";
+
+"ApprovalRequest.TimeOff.YouRequestedTimeOffFor(%@)Duration" = "You requested time off for %@";
+"ApprovalRequest.TimeOff.Worker(%@)RequestedTimeOffFor(%@)Duration" = "[~]%@[/~] requested time off for %@";
+
+"ApprovalRequest.ShiftCancel.YouAskedToCancelShift" = "You’ve asked your manager to cancel this shift";
+"ApprovalRequest.ShiftCancel.Worker(%@)WantsToCancelShift" = "[~]%@[/~] wants to cancel his/her shift";
+"ApprovalRequest.ShiftOffer.YouOfferedShiftToWorker(%@)" = "You offered [~]%@[/~] to take this shift";
+"ApprovalRequest.ShiftOffer.Manager(%@)AskedToTakeShift" = "Your manager [~]%@[/~] would like you to take this shift";
+"ApprovalRequest.ShiftOpen.YouWantToTakeShift" = "You’ve asked to work this shift";
+
+"ApprovalRequest.ShiftTrade.YouAcceptedTradeFromWorker(%@)" = "You’ve agreed to take [~]%@’s[/~] shift";
+"ApprovalRequest.ShiftTrade.Worker(%@)Accepted" = "[~]%@[/~] is able to take your shift";
+"ApprovalRequest.ShiftTrade.Worker(%@)AskedToTrade" = "[~]%@[/~] would like you to take his (her) shift";
+"ApprovalRequest.ShiftTrade.NoTakersForShift" = "No one has agreed to take this shift yet";
+"ApprovalRequest.ShiftTrade.Worker(%@)AcceptedTradeFromWorker(%@)" = "[~]%@[/~] agreed to take [~]%@’s[/~] shift";
+"ApprovalRequest.ShiftTrade.SomeoneElseAccepted" = "Someone else agreed to take this shift";
+
+"ApprovalRequestDetails.SelectEmployees" = "Select employees";
+"ApprovalRequestDetails.PreviousApplicants" = "Previous applicants";
+"ApprovalRequestDetails.ShiftOpen.MustSelectEmployee" = "Please select at least 1 employee";
+"ApprovalRequestDetails.ShiftOpen.SelectMax(%d)Employees" = "Please select no more than %d employees";
+"ApprovalRequestDetails.ShiftTrade.NoValidTradees" = "No valid employees found";
+
+"ShiftRequest.DeleteRequest" = "Delete request";
+"ShiftRequest.DeleteRequest.Explanation" = "No one will be able to take further action on this request";
+"ShiftRequest.SelectCoworkers" = "Select co-workers";
+"ShiftRequest.TradeShift.AutoApproved" = "This offer request was automatically approved. You are now responsible for this shift.";
+"ShiftRequest.TradeShift.SentForApproval" = "The request is pending manager approval.";
+"ShiftRequest.TradeShift.RequestSent" = "Your request has been successfully sent.";
+"ShiftRequest.CancelShift.Reason.subtitle" = "Why do you want to cancel this shift?";
+"ShiftRequest.CancelShift.submit.Confirm.title" = "Are you sure?";
+"ShiftRequest.CancelShift.submit.Confirm.message" = "Remember that this is only a request. You’ll still be responsible for the shift until your manager approves the change.";
+"ShiftRequest.CancelShift.submit.Success.message" = "Your request has been successfully sent to your manager(s) for approval.";
+
+"ShiftRequest.ApproveCancellation.Explanation" = "What do you want to do with this shift once cancellation is approved?";
+"ShiftRequest.ApproveCancellation.option.ManualReplacement" = "Re-assign to someone else";
+"ShiftRequest.ApproveCancellation.option.CreateOpenShift" = "Create open shift";
+"ShiftRequest.ApproveCancellation.option.DeleteShift" = "Delete shift";
+
+"ShiftRequest.DeletingShift.title" = "Delete shift";
+"ShiftRequest.DeletingShift.message" = "You are about to delete this shift.";
+"ShiftRequest.CreatingOpenShift.title" = "Create open shift";
+"ShiftRequest.CreatingOpenShift.message" = "You are about to make this shift open.";
+
+"StoreProfile.VisitFacebookPage" = "Visit Facebook page";
+"StoreProfile.SeeStaff" = "See staff";
+
+"Survey.SelectOne" = "Select one";
+"Survey.SelectAllThatApply" = "Select all that apply";
+"Survey.Result.DefaultMessage" = "You're done! Thank you.";
+"Survey.OverdueTask" = "You must complete the following task in order to continue using the app";
+"Survey.OverdueTask(%@)" = "You must complete task “%@” in order to continue using the app";
+
+"TaskDetails.Steps" = "Steps";
+"Task.Error.CouldNotRefresh" = "Could not refresh task.";
+"Task.Label.ExpectedDuration" = "Expected duration";
+"Task.Label.CompletedByUser(%@)" = "Completed by %@";
+"Task.Status.ToDo" = "To do";
+"Task.Status.Completed" = "Completed";
+"Task.Status.Overdue" = "Overdue";
+"Task.Status.InProgress" = "In progress";
+"Task.Status.NotStarted" = "Not started";
+
+"Timecard.ClockedIn" = "Clocked in";
+"Timecard.ClockedOut" = "Clocked out";
+"Timecard.BreakStarted" = "Break started";
+"Timecard.BreakEnded" = "Break ended";
+"Timecard.MealStarted" = "Meal started";
+"Timecard.MealEnded" = "Meal ended";
+
+"Training.AssessmentPrompter" = "Ready to take assessment for this training?";
+"Training.StartAssessmentButton" = "Take assessment";
+"Training.DidYouCompleteTraining" = "Did you complete all tutorials above?";
+"Training.MustWait(%@)BeforeRetakingTest" = "You must wait %@ before retaking the test";
+"Training.TrainingCompletedButton" = "Yes, all completed";
+"Training.VideoTutorial(%@)NotFound" = "Video for “%@” training cannot be found";
+"Training.NotMobileFriendly" = "Unavailable on mobile";
+"Training.CantOpenDocument(%@)" = "Can't open “%@“";
+"Training.CantOpenDocumentExplanation" = "You need to access this content on a computer";
+
+"Training.Assessment.Passed" = "Passed";
+"Training.Assessment.Failed" = "Failed";
+"Training.Assessment.PassedMessage" = "Woot! You passed.";
+"Training.Assessment.FailedMessage" = "Bummer, you didn't pass.";
+"Training.NoAssessment.Completed" = "Training completed";
+"Training.NoAssessment.CompletedMessage" = "Awesome! Keep up the good work.";
+
+"Training.Error.OffShift" = "The training is only available during your shift";
+"Training.Warning.OffShift" = "Please take note that you may not be compensated while taking a training off shift";
+"Training.Warning.AllowedTrainingLimitExceeded" = "You have reached the maximum time allocated for this training";
+
+"TimeOff.Note.Example" = "e.g. Mom's birthday";
+
+"Title.AllowAccess" = "Allow Access";
+"Title.EventDetails" = "Event Details";
+"Title.EditAssignee" = "Edit Assignee";
+"Title.Certificate" = "Certificate";
+"Title.PunchClock" = "Punch Clock";
+"Title.ShiftBreak" = "Shift Break";
+"Title.ShiftAssignee" = "Shift Assignee";
+"Title.TimeAndAttendance" = "Time and Attendance";
+"Title.TimeOffBalance" = "Time Off Balance";
+"Title.SelectImageSize" = "Select Image Size";
+"Title.Restricted" = "Restricted";
+
+"Title.Accounts" = "Accounts";
+"Title.Home" = "Home";
+"Title.OpenShifts" = "Open Shifts";
+"Title.Positions" = "Positions";
+"Title.Surveys" = "Surveys";
+"Title.ChangePassword" = "Change Password";
+"Title.Feedback" = "Feedback";
+"Title.Messages" = "Messages";
+"Title.Badges" = "Badges";
+"Title.Schedule" = "Schedule";
+"Title.MySchedule" = "My Schedule";
+"Title.Location" = "Location";
+"Title.Employees" = "Employees";
+"Title.Notifications" = "Notifications";
+"Title.Settings" = "Settings";
+"Title.Help" = "Help";
+"Title.TrainingCenter" = "Training Center";
+"Title.Training" = "Training";
+"Title.Channels" = "Channels";
+"Title.Info" = "Info";
+"Title.Profile" = "Profile";
+"Title.Timecards" = "Timecards";
+"Title.TimecardSummaries" = "Timecard Summaries";
+"Title.Requests" = "Requests";
+"Title.LocationDetails" = "Location Details";
+"Title.PhoneType" = "Phone Type";
+"Title.CancelRequest" = "Cancel Request";
+"Title.SelectEmployee" = "Select Employee";
+"Title.SelectCoworkers" = "Select Co-workers";
+"Title.SelectReason" = "Select Reason";
+"Title.ShiftDetails" = "Shift Details";
+"Title.ChangeEmail" = "Change Email";
+"Title.Comments" = "Comments";
+"Title.ReadMessage" = "Read Message";
+"Title.NewMessage" = "New Message";
+"Title.ReplyMessage" = "Reply";
+"Title.Leaderboard" = "Leaderboard";
+"Title.BadgeDetails" = "Badge Details";
+"Title.ChangeLevel" = "Change Level";
+"Title.AppUpdateAvailable" = "Update Available";
+"Title.CreatePost" = "Create a Post";
+"Title.SelectTime" = "Select Time";
+"Title.SelectTasks" = "Select Tasks";
+"Title.TaskDetails" = "Task Details";
+"Title.FindShifts" = "Find Shifts";
+/* Like an email folder (eg. Inbox, Sent, Archive) */
+"Messages.Folder.Inbox" = "Inbox";
+/* Like an email folder (eg. Inbox, Sent, Archive) */
+"Messages.Folder.Sent" = "Sent";
+/* Like an email folder (eg. Inbox, Sent, Archive) */
+"Messages.Folder.Archive" = "Archive";
+"Messages.SelectFolder" = "Select folder";
