@@ -1,0 +1,5 @@
+"NSLocationWhenInUseUsageDescription" = "We use your location to unlock access to training materials while you’re at work.";
+"NSPhotoLibraryUsageDescription" = "Allowing access to your photo library will enable you to post images and video in channels or update your avatar.";
+"NSCameraUsageDescription" = "Allowing access to your camera will enable you to post images and video in channels or update your avatar.";
+"NSMicrophoneUsageDescription" = "Allowing access to your camera will enable you to post images and video in channels or update your avatar.";
+"NSPhotoLibraryAddUsageDescription" = "Allowing access to your photo library will enable you to save images and videos.";
