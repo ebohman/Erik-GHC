@@ -1,0 +1,11 @@
+{"smartling" : {"translate_paths": {
+	"path": "/*",
+	"key": "{*}",
+	"instruction": "/*/notes"}}
+,"Sign.In" : "Sign In"
+,"Enter.your.Okta.organ" : "Enter your Okta {something}"
+,"mycompany.okta.com" : ".okta.com"
+,"mycompany" : "mycompany"
+,"Go" : "Go"
+,"Powered.by.Okta.Priva" : "Powered by Okta Privacy Policy"
+}
