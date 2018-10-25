@@ -1,0 +1,3549 @@
+en:
+  admin_groups_app:
+    permissions:
+      descriptions:
+        admin_groups: Enables user to manage Admin Groups (this functionality)
+        analytics: Usage stats of content across site
+        anonymous_mode: Enables user to configure anonymous mode settings
+        audience_management: Enables user to create new audiences
+        api_documentation: Enables user to view Fuse API Documentation
+        ask_questions: Enables user to ask questions
+        community_mapping: Enables user to update community mapping options
+        copy_topics: Enables user to copy topics
+        courses: Enables user to manage, delete and report on SCORM courses
+        certificates: Enables user to manage certificates
+        create_articles: Enables user to create articles
+        chat_admin: Enables user to manage Admin Chat
+        delete_comments: Enables user to delete comments in discussions
+        download_content: Enables user to download content file
+        edit_content_custom_html: Enables user to edit custom HTML in the content
+        edit_learning_plans: Enables user to create and edit Learning Plans
+        edit_side_menu: Enables user to edit the side menu options within Fuse
+        edit_user_profile: Enables user to edit another user's profile from their profile page
+        edit_ownership: Enables user to change ownership for content
+        event_admin: Enables user to enable/disable GoToWebinar occurrences for events and add/remove GoToWebinar oAuth tokens
+        event_logging: Enables user to view and export Fuse event logs
+        featured_content: Enables user to change Featured content options across Fuse
+        file_host: Allows users to store assets to use in widgets or any custom HTML
+        fuse_emails: Enables user to edit and manage the default notification emails
+        gamification: Enables user to set and edit gamification metrics
+        import_users: Enables users to import users via the CSV option
+        landing_communities: Enables user to edit and manage default landing communities
+        share_link: Enables user to share links
+        manage_communities: Enables user to create, edit and delete any community on Fuse
+        manage_community_members: Enables user to create, edit and manage community user access
+        manage_content: Enables user to edit or delete contents
+        manage_reports: Enables user to create, edit and delete reports
+        manage_topics: Enables user to manage topics
+        manage_users: Enables user to create, edit, disable users and manage their access permissions
+        make_content_downloadable: Enables user to make content downloadable
+        new_community: Enables user to create new communities
+        notification_settings: Enables the user to manage and edit notifications sent to users
+        ask_questions: Enables user to ask questions
+        observations: 'Enables user to create, edit and manage %{observations}'
+        profile_custom_options: Enables user to configure and manage custom profile options
+        recording: Enables user to record videos
+        reporting: Enables user to access reporting data
+        site_moderation: Enables user to set and configure site moderation filters
+        see_user_goals: Enables user to see all users goals
+        see_user_portfolio: Enables user to see all users evidence portfolio
+        share_links: Enables user to share links
+        surveys: 'Enables user to create, edit and manage surveys'
+        threesixty_assessments: Enables user to set and edit 360 assessments
+        upload_content: Enables user to upload content
+        widgets_centre: Enables user to edit and manage Fuse widgets
+        scheduling: Enables user to manage scheduled actions
+        user_default_settings: Enables user to set defaults
+        events: Enable new admin for events
+        manage_events: Allow users to manage events (create, edit, update, destroy)
+  one_to_ones_widget_time:
+    distance_in_words:
+      x_seconds:
+        one:   "1 second ago"
+        other: "%{count} seconds ago"
+      less_than_x_minutes:
+        one:   "1 minute ago"
+        other: "%{count} minutes ago"
+      x_minutes:
+        one:   "1 minute ago"
+        other: "%{count} minutes ago"
+      about_x_hours:
+        one:   "1 hour ago"
+        other: "%{count} hours ago"
+      x_days:
+        one:   "1 day ago"
+        other: "%{count} days ago"
+      about_x_months:
+        one:   "1 month ago"
+        other: "%{count} months ago"
+      x_months:
+        one:   "1 month ago"
+        other: "%{count} months ago"
+      about_x_years:
+        one:   "1 year ago"
+        other: "%{count} years ago"
+      over_x_years:
+        one:   "1 year ago"
+        other: "%{count} years ago"
+      almost_x_years:
+        one:   "1 year ago"
+        other: "%{count} years ago"
+      x_weeks:
+        one:   "1 week ago"
+        other: "%{count} weeks ago"
+  event_logger_app:
+    event:
+      errors:
+        presence: cannot be blank
+      login:
+        description:
+          accepted_terms: User has accepted company terms and conditions
+          locked: Locked out for %{time} minutes
+          invalid: Invalid login
+          success: Successfully logged in
+          unauthorized: Invalid password
+          unaccepted_terms: User has not accepted company terms and conditions
+          unknown: 'ERROR: Unknown status'
+  fuse_translations_app:
+    translatable_object_id_is_not_specified: You must provide the translatable object id
+    translatable_object_klass_is_not_specified: You must provide the translatable object class name
+    translatable_object_field_name_is_not_specified: You must provide the translatable object field name if there are mutliple translatable fields
+
+  notifications:
+    comment_received:                    "<strong>%{user_name}</strong> commented on <strong>%{content_name}</strong> (your content)"
+    comment_activity:                    "<strong>%{user_name}</strong> commented on <strong>%{content_name}</strong> (the content you follow)"
+    community_admin_access_granted:      "You've been made a community admin of <strong>%{community_name}</strong>"
+    community_admin_access_revoked:      "You're no longer a community admin of <strong>%{community_name}</strong>"
+    community_membership_approved:       "You were added to <strong>%{community_name}</strong>"
+    community_membership_requested:      "<strong>%{user_name}</strong> requested to join <strong>%{community_name}</strong>"
+    site_admin_access_granted:           "You have been made an admin of <strong>%{company_name}</strong>'s version of Fuse"
+    site_admin_demoted:                  "Sorry, you have been removed as an administrator of <strong>%{company_name}</strong>'s version of Fuse"
+    transcoding_finished:                "<strong>%{content_name}</strong> is now ready for you to watch"
+    transcoding_failed:                  "Failed to transcode video: <strong>%{content_name}</strong>"
+    shared:                              "<strong>%{user_name}</strong> shared <strong>%{shareable_name}</strong> with %{share_with}"
+    content_liked:                       "<strong>%{liked_user_name}</strong> liked <strong>%{content_name}</strong> (your content)"
+    content_added:                       "<strong>%{content_name}</strong> was added to the <strong>%{community_name}</strong> community"
+    content_has_changed:                 "<strong>%{content}</strong> has changed, requires re-signing"
+    content_signer_message:              "<strong>%{user}</strong> has requested your digital signature for <strong>%{content}</strong>"
+    content_has_signed:                  "<strong>%{user}</strong> has signed <strong>%{content}</strong>"
+    complaint_received:                  "<strong>%{user_name}</strong> has reported a <strong>%{subject}</strong>"
+
+    three_sixty:                         "You have been invited by the 360° administrator <strong>%{user_name}</strong> for %{three_sixty_assessment} to start a 360° assessment"
+    three_sixty_respondant:              "You have been invited to feed back in %{three_sixty_assessment} for <strong>%{user_name}</strong>"
+    three_sixty_uncompleters:            "The following users haven't yet completed their 360° assessment %{three_sixty_assessment}: %{uncompleters}"
+    three_sixty_finished_for_owner:      "The 360° assessment %{three_sixty_assessment} for %{user_name} was finished."
+    three_sixty_finished:                "Your 360° assessment %{three_sixty_assessment} is now finished"
+    three_sixty_finished_without_report: "Your 360° assessment %{three_sixty_assessment} is now finished. We will send you another notification when your report is available to view."
+    three_sixty_report_approved:         "You are now able to view your report for the 360° assessment %{three_sixty_assessment}"
+    three_sixty_closed_dropped:          "The 360° assessment %{three_sixty_assessment} for %{user_name} now has the required number of responses and is now cosed. You have not finished it in time so your result will not be counted."
+    three_sixty_revoked:                 "You are no longer required to participate in the 360° assessment %{three_sixty_assessment}"
+    assessment_expired:                  "Your assessment for \"<strong>%{topic}</strong>\" has now expired."
+
+    ownership_request_created:           "<strong>%{owner_name}</strong> wants to transfer ownership of <strong>%{content}</strong> to you."
+    ownership_request_cancelled:         "<strong>%{owner_name}</strong> cancelled ownership transfer of <strong>%{content}</strong> to you."
+    ownership_request_accepted:          "Ownership of <strong>%{content}</strong> successfully transfered to <strong>%{user_name}</strong>."
+    ownership_request_rejected:          "<strong>%{user_name}</strong> rejected to take ownership of <strong>%{content}</strong>."
+    ownership_changed_by_admin:          "You're now the owner of %{content}"
+    occurrence_apply_to_event:           "<strong>%{user_name}</strong> has applied for the event <strong>%{event_name}</strong><br />"
+    occurrence_specified_approver_an_event: "<strong>%{user_name}</strong> has made you the <strong>Specified approver</strong> of an event<br />"
+    occurrence_declined_event_application: "<strong>%{user_name}</strong> has <strong>declined</strong> your event application for <strong>%{event_name}</strong><br /><strong>Message from %{user_name}</strong><br /><strong>Subject:</strong> %{declined_subject}<br /><strong>Message:</strong> %{declined_message}"
+    occurrence_updated:                  "You have been invited to attend %{event_name}. Here's a calendar invite. It takes place at %{event_date} at %{event_time}.<br /> Hope to see you there!"
+    participation_request_approved:      "You have been added to %{event_name}. It takes place on %{event_date} at %{event_time}.<br /> Hope to see you there!"
+
+    add_manager_report_relation:         "%{manager} has been added as your manager"
+    report_request_pending:         "User %{initiator} has said that he/she is your %{report_title}. Is this correct?"
+    report_request_approved:        "Your record has been updated: User %{recipient} is recognised as your %{manager_title}"
+    report_request_rejected:        "User %{recipient} does not believe that he/she is your %{manager_title}. No reporting relationship has been established."
+    remove_manager_relation:             "User %{initiator} is no longer recognised as your %{report_title}"
+    remove_report_relation:              "User %{initiator} is no longer recognised as your %{manager_title}"
+    chat_message_received:               "%{sender} wrote you a message in %{discussable}"
+    report_file_completed:               "%{report_type} report \"%{report_title}\" was created. You can download it <a href='%{report_url}'>here</a>"
+
+    learning_plan_reminder:              "%{assessor} sent you a reminder about \"%{learning_plan}\""
+    learning_plan_completed:             "<strong>%{user_name}</strong> has completed the <strong>%{learning_plan}</strong> learning plan
+                                         <p><strong>Learning plan: </strong>%{learning_plan}</p>
+                                         <p><strong>Community: </strong>%{community}</p>
+                                         <p><strong>User: </strong>%{user_name_without_link}</p>
+                                         <p><strong>Date: </strong>%{date_completed}</p>"
+    comprehension_question_reopened:     "A comprehension question in %{topic} was not signed off, please visit the topic to attempt it again."
+    apprentice_answered_comprehension:   "<strong>%{apprentice_name}</strong> has answered %{choices_count} questions in %{topic}"
+    take_revision_questions:             "Your assessor %{manager_name} has sent you %{questions_count_with_word} to answer."
+    participation_request_message:       "User %{initiator} sent you a message regarding participation request for %{model}:<br><strong>%{subject}</strong><br>%{message}"
+
+    scorm_course_participation_request:  "<strong>%{participant}</strong> has applied to take the <strong>%{scorm_course}</strong> course."
+    scorm_course_accepted:               "<strong>%{approver}</strong> has <strong>approved</strong> your course application for <strong>%{scorm_course_name}</strong>"
+    scorm_course_declined:               "<strong>%{approver}</strong> has <strong>declined</strong> your course application for <strong>%{scorm_course_name}</strong><br /><strong>Message from %{approver}</strong><br /><strong>Subject:</strong> %{declined_subject}<br /><strong>Message:</strong> %{declined_message}"
+    achievement_gained: "%{user} attained a badge for achieving %{score}% in the %{topic} topic"
+    scheduled_action_error:              "There was a problem with an action you had scheduled."
+
+    link_text:
+      comment_received:               "See the comment"
+      comment_activity:               "See the comment"
+      community_admin_access_granted: "See the community"
+      community_admin_access_revoked: "See the community"
+      community_membership_approved:  "See the community"
+      community_membership_requested: "See membership requests"
+      transcoding_finished:           "See the video"
+      shared:                         "See the shared content"
+      three_sixty:                    "Take the assessment"
+      three_sixty_finished:           "View report"
+      three_sixty_report_approved:    "View report"
+      assessment_expired:             "Please update your records"
+      chat_message_received:          "See the message"
+      take_revision_questions:        "Take questions now"
+      scorm_course_accepted:          "Go to course"
+      view_schedule:                  "View schedule"
+
+    subjects:
+      item_flagged_user_flagged_email: 'Thank you for reporting content/comment'
+      item_flagged_culprit_email:      'Your content/comment has been reported'
+      occurrence_updated:              "This event has been updated: %{event_name}"
+      participation_request_approved:  "You have been added to %{event_name}"
+
+    notifications_on: Notifications on
+    notifications_off: Notifications off
+
+  assessments:
+    for:
+      topic: "Topic"
+      chapter: "Chapter"
+      chapter_item: "Content"
+    please_wait: "Your feedback is being processed. Please hold on a few seconds"
+
+  survey_results:
+    filters:
+      users: "Specific users"
+      community: "Community"
+
+  number:
+    currency:
+      format:
+        format: '%n %u'
+        unit: '$'
+
+  n_members:
+    zero: No members
+    one: "%{count} member"
+    other: "%{count} members"
+
+  date:
+    today: Today
+    yesterday: Yesterday
+    week_head: Wk
+    year_suffix: ''
+    formats:
+      dots: "%d.%m.%Y"
+      dashed_numeric: "%d-%m-%Y"
+      slashed: '%d/%m/%Y'
+      slashed_momentjs: DD/MM/YYYY
+      datepicker: 'dd/mm/yy'
+      momentjs: DD/MM/YYYY
+      awarded_on: '%d-%b-%Y'
+      dashed_month_abr: '%d-%b-%Y'
+      day_month_str: '%d %b'
+      analytics: '%Y-%m-%d'
+      chart_labels: 'dd-MMM'
+      with_day_of_week: "%a \n %d %b"
+      only_month: '%B'
+      only_month_short: '%b'
+      mixpanel: 'YYYY-MM-DD'
+
+  date_string: Date
+
+  time:
+    formats:
+      date_and_time: "%d %B %Y, %H:%M"
+      date: "%d %B"
+      date_with_year: "%d %B %Y"
+      time: "%H:%M"
+      dashed_with_time: "%Y-%m-%d %H:%M"
+      dashed_with_long_time: "%Y-%m-%d %H:%M:%S"
+      dots: "%d.%m.%Y %H:%M"
+      slashed: '%d/%m/%Y'
+      slashed_with_time: '%d/%m/%Y - %H:%M'
+      slashed_with_time_and_weekday: '%a %d/%m/%Y %H:%M'
+      slashed_time: '%H:%M'
+      timepicker: 'H:i'
+      previous_versions_history: '%Y-%m-%d %H:%M'
+      momentjs: HH:mm
+      date_and_time_momentjs: DD/MM/YY HH:mm
+      time_with_zone: "%H:%M (%Z)"
+      time_with_date_slashed: "%H:%M %d/%m/%Y"
+      local_time: '%A %d %B %H:%M'
+      full_date_time_with_time_zone: '%H:%M (%Z) - %d/%m/%Y'
+
+  image_format_invalid: format is invalid
+
+  manager_report_request:
+    different_company_issue: "Relation request can be created for users from the same company"
+
+  private_communities:
+    access_denied: You should be a member of this community to get access
+
+  enumerize:
+    content:
+      download_allowed_for:
+        everyone: "Yes"
+        nobody: "No"
+        custom: "Custom"
+
+  access_level:
+    need_to_join: You need to join this community to view the content you requested
+
+  flash:
+    communities:
+      destroy:
+        notice: Community was successfully removed
+        alert: There was some errors when tried to remove community
+    fuse_admin:
+      companies:
+        update:
+          notice: Company was successfully updated
+
+  import_events:
+    required_headers:
+      community_id: Community
+      owner_id: Owner
+      event_name: Event
+      event_description: Description
+      starts_at: Starts at
+      ends_at: Ends at
+      location: Location
+      advertisement_code: Advertisement code
+      user_id: User
+
+  locales:
+    es: Spanish
+    es-ES: Spanish (Spain)
+    es-MX: Spanish (Mexico)
+    fr: French
+    de: German
+    ro: Romanian
+    ar: Arabic
+    ru: Russian
+    ja: Japanese
+    da: Danish
+    nl: Dutch
+    hi: Hindi
+    ko: Korean
+    fa: Persian
+    pl: Polish
+    cs: Czech
+    sv: Swedish
+    it: Italian
+    el: Greek
+    ur: Urdu
+    th: Thai
+    he: Hebrew
+    test: Test
+    tr: Turkish
+    sr: Serbian
+    fi: Finnish
+    en: English
+    bn: Bengali
+    sk: Slovak
+    so: Somali
+    ms: Bahasa (Malaysia)
+    zh: Chinese
+    zh-CN: Simplified Chinese
+    zh-TW: Traditional Chinese
+    pt: Portuguese
+    pt-BR: Portuguese (Brazilian)
+    pt-PT: Portuguese (Portugal)
+    'no': Norwegian
+    hu: Hungarian
+    bg: Bulgarian
+    id: Bahasa (Indonesia)
+    et: Estonian
+    lt: Lithuanian
+    sl: Slovene
+    uk: Ukrainian
+    vi: Vietnamese
+    sq: Albanian
+    lv: Latvian
+    gu: Gujarati
+
+  'off': 'Off'
+  'on': 'On'
+  360_assessments: 360 Assessments
+  assessment_settings: Assessment settings
+  threesixty_assessments: 360 Assessments
+  360_invaiting_message: 360° assessments in which you have been invited to respond
+  360_participating_message: 'for participating in %{assessable_name} for %{user_name}.'
+  ability_options: Ability options
+  about_the_event: About the Event
+  about_your_community: About your community
+  about: About
+  about_me: About me
+  accept: Accept
+  access: Access
+  access_to_survey_by_link_label: Users can only access this survey if they have the link
+  accessebility: Accessebility
+  achievement: achievement
+  achievements: Achievements
+  audiences: Audiences
+  achievement_message: 'attained a badge for achieving %{percentage}% in the'
+  action: Action
+  action_date: Action date
+  action_owner: Action Owner
+  action_owner_account_disabled: The account for the action owner %{user_name} was disabled
+  action_owner_did_not_have_access_to_this_content: The action owner %{user_name} did not have access to this content
+  action_owner_not_connected_to_recipient: The action owner %{owner_name} is no longer connected to %{recipient_name}
+  actions: Actions
+  activate_promotion_page: Activate community promotional page
+  activate_reward_points_for_audiences: Activate Fuse Reward Points for the following audiences
+  activities: Activities
+  activity: Activity
+  activity_in_last_24_hours: Activity in the last 24 hours within your communities
+  activity_within_your_communities: Activity within your communities
+  active: Active
+  add: Add
+  add_specific_count_of_waiters: Add %{count} waiter(s)
+  add_all_waiters: Add all waiters
+  add_a_chapter: Add a chapter
+  add_a_commitment: Add a commitment
+  add_a_commitment_to_set_as_goal: Add a commitment to set as a Goal
+  add_a_tag: Add a tag
+  add_a_task: Add a task
+  add_a_thumbnail: Add a thumbnail
+  add_a_new_note_or_goal_placeholder: Add a new note or goal...
+  add_another: Add another
+  add_another_chapter: Add another chapter
+  add_another_question: Add another question
+  add_another_answer: Add another answer
+  add_answer: Add answer
+  add_audience_name_here: Add audience(s) name here
+  add_audience_members_to_the_following_communities: Add audience members to the following communities
+  add_and_remove_audience_members_to_the_following_communities: Add and remove audience members to the following communities
+  add_content: Add content
+  add_content_to_the_event_from_the_community: Add content to the event from the community
+  add_chapters_and_chapter_content: Add chapters and chapter content
+  add_custom_link: Add Custom link
+  add_domains: Add domains
+  add_file_information: Add file information
+  add_filter: Add field
+  add_final_thoughts_optional: Add final thoughts (Optional)
+  add_from_fuse: Add from Fuse
+  add_influencers: Add influencers
+  add_keywords: Add keywords
+  add_rss_feeds: Add RSS feeds
+  add_words: Add words
+  add_waiters: Add waiter(s)
+  add_waiters_dialog_message: |
+    The selected waiter(s) will be added to the event and approval
+    request(s) will be sent if applicable.
+  add_waiters_dialog_warning_message: |
+    In order to add the user(s) selected to this event, the capacity of the location
+    will be increased automatically. Are you sure you want to do this?
+  add_waiter_to_event: Add user to event
+  add_keywords_manually: Manually add
+  add_link: Add link
+  add_new_topic: New topic
+  add_new_step: Add new step
+  add_new_tour: Add new tour
+  add_new_users: Add new users
+  add_new_type: Add new type
+  add_new_section: Add new section
+  add_new_section_optional: Add new section (optional)
+  add_description_topic: Add a description
+  add_description_note: A description has not been added
+  add_managers_to_existing_managers_list: Add managers to existing managers list
+  add_members_to_this_community_using_these_audiences: Add members to this community using these audiences
+  add_non_applicable_answer: 'Add "Non applicable" answer'
+  add_notification: Add notification
+  add_option: Add option
+  add_personal_message: Add a personal message
+  add_personal_note: 'Add a personal message (optional)'
+  add_pre_learning_plans: Add pre learning plans
+  add_recording_box: Add recording box
+  add_role: Add Role
+  add_selected_users_to_communities: Add selected users to communities
+  add_subtitle_file: Add a subtitle file
+  add_tags: Add tags
+  add_text_for_filter_here: Add text for filter here
+  add_to_bank: Add to bank
+  add_to_calendar: Add to calendar
+  add_to_community: Add to community
+  add_to_event: Add to event
+  add_to_favorites: Add to favourites
+  add_users: Add users
+  add_users_by_audiences: Add users by audiences
+  add_users_to_occurrence_dialog_text: These users will be added to the event and approval requests will be sent if applicable.
+  add_users_validation_error: You have to add one user at least
+  add_users_manually: Manually add users
+  add_users_manually_to_community: Add users manually
+  add_users_to_the_community: Add users to the community
+  add_users_to_the_audience: Add users to the audience
+  add_users_to_the_community_message: "Search for users below, then click the '+' button to add them to the community. You can search for users by their name or email address"
+  add_users_name_here: Add user(s) name here
+  add_invite_users: Add/Invite users
+  add_users_to_an_occurrence: Add user(s) to an occurrence(s)
+  add_url_button: Add URL button
+  add_remove_field_options: Add/Remove field options
+  add_the_title_of_your_article: Add the title of your article here
+  add_permission_filter: Add filter
+  added_individually: Added indivdually
+  added_to_community_members: added to community members
+  added_users: Added users
+  added_using_filters: Added using filters
+  adding_new_user: Adding new user
+  adding_and_inviting_user: Adding and inviting users to an event
+  additional_data: Additional data
+  add_question: Add question
+  add_questions_to_your_observation_assessment: 'Add questions to your %{performance_assessment}'
+  add_questions_to_your_survey_assessment: 'Add questions to your %{performance_assessment}'
+  add_your_phone_number: Add your phone number
+  add_mobile_number: Add mobile number
+  advice: Advice
+  admin: Admin
+  admin_dashboard_access: Admin dashboard access
+  admin_groups: Admin groups
+  admin_groups_title_hint: Create groups of users and give them specific admin rights
+  admin_group_deleted: Admin group is successfully deleted
+  admin_panel: Admin
+  admin_post_functions_access: Admin post functions access
+  admins: Admins
+  after_the_content: After the content
+  all: All
+  all_your_communities: All your communities
+  all_users_on_your_instance: All users on your instance
+  all_request_types: All request types
+  allow_user_to_download_report: Allow user to download report
+  api_show_user_email: Show user email via API
+  and: and
+  author: Author
+  author_commented_on_content: '%{author} commented on %{content}'
+  audience_already_exists: Audience already exists
+  audience_creation_in_progress: Audience creation in progress...
+  audience_filter_doesnt_have_any_options: |
+    Audience filter doesn't have any options. Please, ask your CSM to configure it.
+  audience_label: Audience
+  audience_hint: 'To assign users to this Learning Plan use the "Add Field" button and select listed profile field value. You can select additional fields to further refine the Learning Plan audience.'
+  audience_management: Audience Management
+  audience_management_tooltip: Use these around the platform any time you want to refer to a very specific set of users
+  audience_members_list: Audience members list
+  audience_members_will_be_added_to_communities: Audience members will be added to these communities. If their details change and they are no longer part of the audience, they will still remain a member of these communities.
+  audience_members_will_be_added_and_removed_from_communities: Audience members will be added and removed from these communities dynamically. If a user's details change and they are no longer part of the audience then they will also be removed from these communities.
+  audience_page_members_updated: This page of audience members is currently being updated
+  audience_profile_field: Profile fields
+  audience_value: Value
+  audience_specific_homepage: Audience Specific Homepage
+  advanced: Advanced
+  advanced_options: Advanced options
+  ago: ago
+  agree: Agree
+  adjust_labels_to_start: Adjust labels to start
+  after: after
+  all: All
+  all_enabled_push_notifications: All enabled push notifications
+  all_engagements: All engagements
+  all_reportees: All reportees
+  all_activities: All activities
+  all_available_recipients_tab_label: All users with access
+  all_communities: All communities
+  all_community_users: All community users
+  all_content_types: All content types
+  all_content: All content
+  all_events_participation_requests: All events participation requests
+  all_profile_fields: All Profile fields
+  all_reports_progression: "All '%{title}' progression"
+  all_variables: All variables
+  all_uploads: All uploads
+  all_users_access: All users have access
+  all_users_needs_to_complete_this_learning_plan_by: All users needs to complete this learning plan by
+  allow_user_to_see: Allow the user to see
+  allow_users_to_add_content: Allow users to add content to the event?
+  allow_users_to_view_attendees: Allow users to view other attendees?
+  all_one_to_ones: All One-to-Ones
+  alphabetically: Alphabetically
+  ambiguous_user_error: 'Ambiguous user error: %{records}'
+  ambiguous_participation_request_error: 'Ambiguous participation request error: %{records}'
+  ambigious_manager_identity: 'Ambigious manager identity: %{data}'
+  ambiguous_participation_request_error: 'Ambiguous user error: %{records}'
+  amount_of_points: Amount of points
+  analytics: Analytics
+  and: and
+  anonymous_assessment_dialog_label: Anonymous %{performance_assessment}
+  anonymous_comments_description: Give users from selected communities the ability to leave anonymous comments
+  anonymous_comments: Anonymous comments
+  anonymous_mode: Anonymous mode
+  anonymous_responses_disabled_hint: Users name and details are linked to their response
+  anonymous_responses_enabled_hint: Users details are not visible
+  anonymous_responses: Anonymous responses
+  anonymous: Anonymous
+  anonymous_assessment_dialog_notice: |
+    This means that your responses cannot be traced back to you,
+    all personal details are removed.
+  answer: Answer
+  answers: Answers
+  answer_type: Answer type
+  and_others: and others
+  an_error_occurred: An error occurred
+  an_error_occurred_please_try_again_later: An error occurred. Please try again later
+  anyone_can_view: Anyone and everyone can view
+  anyone: anyone
+  app: App
+  api_documentation: API Documentation
+  apply: Apply
+  applicant_approval: Applicant approval
+  applicable_community_members: "Applicable members count: %{count}"
+  applicants: Applicants
+  applicants_count: Applicants (%{count})
+  applicants_manager: Applicants manager
+  applicants_were_invited: Applicants were invited
+  applicants_were_added: Applicants were added
+  approvals: Approvals
+  approved: Approved
+  approvement_required: Approvement required
+  article: Article
+  articles_count: Articles written
+  article_creation_error_message: User "%{user_name}" doesn't have ability to manage articles for community "%{community_name}"
+  article_thumbnail: Article thumbnail
+  article_thumbnail_and_description: Article thumbnail and description
+  articles: Articles
+  archive: archive
+  are_you_sure: Are you sure?
+  are_you_sure_delete_session: "Are you sure you want to delete %{user}'s %{assessment} session?"
+  are_you_sure_delete_chapter: Are you sure you want to delete this chapter?
+  are_you_sure_delete_custom_link: Are you sure you want to delete this custom link?
+  are_you_sure_delete_widget: Are you sure you want to delete this widget?
+  are_you_sure_delete_subtitle: Are you sure you want to delete subtitle?
+  are_you_sure_delete_file: Are you sure you want to delete this file?
+  are_you_sure_delete_this: Are you sure you want to delete this?
+  are_you_sure_delete_topic: Are you sure you would like to delete this topic?
+  are_you_sure_delete_token: Are you sure you want to delete this token?
+  are_you_sure_delete_waiter: Are you sure you want to remove the waiter from the waitlist?
+  apply_for_course: Apply for course
+  api_secret_must_be_present: API secret must be present
+  ask: Ask
+  asking_questions_count: Questions asked
+  ask_expert: "Ask %{name} a question?"
+  ask_me_something: 'Ask me something...'
+  ask_questions: Ask questions
+  assigned_learning_plan_users: Assigned Learning plan users
+  assign_all_users_to_learning_plan: Assign all community users to learning plan
+  assign_by_role: Assign by role
+  assign_by_admin_group: Assign by admin group
+  assign_managers: Assign managers
+  assessment: assessment
+  asset: Asset
+  assessment_groups: Assessment groups
+  assessment_type: Assessment type
+  assessor: Assessor
+  assessor_since: Assessor since
+  attendees: Attendees
+  at_least_n_characters:
+    one: At least %{count} character
+    other: At least %{count} characters
+  at_least_n_uppercase_characters:
+    one: At least %{count} uppercase character
+    other: At least %{count} uppercase characters
+  at_least_n_lowercase_characters:
+    one: At least %{count} lowercase character
+    other: At least %{count} lowercase characters
+  at_least_n_numbers:
+    one: At least %{count} number
+    other: At least %{count} numbers
+  at_least_n_symbols:
+    one: At least %{count} symbol
+    other: At least %{count} symbols
+  attach: Attach
+  attach_content: Attach content
+  attach_question_image: Attach question image
+  attach_questions: Attach questions
+  attach_resources: Attach resources
+  attach_survey: Attach survey
+  attach_pre_requisite_learning_label: |
+    This is learning which you would like the users to complete before they attend the event.
+    It can be reported on and it's completion status is visible to the admin,
+    event creator and specified approvers if enabled.
+  attach_survey_to_event_label: |
+    Surveys can be attached to an occurrence so when the user is marked as attended they will be
+    notified of the survey.
+  attachments: Attachments
+  attempts: Attempts
+  attended_question: Attended?
+  attending: Attending
+  attended: Attended
+  approve: Approve
+  approved: Approved
+  attract_more_attention_to_this_event_message: >
+    Attract more attention to this event by sharing it with the community
+  audience: Audience
+  audience_object_does_not_exist: "Audience '%{audience}' does not exist or is already in use"
+  audience_memberships: audience memberships
+  audiences: Audiences
+  audience_communities: Audience communities
+  audience_members_will_be_added_to_this_community_message: Users who are or become part of these audiences will be added to this community, if their details change and they are no longer part of the audience, they will still remain a member of this community.
+  audience_members_will_be_added_and_removed_from_community_message: Users who belong to these audiences will be added and removed from this community dynamically, so if a users details change and they are no longer part of the audience, then they will be removed from this community.
+  audience_widgets_enabled: Enable audience widgets
+  audio: Audio
+  automatic_import_enabled: Automatic import enabled
+  automatic_member: Automatic member
+  auto_calculation: Auto calculation
+  auto_flag: Auto report
+  auto_send_sms_when_available_label: Auto send SMS when Available
+  available: Available
+  available_anytime: All users with permission can see this survey at anytime
+  available_audiences: Available audiences
+  available_content: Available content
+  available_learning_plan_items: Available learning plan items
+  available_learning_plans: Available learning plans
+  available_only_when_completed: Only available to a user when they have completed learning (Content, Event, Learning plan)
+  available_only_when_completed_description: When a user completes a topic, learning plan or event they have access to this survey, please select below.
+  available_plans: Available plans
+  available_spaces: Available spaces
+  availability: Availability
+  average_content_score: Average content score
+  average_user: Average user
+  awaiting_approval: Awaiting approval
+  awarded_on_with_date: "Awarded on %{date}"
+  bar_chart: Bar chart
+  back: Back
+  back_to_payment_screen: '← Back to Payment Screen'
+  back_to_profile: Back to profile
+  back_to_reports: Back to reports
+  back_to_topic: Back to topic
+  back_to_tours: Back to tours list
+  back_to_dashboard: Back to Dashboard
+  be_first_to_comment: Be the first to comment!
+  because: because
+  before_the_content: Before the content
+  before_you_access_the_platform: 'Before you access the platform you need to create a password which is personal to you.'
+  days_before_event: day(s) before event
+  begins: Begins
+  beta_feature: Beta feature
+  before: before
+  between: Between
+  billing: Billing
+  blank: blank
+  blocked_domains: Blocked domains
+  both: Both
+  briefing_name: Briefing name
+  browse: Browse
+  building: Building
+  building_number_name: Building Number / Name
+  bulk_content_operation_successfully_completed: Bulk content operation was successfully completed
+  bulk_content_operations: Bulk content operations
+  bulk_content_operations_hint: 'Use this page to remove chunks of content from the community, maybe someone has left and you would like to remove all of the content or even change ownership using the tools below.'
+  bulk_import_of_users: Bulk import of users
+  by_latest: by latest
+  by_likes: by likes
+  by_views: by views
+  calculator: Calculator
+  can: can
+  can_add_invite_users_to_an_occurrence: Here you can add or invite users to an occurrence of an event
+  can_only_be_taken_once: Can only be taken once
+  can_be_taken_multiple_times: Can be taken multiple times
+  cancel: Cancel
+  cancelled: cancelled
+  cancel_upload: cancel upload
+  cant_be_blank: Can't be blank
+  cant_add_content_from_another_company: Can't add content from another company
+  cant_approve_request_current_state_is: Can't approve request current state is %{state}
+  cant_record_video_for_this_domain: Can't record video for this domain, please contact your administrator
+  cant_reject_request_current_state_is: Can't reject request current state is %{state}
+  cant_be_bigger_than_video_duration: can't be bigger than video duration
+  cant_be_set_before_video_is_encoded: can't be set before video is encoded
+  certificate_of_achievement: Certificate of Achievement
+  certificates: Certificates
+  change: Change
+  change_default_communities_for_new_users: 'Communities permission for new users & roles'
+  change_default_communities_for_users: Change default communities for users
+  change_from_profile_fields: Change %{profile_field} (from profile fields)
+  change_my_password: Change my password
+  change_thumbnail: Change thumbnail
+  change_my_password: Change my password
+  change_your_password: Change your password
+  change_content: Change Content
+  changes_discarded: If you leave now your changes will be discarded
+  chapter: chapter
+  chapters: Chapters
+  chapters_hint: Chapters can be used to better structure your content
+  chapter_name: Chapter name
+  character: character
+  chat: Chat
+  chat_started_at: Chat started %{time}
+  chat_admin: Chat admin
+  chat_admin_hint: Here you can customize chat settings
+  chat_between: 'Chat between %{tracking_user} and %{collocutor}'
+  chat_digest: Chat digest
+  chat_digest_email_description: All the messages above are new and have not been read by you since last time you checked
+  chat_is_off: Chat is off
+  chat_is_on_only_for_managers_and_reportees: Only manager and reportee can chat
+  chat_is_not_enabled: 'Fuse chat is not enabled'
+  chat_is_not_enabled_message: 'Sorry, Fuse chat is not enabled for your company. Please contact your company administrator'
+  chat_tracking: Chat tracking
+  chat_tracking_dialog_warning: You are about to turn on chat tracking, this will notify all current and future converations that chat tracking has been enabled and will now be accessible by site moderators.
+  chat_tracking_dialog_note: Please note this could have an adverse effect to engagement and break trust.
+  chat_tracking_accept: By ticking this I accept the consequences
+  chat_tracking_on: Chat tracking is ON
+  chat_tracking_on_description: Users are informed that conversations can be viewed by moderators in the event of misuse or offensive behaviour
+  chat_tracking_off: Chat tracking is OFF
+  chat_tracking_off_description: Users are informed that conversations are confidential and only reported messages are visible for moderators
+  chat_permissions: Chat permissions
+  chat_permissions_title: Who should be able to use chat
+  chat_tracking_title: Ability to track chat messages
+  chat_message: Chat message
+  check_mark: ✓
+  check_your_email: Check your email
+  check_your_knowledge: Check your knowledge
+  check_you_out: Check you out!
+  check_your_text_messages: Check your text messages
+  choose_a_community: Choose a community
+  choose_community_member: Choose community member
+  choose_community: Choose a community to narrow down the list below
+  choose_file: Choose file
+  choose_filter: Choose filter
+  choose_learning_plan_item_type: Choose learning plan item type
+  choose_one_or_more_communities: Choose one or more communities to post to
+  choose_option_user_dashboard_grid_placeholder: Choose option (not shown if left blank)
+  choose_thumbnail: Choose thumbnail
+  choose_to_invite_or_add_to_attendees: Choose to either invite them to attend or add them to the list of attendees
+  choose_topic: Choose topic
+  choose_video_content: Choose video content
+  class_type_tooltip: To use date class type, this must map to custom date option
+  click_for_advice: Click for advice
+  click_here: Click here
+  click_here_start_screencast: Click here to start screencast
+  click_link_below_to_unlock_account: 'Click the link below to unlock your account:'
+  click_record_button: 'Click the record button in the bottom left corner'
+  clear: Clear
+  clear_current_signatures: Clear current signatures
+  close: Close
+  close_comments: Close comments
+  close_session: Close session
+  close_360_when_required_counts_of_roles_will_finish: Close the 360 when only required counts of roles will finish.
+  close_observation_session_message: 'You will lose all replies to all questions if you close this %{performance_assessment} now'
+  close_survey_session_message: 'You will lose all replies to all questions if you close this %{performance_assessment} now'
+  coach: Coach
+  code: Code
+  collaborator: Collaborator
+  come_back_later: come back later for more
+  comma_separated: comma separated
+  comment_confirm_remove: 'Are you sure you want to delete this %{comment_type}?'
+  comment_follow_note: 'By posting a comment you will be automatically following this content and will receive notifications for any further comments. You can always unfollow it.'
+  comment_in: 'comment in %{content_name}'
+  comment_post: 'Post %{comment_type}'
+  comment_removed: Comment removed
+  comment: comment
+  commented: commented
+  commented_on: commented on
+  comments: Comments
+  comments_on_my_content: Comments on my content
+  comments_on_followed_content: Comments on content I follow
+  commitments: Commitments
+  common: Common
+  community: Community
+  communities: Communities
+  communities_and_colleagues: Communities and Colleagues
+  communities_and_notifications: Communities and Notifications
+  communities_for_audience: communities for audience
+  communities_name_requirement: Enter community name(s) here (Required)
+  communities_to_ask: Please select which communities you want to ask here
+  communities_to_share_link: 'Please select which communities you would like to share the link with'
+  communities_to_upload: Please select which communities you would like to upload to
+  communities_which_have_access: Communities which have access
+  community_admin_content_search_note: "Please note this does not remove the content from other communities."
+  community_admin_featured_content_note: "This is the image carousel you see at the top of community page."
+  community_admin_panel: Community admin panel
+  community_admin_page_new_events_admin_page_message: |
+    We've been working on a new event engine to make it easier for you to manage
+    your events
+  community_admin_title: 'Community admin - %{name}'
+  community_deletion: Community will be deleted soon, we will inform you when it's done
+  community_destroyed: "Community <strong>%{community_name}</strong> has been successfully deleted"
+  community_mapping: Community mapping
+  community_members: Community members
+  community_membership: Community membership
+  community_notifications: Community notifications
+  community_no_users_imported: No users were imported to the community
+  community_moderation: Community moderation
+  community_moderation_title_hint: Allows you to see all reports in your community
+  community_related_topics_and_content: Content and topics related to this community
+  community_type: Comunity type
+  community_admin: Community admin
+  community_admin_cannot_remove_content: "You can not remove this %{type}, because it belongs to only this community\nIf you want to delete the %{type} itself, please do so on the edit %{type} page"
+  community_admin_contents_will_be_skipped: '%{count} contents will be skipped from remove, they are:'
+  community_admin_member_hint: 'Here you can disable contribution functionality such as ask, upload, link and record. Revoke membership and even grant admin access to special ones'
+  community_admin_panel: Community admin panel
+  community_available_plans: Community available plans
+  community_content_most_recent: Community content (most recent)
+  community_contents: Community contents
+  community_could_not_add_user: 'Could not add user %{name} to community'
+  community_users_were_imported: '%{imported} of %{total_count} users were successfully imported. '
+  community_failed_to_import_users: 'Failed to import users with following %{key}: '
+  community_custom_tab: Community custom tab
+  community_description: Community Description
+  community_experts: Knowledge experts
+  community_for_export: Community for export
+  community_did_not_have_access_to_this_content: "%{community_name} did not have access to this content"
+  community_mapping_tool_tip: Use this area to allocate communities to users
+  community_membership: Community membership
+  community_memberships_for_profile_field: community memberships for profile field
+  community_name: Community Name
+  community_with_name: "Community: %{community_name}"
+  community_or_users: Select community or users
+  community_paid_access: Community paid access
+  community_users_or_user_groups: 'Select community, users or user groups'
+  community_radio_hint: Any user can join or view this community.
+  community_settings: Community settings
+  community_specific: Community specific
+  community_succesfully_updated: Community successfully updated
+  community_tabs_group: Community tabs group
+  community_type: Community Type
+  community_type_open: Open
+  community_type_normal: Normal
+  community_type_private: Private
+  community_type_protected: Protected
+  community_was_successfully_updated: Community was successfully updated
+  community_audiences_subtitle: >
+    These can be used to segment users in your community and then you can apply these to different features such as who has access to a learning plan.
+    <br/>
+    <br/>
+    Please note that audiences are applied to members of this community, e.g. The London Audience has 200 members site wide but only 50 of them are members of this community and usage of the audience will only be applied to them.
+  company: Company
+  company_disabled: >
+    Following some unexpected recent events, we regret that this site is currently offline.
+    Please accept our apologies and we will update you as soon as possible.
+  complaint_exists_for_user: Complaint exists for user
+  complaints_feature: Here you can manage content and comments that have been reported by your community members
+  complete: Complete
+  completed: Completed
+  complete_course: Complete course
+  completed: Completed
+  completed_assessment: Assessment complete
+  completed_courses: Completed courses
+  completed_percentage: Completed %
+  completed_date_with_date: 'Date: %{date}'
+  completeness: Completeness
+  completing_learning_plans: Completing Learning Plans
+  completing_individual_scorm: Completing individual SCORM
+  complete_by: "Complete by: %{time}"
+  comprehension: Comprehension
+  comprehension_assessment: Comprehension assessment
+  comprehension_answers: Comprehension answers
+  comprehension_awaiting_signing: Comprehension awaiting signing off
+  comprehension_not_completed: Comprehension not completed
+  comprehension_not_required_to_pass: Comprehension not required to pass
+  comprehension_not_signed_off: Comprehension not signed off
+  comprehension_questions: Comprehension questions
+  comprehension_questions_left: Comprehension questions left
+  comprehension_reopened: Comprehension reopened
+  comprehension_signed_off: Comprehension signed off
+  comprehension_test_results: Comprehension test results
+  comprehension_answer_article:
+    name: '%{username} response - %{body}'
+  configure_feed: Configure feed
+  configure: Configure
+  confirm: Confirm
+  confirmed_at: Registration date
+  confirm_changes: Confirm changes
+  confirm_changes_message: Unsaved changes will be lost, Do you want to continue?
+  confirm_new_password: Confirm new password
+  contact_details: Contact details
+  contact_support: contact support
+  content: Content
+  chapter_link: Chapter Link
+  content_added_not_tracked_before: "Note: Content added not tracked before %{date}"
+  content_and_community_should_belong: Content and community should belong to the same company
+  content_and_topics: Content and topics
+  content_and_topics_related_to_this_community: Content and topics related to this community
+  content_date_created: "Date created: %{content_created_at}"
+  content_id: Content id
+  content_id_invalid: The content id provided is invalid
+  content_is_not_a_scorm: Selected content is not a scorm course.
+  content_has_been_successfully_scheduled: Content has been successfully scheduled for %{date}
+  content_in: 'content in %{content_name}'
+  content_name: Content name
+  content_was_created: Content was created
+  configuration_is_missing: Configuration is missing
+  confirm_my_account: Confirm my account
+  confirm_new_password: Confirm new password
+  contains: Contains
+  content_created: Content created
+  content_not_found: Content not found
+  content_owner: Content owner
+  content_ownership_request: '%{name} wants to transfer ownership of this content to you.'
+  content_shared: Content has been successfully shared
+  content_sharing_error: There was an error with sharing this content
+  content_signature: Digital signature
+  content_signature_statement: Statement (Required)
+  content_signature_confirmation_button_text: Confirmation button text (Required)
+  content_signature_confirmation_title: I confirm I have viewed the content above
+  content_type: Content type
+  content_upload_fail: 'Sorry, error occurred during posting'
+  content_upload_success: Content created successfully
+  content_views: Content views
+  contents: Contents
+  contents_settings: Contents settings
+  content_was_successfully_updated: Content was successfully updated
+  content_was_deleted: Content was deleted
+  continue: Continue
+  contribute: Contribute
+  contributions: Contributions
+  contains_wrong_question_number: "contains wrong question number %{question_number}"
+  contains_invalid_characters_or_operations: contains invalid characters or operations
+  control_settings_for_occurrences_and_tokens: Control high-level settings for event occurrences and OAuth tokens for external services such as GoToWebinar
+  configure_analytics_widget: Configure "Analytics" widget
+  configure_mixpanel_widget: Configure "Mixpanel" widget
+  column: 'Column %{number}'
+  convert: Convert
+  converted: Converted
+  converting: Converting
+  convert_audio_to_text: Convert audio to text
+  cookie_consent_dialog_title: Cookie Permission
+  cookie_consent_dialog_message: We use your cookies to provide you the best user experience, to proceed you need to accept the usage of your cookies.
+  cookie_consent_dialog_policy: To find out more you can view our policy %{here}.
+  copied: Copied
+  copy: Copy
+  copying: Copying...
+  copy_all_content_confirm: You are going to copy all contents. Are you sure?
+  copy_all_content_to: Copy all content to (content is duplicate)
+  copy_and_close: Copy and Close
+  copy_now: Copy now
+  copy_to_selected_community: Copy to selected community
+  copy_topics: Copy topics
+  copy_communities_started: Copy communities process has been started successfully. It will take some time, please wait
+  copy_community_completed: Last copied on %{date}
+  copy_community_failed: Copy community has been failed!
+  copy_community_started: Processing...
+  copy_observation_assessment: 'Copy %{performance_assessment}'
+  copy_survey_assessment: 'Copy %{performance_assessment}'
+  copy_to_clipboard: Copy to clipboard
+  copy_topics_completed: Topic has been copied successfully!
+  correct: Correct
+  correct_answers: Correct Answers
+  cost: Cost
+  cost_placeholder: '$0.00'
+  could_not_be_shared: could not be shared
+  could_not_find_content: Could not find content where you wanted, but found it here instead
+  could_not_load_record_software: "We couldn't load the recording software."
+  could_not_recognise_your_email: "Couldn't recognise your email."
+  could_not_save: 'Could not save. You have the following errors:'
+  create_community_seccuss_message: Community was successfully created
+  general_form_update_error: There were one or more errors and your changes could not be applied
+  general_errors: 'You have the following errors:'
+  group_average: Group Average
+  group_leader: Group Leader
+  group_owner: Group owner
+  count_comprehension_questions_in_completeness: Count comprehension questions in learning plan and topic progress
+  count_formal_in_completeness: Count formal assessment in learning plan and topic progress
+  county_province: County / Province
+  course: Course
+  course_name: Course name
+  course_requests: Course requests
+  course_stats: Course stats
+  courses: Courses
+  create_by_emails: Create by emails
+  create: Create
+  create_a_learning_plan: Create a learning plan
+  create_article: Create article
+  create_articles: Create articles
+  create_a_new_user: Create a new user
+  create_an_account: Create an account with us
+  create_an_account_its_free: "Create an account, it's free"
+  create_a_new_event: Create a new event
+  create_another_occurrence: Create another occurrence
+  create_some_custom_options: Create some custom options
+  create_date: Create Date
+  create_event: Create event
+  create_events: Create events
+  create_folder: Create this folder
+  create_new_admin_group: Create new admin group
+  create_new_event: Create new event
+  create_a_new_audience: Create a new audience
+  create_new_audience: Create new audience
+  create_new_group: Create new group
+  create_new_observation_assessment: 'Create a new %{performance_assessment}'
+  create_new_occurrence: Create new occurrence
+  create_new_password: Create new password
+  create_new_survey_assessment: 'Create a new %{performance_assessment}'
+  create_a_new_learning_plan: Create a new learning plan
+  create_topic: Create topic
+  create_topic_new: Create this topic
+  create_my_account: Create my account
+  creation_date: Creation date
+  creator: Creator
+  created: Created
+  created_at: Created at
+  created_user: 'Created user %{data}'
+  created_participation_request: Updated participation request with status '%{status}' for user '%{user}'
+  creator_approval: Creator approval
+  creator_approval_short: Crt app
+  credit_card: Credit card
+  csv: CSV
+  csv_file: CSV file
+  csv_file_is_missing_or_has_invalid_headers: The CSV file you uploaded is missing or has invalid headers
+  csv_heading_count_too_low: CSV heading count too low
+  csv_heading_is_missing_id_username_or_email: CSV heading is missing an id, username or email
+  csv_row_number: CSV row number
+  csv_preview_table_title: CSV Preview
+  csv_preview_table_description: Showing only the first %{count} row(s) of the CSV.
+  currency: Currency
+  current: Current
+  current_featured_content: Current featured content
+  current_members: Current members
+  current_password: Current password
+  current_promotion_topics: Current promotion topics
+  current_window: Current window
+  currently: Currently
+  custom: Custom
+  custom_certificates: Custom certificates
+  custom_date_option: Custom date option
+  custom_date_type_mismatch: Custom date options must match with datetime field type
+  custom_domains: Login pages
+  custom_html: Custom HTML
+  custom_html_for_topic_page_label: Put custom html code here. It will appear on topic show page.
+  custom_html_widget_description: The HTML widget allows you to add HTML and CSS to your widget, the user will only see what you add, so no header for this widget. Just add ot below
+  custom_options: Custom options
+  custom_option_update_correct_mapping: The '%{label}' label must be mapped to %{label}
+  custom_option_create_use_predefined: Use the predefined %{label} field
+  custom_link_new_window: Open URL in new window
+  custom_link_title: Custom link title
+  custom_role: Select custom role for user
+  custom_recipient: custom recipient
+  custom_tab: Custom tab
+  custom_text: Custom text
+  custom_logo: Custom logo
+  custom_certificates_settings_saved: Custom certificates settings were successfully saved
+  custom_logo_size_is_greater_than_megabytes: Cusotm logo size is greater than %{megabytes} megabytes
+  cvv_code_help: CVV Code Help
+  custom_tab_feature: |
+    The custom tab feature allows you to have a new tab on the community homepage which when clicked displays the
+    HTML of your choosing, simple enable it, rename the tab to something more applicable and insert the HTML.
+  custom_variables: Custom variables
+  daily: daily
+  daily_digest: Daily digest
+  dash: —
+  date_created: Date created
+  date_signed: Date signed
+  date_submitted: Date submitted
+  date_time_of_run: Date and time of run
+  date_and_time: Date & Time
+  date_word: Date
+  dates: Dates
+  date_range: Date range
+  day: day
+  days: days
+  days_before_with_period: '%{days} days before'
+  days_before_expire: days before expire
+  days_to_complete: Days to complete
+  days_to_start_this_event: '%{data} days to start this event'
+  deactivated_user: Deactivated user %{data}
+  deactivated_user_name: Deactivated user
+  deactivation_date: Deactivation date
+  deadline: Deadline
+  deadline_missed: Deadline missed
+  deadline_hit: Deadline hit
+  decline: Decline
+  decline_application: Decline application
+  decline_application_dialog_message: |
+    You're about to decline a user's application to an event,
+    if you could provide a reason they would appreciate it
+  declined: Declined
+  declined_approval: Declined Approval
+  default_manager_dashboard: Default Manager Dashboard
+  default: Default
+  default_active_community_tab: Default active community tab
+  default_communities: Default communities
+  default_communities_update: Default communities updated
+  default_error_message: "We're sorry, but something went wrong"
+  default_filter_option: Default filter option
+  default_login_page_slogan: REVOLUTIONISING THE WAY THE WORLD LEARNS
+  default_tab_name: Default tab name
+  default_homepage: Default homepage
+  default_menu: Default menu
+  default_logo: Default logo
+  delete: Delete
+  deleted: Deleted
+  delete_admin_group: Delete admin group
+  delete_admin_group_membership: Remove user from group
+  delete_audience: Delete Audience
+  delete_audience_error_message: This will also remove this audience from any places it is currently used in the platform.
+  delete_evidence_portfolio_content: Delete content
+  delete_content: Delete content
+  delete_comments: Delete comments
+  delete_community: Delete community
+  delete_community_confirm: 'You are going to delete community. Continue?'
+  delete_community_warning: 'Be careful, this operation will destroy all contents and topics that will be left without community.'
+  delete_event: Delete event
+  delete_event_confirm: You are going to delete event. Continue?
+  delete_file: Delete file
+  delete_folder: Delete folder
+  delete_group: Delete group
+  delete_instance_confirm: Are you sure you want to delete this instance?
+  delete_learning_plan: Delete Learning Plan
+  delete_learning_plan_confirm: 'You are going to delete %{name}. Continue?'
+  delete_question: Delete question
+  delete_report: Delete report
+  delete_report_confirm: Are you sure you want to delete this report and ALL instances of it?
+  delete_report_notice: Please note if you have uploaded this to your instance it will not be deleted in this action.
+  delete_section: Delete section
+  delete_session: Delete session
+  delete_target: Delete %{target}
+  delete_this_instance_of_report: Delete this instance of report
+  delete_admin_group_confirm: Are you sure you want to delete this admin group?
+  delete_admin_group_membership_confirm: Are you sure you want to remove user from admin group "%{title}" ?
+  deleting_user: Deleting user
+  delete_topic: Delete topic
+  description: Description
+  description_topic: Description,
+  description_topic_max: maximum 220 characters
+  description_label: Description, maximum 220 characters
+  description_maximum: maximum 220 characters
+  desktop: Desktop
+  desktop_custom_tab: Desktop custom tab
+  destroy_event_confirmation_message: Are you sure you want to delete this event?
+  destroy_event_with_occurrenes: Delete event with occurrences
+  destroy_occurrence_confirmation_message: Are you sure you want to delete this occurrence?
+  destroy_occurrence_with_event_confirmation_message: This is the only occurrence for the event, by deleting this you will delete the event as well
+  destroy_occurrence: Delete occurrence
+  destroy_scheduled_action_confirmation_message: Are you sure you want to delete this action?
+  delete_occurrence_confirmation_message_when_event_has_only_one_occurrence: Event has to have at least one occurrence
+  detailed_for_chapters: Detailed for chapters
+  detailed_for_questions: Detailed for questions
+  details: Details
+  download_for_your_calendar: Download for your calendar
+  diagnostic: Diagnostic
+  diagnostic_assessment: Diagnostic assessment
+  diagnostic_results: Diagnostic results
+  diagnostic_taken: Diagnostic taken
+  diagnostic_test_not_completed: Practice not completed
+  diagnostic_test_not_passed: Practice not passed
+  diagnostic_test_passed: Practice passed
+  did_not_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
+  did_not_receive_unlock_instructions: "Didn't receive unlock instructions?"
+  did_they_pass: Did they pass?
+  did_user_attend: Did the user attend?
+  disable: Disable
+  disabled: Disabled
+  disable_user: Disable user
+  disable_user_description: The user will not be fully deleted, but will be disabled and will not be able to login from this moment.
+  disable_user_confirmation: Please confirm if you would like do disable the user
+  disabling_user_title: Disabling the user
+  disabled: Disabled
+  disable_sms: Disable SMS
+  disabled_widgets: Disabled widgets
+  disable_imported_users_afterwards: Disable imported users afterwards
+  discard: Discard
+  discover_more: discover more
+  dismissed: Dismissed
+  dismiss_flags: Dismiss report(s)
+  discussions: Discussions
+  display_digital_signatures_for_content: Display digital signatures for content
+  display_featured_content: "Display featured content?"
+  display_previous: Display previous
+  discover_more_communities: Discover more communities...
+  do_not_required_if_diagnostic_passed: Do not require if diagnostic passed
+  do_not_show_this_page_again: Do not show this page again
+  do_you_really_want_to_delete_this_content: Do you really want to delete this content?
+  does_not_contain: Does not contain
+  does_not_equals: Does not equal
+  dont_notify_anyone: Don't notify anyone
+  domains: Domains
+  done: Done
+  complain: Report
+  download: Download
+  download_content: Download content
+  download_as_csv: Download as CSV
+  download_csv_for_chapters: Download CSV with more details by chapters
+  download_csv_for_questions: Download CSV with more details by questions
+  download_csv_for_answers: Download CSV with more details by answers
+  download_csv_for_questions_and_answers: Download CSV with more details by questions and answers
+  download_module: Download module
+  download_participant_csv: Download participant CSV
+  downloadable: Downloadable
+  drag_a_widget_here: Drag a widget here
+  drag_and_drop_content: Drag and drop content into your topic below
+  drag_drop_to_upload_files: 'Drag & drop to upload files'
+  drag_and_drop_content_or_chapter_here: Drag and drop content or chapter here
+  drag_for_frame_position: 'Drag this icon in the center to position the frame'
+  drag_item_here: Drag item here
+  drop_files_here: Drop files here
+  drop_widgets_here_to_disable_it: Drop widgets here to disable it
+  duplicate: Duplicate
+  duplicate_audience: Duplicate Audience
+  duplicate_audience_enter_name_1: In order to duplicate audience
+  duplicate_audience_enter_name_2: please provide a unique audience name
+  duplicate_previous_occurrence: Duplicate previous occurrence
+  duplicate_report: Duplicate report
+  duplicate_this_occurrence: Duplicate this occurrence
+  duplicate_event: Duplicate event
+  duration: Duration %{time}
+  dynamic_date_missing_a_value: Dynamic date range is missing a value
+  dynamically_manage_community_members_using_these_audiences: Dynamically manage community members using these audiences
+  edit: edit
+  edits: Edits
+  changes: History
+  edit_audience: Edit audience
+  edit_badges: Edit badges
+  edit_code: Edit code
+  edit_content: Edit
+  edit_content_custom_html: Edit content's custom HTML
+  edit_featured_content: Edit featured content
+  edit_layout_for: Edit layout for
+  edit_learning_plans: Edit Learning plans
+  edit_legend: Edit legend
+  edit_ownership: Edit ownership
+  edit_profile: Edit profile
+  edit_side_menu: Edit side menu
+  edit_subtitle: Edit subtitle
+  edit_topic: Edit Topic
+  edit_transcript: Edit transcript
+  edit_transcript_hint: Please edit with caution, use this feature to correct the text so the timings are still in sync.
+  edit_three_sixty_group: Edit three sixty group
+  edit_title: Edit
+  edit_user: Edit user
+  edit_user_profile: Edit user profile
+  edit_report: Edit report
+  edit_widget_name: Edit widget name
+  editing: Editing
+  editing_user: Editing user
+  email: Email
+  email_address: Email address
+  email_errors_to: Email Errors to
+  email_footer_text: >
+    This email was sent to you %{user_email} on behalf of %{company}
+    <br/>
+    because you are a registered user on %{link}
+  email_preferences: Email preferences
+  email_preferences_text: >
+    if you would like to
+    <br/>
+    - Change how often you receive these notifications
+    <br/>
+    - Update your email address and Personal details
+  email_participation_request_approved: Approval successful
+  email_participation_request_approved_already: This user has already been approved
+  email_participation_request_declined: Request successfully declined
+  email_participation_request_declined_already: "This user's request has already been declined"
+  email_signature: '-- Your friendly fuse team'
+  email_to_culprit: |
+    <p>This is a notice that another user has reported your content or comment.</p>
+    <p>Site administrators have been notified and will be reviewing this shortly, if deemed inappropriate or offensive to other users it will be removed and your account will be subject to review.</p>
+  email_to_user_who_flagged_item: |
+    <p>Thank you for bringing a comment or a piece of content to our attention, we apologize if you have been offended and would like to reassure you that we take every precaution possible to prevent any misuse or or offensive behavior on our platform.</p>
+    <p>We will review this item as soon as possible and if it breaks the code of practice or considered offensive to other users then the item will be removed and the users account will be reconsidered.</p>
+  email_me_a_link: Email me a link
+  embed_code: Embed Code
+  embed_error_message: You don't have permission to access this content
+  empty_search_result_message: Sorry, we could not find any results
+  enable_arrows: Arrows
+  enable_assessment: Enable assessment types
+  enable_certificate: Enable Certificate
+  enable_circles: Circles
+  enable_complaints: Enable complaints
+  enable_custom_pass_levels: Enable custom pass levels?
+  enable_custom_tab: Enable custom tab
+  enable_disable_user: Enable/Disable user
+  enable_formal_survey_courses: Enable formal and survey courses
+  enable_manager_notifications_completed: When a learning plan has been completed (For user manager)
+  enable_mobile_custom_tab: Enable mobile custom tab
+  enable_new_user_profile: Enable new user profile
+  enable_notifications_adds_content_description: 'Notification includes: Name of content, Description, Thumbnail, Name of user, Date uploaded'
+  enable_notifications_adds_content: When a user adds content to a community
+  enable_notifications_completed_description: 'Notification includes: Name of learning plan, Community, Name of user, Date of completion'
+  enable_notifications_completed: When a learning plan has been completed (For community admin)
+  enable_notifications_content_flagged: When an item has been reported
+  enable_notifications_content_flagged_description: Notification includes link to the reported content
+  enable_pass_n_fail_for_this_course:  Enable pass & fail for this course
+  enable_passing_questions_one_by_one: Enabled?
+  enable_personal_note_on_share: Enable personal note on Share
+  enable_share_allowed_for_admins_only: Share allowed for admins only
+  enable_share_allowed_for_admins_only: Share allowed for admins only
+  enable_sms: Enable SMS
+  enable_sms_sending_dialog_message: |
+    You are about to enable sending a SMS to every user when the survey becomes
+    available to them, this will incur costs and you will be billed. Please ensure
+    you have approval before doing so.
+  enable_titles: Titles
+  enable_promotional_content: Enable promotional content
+  enable_topic_comments: Enable topic comments
+  enable_user_profile_evidence_portfolio: Enable user profile evidence portfolio
+  enable: Enable
+  enabled: Enabled
+  enabled_widgets_and_mapped_to_grid: Enabled widgets and mapped to grid
+  end: End
+  end_after: End after
+  end_and_go_to_next_section: End and go to Next section
+  end_date: End date
+  end_date_is_not_specified: End date is not specified
+  end_date_must_be_greater_that_start_date: 'End date %{end_value} must be greater than start date %{start_value}'
+  end_number: End number
+  end_of_section: End of section
+  end_section: End section
+  ends: Ends
+  engagements: Engagements
+  engagement: Engagement
+  enrolled: Enrolled
+  enter_a_description_here_count_max: Enter a description here, maximum %{count} characters
+  enter_chapter_title: Enter chapter title
+  enter_community_name: Enter community name
+  enter_description_here: Please enter description here
+  enter_emails: Enter emails
+  enter_event_location_here: Enter event location here
+  enter_field_name: 'Enter %{field_name}'
+  enter_file_name_here: Enter file name here
+  enter_folder_name: Enter folder name
+  enter_group_name: Enter group name here
+  enter_keyword: Enter keyword here
+  enter_learning_plan_title_here: Enter learning plan title here
+  enter_manager_name: Enter manager name here
+  enter_name: Enter name
+  enter_number: Enter number
+  enter_profile_field_value: Enter profile field value here
+  enter_reportee_name: Enter reportee name here
+  enter_scorm_course_name: Enter scorm course name
+  enter_tags: Enter tags, separate with a comma
+  enter_tags_here: Enter tags here
+  enter_the_users_name_or_select: Enter the user(s) name or select from the dropdown
+  enter_the_title_for_your_event: Enter the title for your event...
+  enter_topic_name: Enter topic name here
+  enter_user_name: Enter user name here
+  enter_username_or_email: Enter username or email
+  enter_your_question_here: Enter your question here
+  enter_new_password: Enter new password
+  enter_observation_assessment_title_here: 'Enter %{performance_assessment} title here (Required)'
+  enter_survey_assessment_title_here: 'Enter %{performance_assessment} title here (Required)'
+  enter_your_password_again: Enter your password again
+  enter_question_here: Enter question here
+  enter_words_or_phrases_here: Enter words or phrases here, separated with a comma
+  enter_jql_code_here: Enter JQL code here
+  enter_mixpanel_api_secret: Enter Mixpanel API secret
+  equals: Equals
+  errors_title: Errors
+  error: Error
+  error_level: Error level
+  error_messages: Error messages
+  error_occurred_while_importing: An error occurred while importing
+  error_occurred_while_importing_in_row: 'An error occurred while importing in row %{data}'
+  ethnicity: Ethnicity
+  evidence_portfolio: Evidence Portfolio
+  evidence_portfolio_content_deletion: Are you sure you want to delete this file?
+  event_admin: Event Admin
+  event: Event
+  event_apply: Apply to this event
+  event_closed: Event is closed
+  event_csv: Event CSV
+  event_creator: Event creator
+  event_details: Event details
+  event_finished: Event is finished
+  event_for_community: '%{event_name} - %{community_name}'
+  event_learning_plans_description: Please select a learning plan from below which you would like the user to complete before attending your event
+  event_leave: Leave this event
+  event_price_example: e.g. £99.00, $235.00
+  event_requests_list_empty: There are no more pending requests
+  event_requests: Event requests
+  event_resources: Event resources
+  event_resources_label: |
+    This is content which is useful for the event, but not necessarily vital for the user
+    to see it before they attend, informal content which can't and doesn't need to be
+    reported on.
+  event_action_restriction_message: |
+    You don't have permission to use this action.
+    Ask admin to get more information.
+  event_name: Event name
+  event_image: Event image
+  event_occurrence:
+    one: Occurrence
+    other: Occurrences
+  event_occurrence_attended_column_is_missing_for_past_occurrence: 'Attended? CSV column is missing for past occurrence: %{record}'
+  event_occurrences_tab: Events tab
+  event_occurrence_participations_max_import_rows_count: Warning! There are only %{count} spaces remaining for this occurrence. As maximum of this number of users will be imported.
+  event_occurrence_participations_no_spaces_left: Warning! There are no spaces remaining for the current occurrence, therefore no users will be imported.
+  event_thumbnail: Thumbnail of Event
+  event_title: Event title
+  events: Events
+  expiration_in_progress: "Expiring"
+  expired_time_ago: Expired %{time_ago}
+  expires_in: "Expires in: %{time}"
+  all_events: All Events
+  all_members: All members
+  events_new_admin_access: Events new admin access
+  events_admin_page_hint: View, Edit, Create events on the instance
+  events_admin_filter_label: Search for an event
+  events_admin_filter_help_message: You can filter by Name, Location, Host, tags
+  events_import_info: Events import info
+  events_import_from_csv: Events import from CSV
+  events_import_link: Events file link
+  events_list_for: Events - %{community_name}
+  event_share_users_label: Notify specific community members?
+  event_notification_template: 'Your event %{event_name} is happening in %{days} days'
+  ever: ever
+  everyone: everyone
+  everything: Everything
+  exactly: Exactly
+  exclude: Exclude
+  exclude_users_where: Exclude users where...
+  extra_detail: Extra detail
+  expected_columns: Expected columns
+  expert: Expert
+  expiration_short: exp
+  expired: Expired
+  expiry: Expiry
+  export: Export
+  export_all: Export all
+  export_all_company_users: Export all users
+  export_answers: Export answers
+  export_chapters: Export chapters
+  export_csv: Export CSV
+  export_events: Export events
+  export_questions: Export questions
+  export_selected_company_users: Export selected users
+  export_to_csv: Export to csv
+  fail: Fail
+  facebook: Facebook
+  family_name: Family name
+  favorite: Favourite
+  favorites: Favourites
+  featured: Featured
+  featured_content: Featured content
+  featured_contents: featured contents
+  featured_content_note: "If you don't select any content, the system will pick the three most liked pieces of content."
+  featured_settings_header: Display options for the featured content
+  fields: Fields
+  file: File
+  file_changed: File changed
+  file_location: File Location
+  file_host: File Host
+  file_host_file_deletion: Are you sure you want to delete this file? If deleted it cannot be recovered, and any widget using it will have an error.
+  file_host_folder_deletion: Are you sure you want to delete this folder? If deleted, all containing files cannot be recovered, and any widget using that asset will have an error.
+  file_too_big_to_upload: File is too big and cannot be uploaded
+  file_type_not_supported: File type is not supported and cannot be uploaded
+  file_upload: File upload
+  file_does_not_exist_or_has_been_deleted: File does not exist or has been deleted
+  files: Files
+  fill_file_name: Please fill file name
+  fill_subtitle_name: Please fill subtitle name, e.g. Spanish
+  fill_message: Fill message
+  fill_subject: Fill subject
+  filter: Filter
+  filter_by_community: Filter by community
+  filter_by_tags: Filter by tags - Leave blank to include all
+  filter_by_type: Filter by type
+  filter_communities: Filter communities
+  filter_content: Filter content
+  filter_events: Filter events
+  filter_events_or_users: Filter events or users
+  filter_limit: 'You can add up to %{limit} filters only'
+  filter_must_contain_value: One or more filters are missing a value
+  filter_the_report: Filter the report (optional)
+  filter_title_code_location: filter title, code, location
+  filter_users: filter users
+  filters: Filters
+  find_anything: find anything
+  find_users: Find users
+  finish: Finish
+  finish_session: Finish session
+  finished: Finished
+  finishes: Finishes
+  first_name: First name
+  first_weekday_of_month: First %{weekday}
+  flash:
+    communities:
+      destroy:
+        notice: Community was successfully removed
+        alert: There was some errors when tried to remove community
+    fuse_admin:
+      companies:
+        update:
+          notice: Company was successfully updated
+  follow: Follow
+  following: Following
+  following_columns_found_on_csv: The following columns were found on the CSV file.
+  following_entries_not_imported: "Following entries haven't been imported because of below errors:"
+  follows: Follows
+  for: For
+  force_share_notifications: Members cannot turn off notifications for this community
+  force_share_notifications_description: This means if anything is shared with the whole community members will receive a notification
+  forgot_your_password: Forgot your password?
+  forgotten_your_password: Forgotten your password?
+  formal: Formal
+  formal_courses: Formal courses
+  formal_results: Formal results
+  formula_result: Formula result
+  for_all_new_users: For all new users
+  for_visual_completion: For visual completion use views for
+  for_field_option: for field option
+  four_digit_card_security_code: Four Digit Card Security Code
+  fourth_weekday_of_month: Fourth %{weekday}
+  forwarding: Forwarding
+  forwarding_optional: Forwarding (optional)
+  free_text: Free text
+  free_text_answers_cannot_be_used: Free text answers cannot be used for this assessment type
+  from: From
+  from_the_web: From the web
+  from_the_web_articles_preview_placeholder: A preview of your articles will appear here, but first please add a name and at least one of the filters
+  from_the_web_articles_preview_header: This is a preview of content you'll see. Save to make your briefing live
+  from_the_web_articles_preview_not_found: No content found - please try changing your search terms.
+  from_the_web_name_and_description_title: Name & Description
+  from_the_web_name_and_description_hint: Set the name and description of your briefing
+  from_the_web_name_placeholder: Enter briefing name
+  from_the_web_keywords_title: Add keywords
+  from_the_web_keywords_hint: We use keywords to search for relevant articles
+  from_the_web_keywords_input_hint: Enter your main keywords about the topics you're interested in, e.g. big data, healthcare, cycling...
+  from_the_web_influencers_title: Add influencers
+  from_the_web_influencers_hint: We pull in articles that your selected influencers have shared on twitter
+  from_the_web_influencers_input_hint: Add a twitter username without the @ sign, e.g. nytimes
+  from_the_web_influencers_filter_label: Show all shared articles from these influencers? or filter them by your keywords?
+  from_the_web_configure_widget: Configure "From The Web" widget
+  from_the_web_description_placeholder: Enter briefing description
+  from_the_web_domains_title: Add domains
+  from_the_web_domains_hint: We pull in articles recently published from your selected sites
+  from_the_web_domains_input_hint: Add a domain name without the http prefix, e.g. "bbc.co.uk". Sub folders are allowed, e.g. "bbc.co.uk/news"
+  from_the_web_domain_filter_label: Show all articles from these domains? or filter them by your keywords?
+  from_the_web_domain_whitelist_label: Only show articles from these domains
+  from_the_web_domain_whitelist_hint: This will make the briefing be soley based on articles from these domains, and no other sources.
+  from_the_web_blocked_domains_title: Add blocked domains
+  from_the_web_blocked_domains_hint: We will block any articles appearing in your breifing that are published from selected domains
+  from_the_web_rss_feeds_title: Add RSS feeds
+  from_the_web_rss_feeds_hint: We pull in articles from your selected RSS feeds
+  from_the_web_rss_feeds_input_hint: Please specify the full URL of the rss feed, e.g. http://feeds.bbci.co.uk/news/rss.xml?edition=uk
+  from_the_web_rss_filter_label: Show all articles from these rss feeds? or filter them by your keywords?
+  from_the_web_filter_show_all_articles: Show all articles
+  from_the_web_filter_show_keyword_articles: Show articles filtered by keywords
+  from_the_web_widget_usage_hint: This widget will allow you to surface external links from the web to your users, use the button below to configure what the links could be about.
+  from_the_web_words_that_must_appear_in_article_title: Words that must appear in the article titles
+  from_the_web_words_that_must_not_appear_in_article_title: Words that must not appear in the article titles
+  fuse: fuse
+  fuse121_appointment_role_name: You are the
+  fuse121_appointments_not_available: 'You do not have any upcoming %{one_to_ones}'
+  fuse121_appointment_not_active: Cannot be started until 10 minutes before
+  fuse121_appointment_active: 'Start %{one_to_one}'
+  fuse121_appointment_location: 'Where will it take place?'
+  fuse121_see_list_of_upcoming: 'See list of upcoming %{one_to_ones}'
+  fuse121_delete_upcoming_title: 'Delete upcoming %{one_to_one}'
+  fuse121_delete_upcoming_message: 'Are you sure you want to delete upcoming %{one_to_one}?'
+  fuse121_end_session: 'End %{one_to_one}'
+  fuse121_current: 'Current %{one_to_one}'
+  fuse121_new: 'New %{one_to_one}'
+  fuse121_not_available: 'Error: Fuse121 service is not available'
+  fuse121_not_available_message: Sorry, Fuse121 is not available right now due to unavailable API. Our team notified about that problem and will try to resolve it as soon as possible.
+  fuse121_not_enabled: Fuse121 is not enabled
+  fuse121_not_enabled_message: Sorry, Fuse121 is not enabled for your company. Please contact your company administrator
+  fuse121_scheduling_not_enabled: Fuse121 scheduling is not enabled
+  fuse121_scheduling_not_enabled_message: Sorry, Fuse121 scheduling is not enabled for your company. Please contact your company administrator
+  fuse121_scheduling_ics_title: '%{one_to_one} with %{user}'
+  fuse121_scheduling_ics_active_period: '%{start} - %{end}'
+  fuse121_previous: 'Previous %{one_to_one}'
+  fuse121_session_breadcrumb: '%{date} with %{name}'
+  fuse121_session_deletion_confirmation: Deleting this session will delete all items associated with it such as as goals, tasks, notes and comments
+  fuse121_session_role_name: You were the
+  fuse121_session_tasks: '%{completed_tasks}/%{all_tasks}'
+  fuse121_session_goals: '%{completed_goals}/%{all_goals}'
+  fuse121_session_with_name: 'With %{name}'
+  fuse121_sessions_not_available: 'Use the button above to have your very first %{one_to_one}, then it will appear here'
+  fuse121_upcoming: 'Upcoming %{one_to_one}'
+  fuse121_comment: '%{name} comment'
+  flags: Reports
+  flagged_at: reported at %{time}
+  flagged_items: Reported items
+  flagged_content_notification_message: '"%{content_name}" has been reported by %{complainer_name}'
+  flagged_comment_notification_message: '%{complainer_name} has reported a comment made by %{commenter_name}'
+  flagged_share_notitication_message: '%{company_name} has reported a share message made by %{sharer_name}'
+  flagged_chat_message_notification_message: '%{complainer_name} has reported a message made by %{message_owner_name}'
+  flagging_preferences_community_admins_notifications_settings: Community admin notifications
+  flagging_preferences_email_to_culprit_label: Email which will be sent to the culprit
+  flagging_preferences_email_to_user_who_flagged_item_label: Email which will be sent to the user who reported an item
+  flagging_preferences_notify_about_comment_flagged_by_fuse_label: Comment reports by keywords
+  flagging_preferences_notify_about_comment_flagged_by_user_label: Comment reports by users
+  flagging_preferences_notify_about_content_flagged_by_fuse_label: Content reports by keywords
+  flagging_preferences_notify_about_content_flagged_by_user_label: Content reports by users
+  flagging_preferences_notify_about_share_message_flagged_by_fuse_label: Share messages reports by keywords
+  flagging_preferences_send_notifications_to_users_label: Send notifications to users on reporting
+  flagging_preferences_site_moderators_notifications_settings: Site moderator notifications
+  flagging_preferences_user_notifications_settings: User notifications
+  flagging_preferences: Flagging preferences
+  flags_were_dismissed_by: Flags were dismissed by %{name} %{time}
+  folders: Folders
+  fraction: Fraction
+  matched_words: Matched words
+  fuse_emails: Fuse emails
+  gamification: Gamification
+  gamification_settings_hint:  Manage how many Gamification points users get for interacting with the platform
+  contribution_points_hint: These are points user gain from adding content and user engaging with it
+  engagement_points_hint: These are points user gain from uploading files and engaging with other users
+  consumption_points_hint: These are points user gain from using the platform
+  general: General
+  general_error_message: 'An error has occurred while processing your request.'
+  general_settings: General Settings
+  generate: Generate
+  getting_started: Getting Started
+  get_help_diagnosting_problem: To get help diagnosing this problem please
+  get_certificate: Get certificate
+  get_instant_access_by_paying_by_credit_card: Get instant access by paying by credit card
+  give_it_some_personality: Give it some personality
+  given_name: Given name
+  given_and_family_names: Given name and Family name
+  goal: Goal
+  goals: Goals
+  go_back: Go back
+  go_to_comment: Go to comment
+  go_to_comments: go to comments
+  go_to_content: go to content
+  go_to_conversations: Go to my conversations
+  go_check_it_out: Go check it out
+  go_to_target: Go to %{target}
+  grant_admin_access: Grant admin access
+  google_plus: Google+
+  greater_than: Greater than
+  greater_than_or_equal_to: Greater than or equal to
+  group: Group
+  groups: Groups
+  group_feedback: Group feedback
+  group_name: Group name
+  group_permissions: Group permissions
+  grade_achieved: Grade achieved
+  group_with_number: Group %{number}
+  grid: grid
+  has_completed_the_course: has completed the course
+  has_invalid_format: "has invalid format: %{mime}"
+  has_too_many_rows: has too many rows - the number of rows must be less than %{number}
+  have_no_topics: Have no topics
+  havent_viewed: Haven't viewed
+  heading: Heading
+  hello_start_a_chat_with_me: Hello! Start a chat with me
+  hello_user: "Hello %{user_name},"
+  help: Help
+  here: here
+  hidden_from_leaderboard: Hidden from leaderboard
+  hide_archived: Hide archived
+  hide_attendees_list: Hide attendees list
+  hide_completed: Hide completed
+  hide_defaults: Hide defaults
+  hide_description: Hide description
+  hide_details: Hide details
+  hide_draft: Hide draft
+  hide_files: Hide files
+  hide_filters: Hide Filters
+  hide_from_leaderboard: Hide from leaderboard
+  hide_historical_events: Hide Historical events
+  hide_links_to_answers: Hide links to answers
+  hide_occurrences: Hide occurrences
+  hide_previous_session: 'Hide previous %{one_to_one}'
+  hide_published: Hide published
+  hide_resolved: Hide resolved
+  hide_selected_users_from_leaderboard: Hide selected users from leaderboard
+  hide_topic_structure: Hide topic structure from users?
+  hide_upcoming_events: Hide Upcoming events
+  hide_users_email: Hide users email site wide
+  hide: Hide
+  high_quality: High quality
+  hint_title_value: Please note...
+  hint_title: Hint title
+  hint: Hint
+  history: History
+  home: Home
+  homepage_featured_content_note: "This is the image carousel you see at the top of home page."
+  hosted_by: "Hosted by %{host}"
+  hosted_colon: "Hosted: %{host}"
+  host: Host
+  host_name: Host name
+  host_image: Host image
+  how_prepare_recording: 'How to prepare for recording'
+  how_you_rate_yourself: How you rate yourself
+  how_name_rate_you: "How %{name} rate you"
+  how_often_would_you_like_to_run_this_report: How often would you like to run this report?
+  hyperlink: Hyperlink
+  hr_integration: HR Integration
+  i_have_nothing_to_show: I have nothing to show!
+  i_want_to_receive_notification_when_user_signs_content: I want to receive notification when user signs content
+  id: ID
+  if_applicable: If applicable
+  if_you_need_help: 'If you need any help you can'
+  if_you_did_not_request_this: "If you didn't request this, please click here to"
+  iframe_hint: in px
+  iframe_label: Custom Tab height
+  images: Images
+  image_unavailable: Image unavailable
+  import_csv: Import CSV
+  import_event_progress: "Completed: %{completed_count}. Failed: %{failed_count}. Total: %{total_count}."
+  import_past_event_participation_description: "<p>Your csv must have the following headers:</p><ol><li><strong>FuseID</strong> must be a number</li><li><strong>E-mail</strong> must be email format</li><li><strong>Username</strong> must be username format</li><li><strong>Attended?</strong> must be either yes/no</li></ol>"
+  import_past_event_participation_description_in_event_admin: "<p>Your csv must have the following headers:</p><ol><li><strong>FuseID</strong> must be a number</li><li><strong>E-mail</strong> must be email format</li><li><strong>Username</strong> must be username format</li><li><strong>Attended?</strong> must be either yes/no</li><li><strong>Pass/Fail?</strong> (if enabled) must be either yes/no</li></ol>"
+  import_future_event_participation_description: "<p>Your csv must have the following headers:</p><ol><li><strong>FuseID</strong> must be a number</li><li><strong>E-mail</strong> must be email format</li><li><strong>Username</strong> must be username format</li></ol><p>At least one of the above column must be present for each row of the CSV. All imported users will be set to 'attending'.</p>"
+  import_failed_entries: Import failed entries
+  import_file_progress: "Completed: %{completed_count}. Skipped: %{skipped_count}. Failed: %{failed_count}. Total: %{total_count}."
+  import_file_assign_managers_for_deleted_user: Could not assign managers for deleted user
+  import_finished_successfully: Import finished successfully
+  import_from_csv: Import from CSV
+  import_is_being_performed: The import is now being performed. You will receive an email when this is completed.
+  import_members_by_csv: Import members by CSV
+  import_settings: Import settings
+  import_users_from_csv: Import users from CSV
+  import_users_from_csv_into_occurrence: Import users from CSV into occurrence
+  import_users: Import users
+  import_via_csv: Import via CSV
+  import_mailer_error_count: ', and %{count} had errors'
+  import_mailer_participation_request_subject: Fuse Event Participations Import - %{imports_count} event participations were imported%{error_string} for event occurrence with id %{occurrence_id}
+  import_mailer_user_subject: Fuse User File Import - %{imports_count} users were imported%{error_string}
+  import: Import
+  important: Important
+  important_things_first: Important things first
+  imported_keywords: Imported keywords
+  imports: Imports
+  initial_creation: Initial creation
+  influencers: Influencers
+  in_progress: In progress
+  in_the_community: in the community
+  incomplete: Incomplete
+  incorrect_answers: Incorrect Answers
+  incorrect: Incorrect
+  info: Info
+  informal: Informal
+  include_not_responded_to_survey_label: Include users who have not completed the survey in report
+  include: Include
+  include_users_where: Include users where...
+  inline_translation: Inline translation
+  insert_subject_here: Insert subject here
+  install_fuse_record_app: Install the Fuse Record app
+  install: Install
+  invalid_token_code: Upload without capture_id or token_code
+  performance_assessments_instructional_default_message: |
+    Please take your time with %{performance_assessment}, we appreciate your response
+  performance_assessments_instructional_message_label: Introduction message to the user
+  is_not_a_video: Is not a video
+  is_ready_to_view: is ready to view
+  is_a_required_field: '%{field} is a required field'
+  is_within_a_fixed_date_range: is within a fixed date range
+  is_within_a_dynamic_date_range: is within a dynamic date range
+  please_note_that_first_line_import_users_notice: >
+    Please note that users must be existing and CSV first line should contain column names.
+    For example: id, email, username
+  please_not_you_will_autosign_reportees_as_manager: |
+    Please note that you will auto sign off reportees
+    if manager approval is required for this event
+  query_too_short: "Please enter %{minimumInputLength} or more characters"
+  informal_assessment: Informal assessment
+  install_fuse_record_app_description: >
+    This app will allow you to record your screen or webcam in just a few clicks. It's quick and easy to use and
+    uploads straight to fuse, just press the install button and you'll be capturing your beautiful face, voice or
+    screen in no time.
+  instance_of_report_deleted: Instance of report is successfully deleted
+  internal_id: Internal ID
+  invalid: Invalid
+  invalid_csv_file: 'Invalid CSV file: An error occured while read file'
+  invalid_file_format: 'Invalid file format: %{mime}'
+  invalid_number: Invalid number
+  invite: Invite
+  invite_users: Invite users
+  invite_users_label: These users will be invited to the event by you
+  invite_to_event: Invite to event
+  invite_users_to_an_occurrence: Invite user(s) to an occurrence(s)
+  is_outside_the_range: is outside the range of %{min} to %{max}
+  is_currently_in_one_to_one: '%{name} is currently in %{one_to_one}'
+  item_is_no_longer_available: Item is no longer available
+  join: Join
+  join_community: Join community
+  join_waitlist: Join waitlist
+  jump_to: Jump to
+  jump_to_points: Jump to points
+  join_free: Join FREE
+  keep_me_signed_in: Keep me signed in
+  keywords: Keywords
+  keyword_detector: Keyword detector
+  knowledge_experts: Knowledge experts
+  knowledge_feed: Knowledge Feed
+  knowledge_feed: Knowledge feed
+  knowledge_tab: Knowledge tab
+  label: Label
+  label_optional: Label (optional)
+  knowledge_level: Knowledge level
+  lambda_client_function_failed: "Lambda Function returned with the following status_code: %{status_code}"
+  lambda_function_failed: "Lambda Function returned following error: %{response_error}"
+  lambda_function_not_found: "Unable to run Lambda Function: %{function_name}"
+  language: Language
+  language_text: Language text
+  landing_communities: Landing communities
+  last_accessed_with_date: 'Last accessed: %{date}'
+  last_activity: Last activity
+  last_completion: Last completion
+  last_configured: Last configured
+  last_converted: Last converted
+  last_days: 'last %{count} days'
+  last_edited_by_user: Last edited %{date} by %{user}
+  last_events_import: 'Last events import'
+  last_half_year: Last 6 months
+  last_login: Last login
+  last_modified: Last modified
+  last_month: Last 30 days
+  last_message: 'Last message: %{date}'
+  last_name: Last name
+  last_saved: Last saved
+  last_saved: Last saved
+  last_session: 'Last %{one_to_one}'
+  last_sign_in_at: Last login
+  last_taken_date: Last Taken Date
+  last_used: 'Last used: %{time}'
+  last_view: Last view
+  last_viewed: Last viewed
+  last_week: Last 7 days
+  last_year: Last year
+  layout_size: Layout size
+  launch_course_in_new_window: Launch the course in a new window
+  launch_course: Launch course
+  leaderboard: Leaderboard
+  leaderboard_points: leaderboard points
+  leaderboard_has_not_been_enabled: >
+    Sorry, nothing personal but the leaderboard hasn’t been enabled.
+    We suggest you contact the administrator to discuss it.
+  learner: Learner
+  learning_plan: Learning plan
+  learning_plan_overview: Learning plan overview
+  learning_plan_creator: Learning plan creator
+  learning_plan_does_not_expire: The learning plan does not expire
+  learning_plan_editor: Learning plan editor
+  learning_plan_items: Learning plan items
+  learning_plan_mapping: Learning plan mapping
+  learning_plan_progress: Learning plan progress
+  learning_plan_resource: learning plan
+  learning_plan_title: Learning plan title
+  learning_plan_valid_for: Upon completion the learning plan is valid for
+  learning_plan_was_removed: Learning plan was successfully removed
+  learning_plans: Learning plans
+  learning_plans_admin_hint: Learning plans allow you to see the progress of your community members through the modules/topics you have set up for them
+  learning_plans_completion: Learning plans completion
+  learning_plans_completion_by_community: Learning plans completion
+  learning_plans_expiry: Learning plans expiry
+  learning_plans_users: "Learning plan's users"
+  legend: Legend
+  less_than: Less than
+  less_than_or_equal_to: Less than or equal to
+  order_desc: Most progression
+  order_asc: Least progression
+  order_alph_desc: Z-A
+  order_alph_asc: A-Z
+  sort_users: Sort users
+  leave_blank_to_use_default: Leave blank to use default
+  leave_community: Leave community
+  leave_community_confirmation_message: Are you sure you want to leave this community?
+  leave_section: Leave Section
+  leave_section_message: You will lose all replies to questions if you leave this section now. Answer all required questions to complete this section.
+  leave: Leave
+  leaving_waitlist: Leaving waitlist
+  leave_waitlist: Leave waitlist
+  library: Library
+  like: Like
+  liked: Liked
+  likes: Likes
+  likes_of_my_content: Likes of my content
+  likes_this_content: likes this content
+  link: Link
+  link_to: Link to
+  link_warning_header: Just to let you know...
+  link_error_header: Sorry, but...
+  link_sharing: Link sharing
+  line_thickness: Line thickness
+  linked_in: LinkedIn
+  links: Links
+  live: Live
+  line_chart: Line chart
+  loading_please_wait: 'Loading, please wait...'
+  local_time: 'Local time: %{time}'
+  location: Location
+  location_colon: "Location: %{location}"
+  log_out: Log out
+  log_in: Log in
+  login: Login
+  login_with_your: Login with your
+  logic: Logic
+  lowercase_character: lowercase character
+  manage_communities: Manage communities
+  manage_community_members:  Manage community members
+  manage_content: Manage content
+  manage_event: Manage Event
+  manage_events: Manage events
+  manage_flags: Manage reports
+  manage_groups: Manage groups
+  manage_reports: Manage reports
+  manage_topics: Manage topics
+  manage_users: Manage users
+  manager: Manager
+  manager_options: Manager options
+  managers: Managers
+  managers_report_import_csv_headers_list: "CSV Headers: user_id, type(manager or reporter), and manager_or_reporter_id"
+  manager_role_filter_doesnt_have_any_options: Manager filter doesn't have any options. Please, ask your CSM to configure it.
+  manager_role_dashboard: Manager Specific Dashboard
+  manager_dashboard_enabled: Enable manager dashboard
+  manager_role_widgets_enabled: Enable specific manager dashboard
+  managers_are_not_available: Managers are not available
+  manager_approval: Manager approval
+  manager_approval_short: Mng app
+  manager_not_found: 'Manager not found: %{data}'
+  manager_or_reporter_with_id_doesnt_exist: "Manager or reporter with ID %{id} doesn't exist"
+  manager_report_details: "%{manager_title}/%{report_title} details"
+  manager_sign_off: Manager sign off
+  managers_and_reporters: 'Managers and reporters'
+  manual: Manual
+  manually_add_users: Manually add users
+  manually_assign_users_to_learning_plan: Manually assign users to learning plan
+  manually_restrict_users: Manually restrict users
+  many_correct: Many correct
+  mapping_for_new_users: mapping for new users
+  make_copy: make copy
+  make_content_downloadable: Make content downloadable
+  master: Master
+  mark_as_read: Mark as read
+  max_n_items: '(max %{count} items)'
+  max_1_item: max 1 item
+  max_n: max %{count}
+  maximum_n_characters: 'maximum %{count} characters'
+  maximum_questions_to_ask: Maximum questions number
+  maximum_questions_to_ask_hint: >
+    Will continue to next question set if configured number of questions answered
+    and it doesn't matter if answered correctly or not
+  maximum_allowed_file_size: Maximum allowed file size is %{limit} kilobytes
+  member: member
+  members: Members
+  membership_requests: Membership requests
+  members_will_be_shown_here: Members of this group will be shown here
+  message: Message
+  message_error_413: 'File is too big and cannot be uploaded'
+  minutes_of_content: Minutes of content
+  min_and_max_values: "min value %{min}, max value %{max}"
+  min_and_max_values_will_be_shown_here: min and max values will be shown here
+  mixpanel: Mixpanel
+  mobile: Mobile
+  mobile_custom_tab: Mobile custom tab
+  module: module
+  modules: Modules
+  month: month
+  months: months
+  monthly: monthly
+  more: More
+  more_like_this_lowercase: More like this
+  more_like_this: More Like This
+  most_commented: Most commented
+  most_liked: Most liked
+  most_popular: Most popular
+  most_recent: Most recent
+  most_recent_topics_events_scorm_courses: Most recent topics, events and scorm courses
+  most_relevant: Most relevant
+  most_viewed: Most viewed
+  move_all_content_to: Move all content to (content is relocated)
+  move_all_content_confirm: 'You are going to move all contents. Are you sure?'
+  move_now: Move now
+  move_question_down: Move question down
+  move_question_up: Move question up
+  move_recording_frame: 'Move the recording frame:'
+  move_to_selected_community: Move to selected community
+  must_be_a_valid_date: '%{value} must be a valid date DD/MM/YYYY'
+  must_be_in_future: must be in future
+  must_not_be_blank: must not be blank
+  must_have_the_following_headers: 'must have the following headers: %{headers}; for datetime: YYYY-MM-DD'
+  must_be_persisted_already: must be persisted already
+  multiple_answers: Multiple answers
+  must_be_a_positive_number: '%{value} must be a positive number and contain no strings including mathematical symbols'
+  must_be_a_number_and_greater_than: '%{end_value} must be a number greater than %{start_value} and contain no strings including mathematical symbols'
+  my_activity: My activity
+  my_activity_my_legend_title: You
+  my_activity_avg_legend_title: Group Average
+  my_activity_max_legend_title: Group Leader
+  my_360_profile: My 360 Profile
+  my_communities: My communities
+  my_content: My Content
+  my_conversations_map_is_not_available: My Conversations Map is not available
+  my_conversations_map_is_not_available_message: Sorry, My Conversations Map is not available for your company
+  my_dashboard: My Dashboard
+  my_events: My events
+  my_engagements: My engagements
+  my_favorite_communities: My favourite communities
+  my_goals: My Goals
+  my_groups: My Groups
+  my_groups_adding_label: This allow you to create groups made up of individuals to share content with. Click the button to create a new group then click save bottom left when your done.
+  my_learning: My Learning
+  my_learning_plan: My learning plan
+  my_learning_plans: My learning plans
+  my_managers: My Managers
+  my_map_assessments: My Map assessments
+  my_modules: My modules
+  my_profile: My profile
+  my_reports: My %{title}
+  my_reportees: My Reportees
+  my_survey_profile: My survey profile
+  my_topics: My library
+  my_uploads: My uploads
+  n_reports_were_not_found:
+    zero: No reports were found
+  n_strings_found_and_added_to_banned_list:
+    zero: No new strings found
+    one: 1 new string found and added to banned list
+    other: "%{count} new strings found and added to banned list"
+  n_users_imported:
+    zero: No users were imported
+    one: 1 user was imported
+    other: "%{count} users were imported"
+  n_users_were_not_found:
+    zero: All users were found
+    one: 1 user wasn't found
+    other: "%{count} users were not found in the system"
+  n_views:
+    one: 1 view
+    other: "%{count} views"
+  name: Name
+  name_of_company: "%{company_name}'s"
+  name_of_the_event: Name of the event
+  navigation_design_version_label: 'Choose your navigation option. You can choose either:'
+  nearly_ready: "You're nearly ready."
+  need_help: Need help?
+  need_to_join: You need to join this community to view requested %{thing}
+  new: New
+  new_assessment: 'New %{performance_assessment}'
+  new_community: New community
+  new_content: New content
+  new_event: New event
+  new_event_for_community: New event - %{community_name}
+  new_featured_styles: New featured styles
+  new_group_details: New group details
+  new_notification: new notification
+  new_report: Create new report
+  new_occurrence: New occurrence
+  new_one_to_one_session: New One-to-One session
+  new_one_to_one_session_hint: Create new One-to-Ones session with one of your managers or reports
+  new_password: New password
+  new_password_via_text_message: New password via text message
+  new_three_sixty: New 360° assessment
+  new_topic: New topic
+  new_topic_description: Write a fantastic description and even more people will want to see this
+  new_topic_title: Create a new topic
+  new_user: New user
+  new_users: New users
+  new_widgets_centre_enabled: Enable new widgets centre
+  new_window: New window
+  next: Next
+  next_question: Next question
+  next_csv_headers_are_missing_or: 'next csv headers are missing or incorrect: %{headers}'
+  'no': 'No'
+  none: None
+  notifications_forced_tooltip_text: Notifications cannot be turned off for this community
+  no_activities_found: No activities found
+  no_achievements: No achievements yet
+  no_audiences: No audiences yet
+  no_applicants_yet: No applicants just yet, use the buttons above to attract some attention
+  no_activities_found: No activities found
+  no_users_by_this_filter: No users by this filter
+  no_users_have_been_added_to_this_audience: No users have been added to this audience
+  no_chart_data_to_display: There is no data to display for selected filters
+  no_comments_yet: No comments yet
+  no_communities: No communities
+  no_communities_found: No communities found
+  no_spaces_left_in_event_occurrence: No spaces left in event occurrence
+  join_communities_and_see_here: Join communities and we'll show them here
+  no_content: No content
+  no_contents_found: No contents found
+  no_contents_yet: No contents yet
+  no_content_selected: No content selected
+  no_courses_found: No courses found
+  no_chart_data_to_display: There is no data to display for selected filters
+  no_courses_to_export: There are no courses to export
+  no_events: No events exist
+  no_files_added_yet: No files added yet
+  no_finished_sessions_present: No finished sessions present
+  no_folders_created_yet: No folders created yet
+  no_items: No items
+  no_featured_contents_yet: No featured contents yet
+  no_goals_found: No goals found
+  no_learning_plan_items: No learning plan items
+  no_learning_plans: No learning plans
+  no_learning_plans_left: You don't have any learning plans left/available
+  no_learning_plans_started: You haven't started any learning plans
+  no_leaderboard_found: No leaderboard found
+  no_members_found: No members found
+  no_messages_in_this_conversation: No messages in this conversation yet
+  no_matches_found: No matches found
+  no_more_than_n_same_characters:
+    one: No more than %{count} same character
+    other: No more than %{count} same characters
+  no_permission_to_get_scorm: You have no permission to get the scorm
+  no_progression_yet: No progression yet
+  no_sessions_yet: No Sessions
+  no_promotional_content: No promotional content
+  no_knowledge_experts_assigned: No knowledge experts assigned
+  no_results_yet: "You don't have any results yet"
+  no_reportees_yet: You don't have reportees
+  no_requests_yet: You don't have requests
+  no_requirements_for_event: There are no requirements for this event
+  no_topics: No topics
+  no_learning_plan_items: No learning plan items
+  no_new_requests_yet: No new requests yet
+  no_occurrences_found: No occurrences found
+  no_oauth_tokens_setup_yet: 'There are no GoToWebinar tokens set up yet.'
+  no_usage_by_this_filter: No usage by this filter
+  no_users_found: No users found
+  no_user_selected: No user selected
+  no_widgets: No widgets
+  no_waiters_events_admin_message: Once the event is full, users on waitlist will be shown here
+  no_users_imported_make_sure_csv_is_correct: No users imported. Please make sure your CSV file is correct.
+  no_users_are_currently_restricted: No users are currently restricted
+  non_members: Non members
+  not_able_to_pay_by_credit_card: Not able to pay by Credit Card? Click
+  not_able_to_pull_link_thumbnail_or_text: The url works but we were'nt able to pull any cool thumbnails or text. I'm sure you have some up your sleeve.
+  not_allowed_survey_share_type: Not allowed survey share type
+  not_attempted: Not attempted
+  not_attending: Not Attending
+  not_available_abbrev: N/A
+  not_commented: Not commented yet
+  not_recommended_option: Not recommended option - this could lead to a loss of engagement from users, breaks trust
+  not_equals: Not equals
+  not_require_comprehension_to_be_passed: Do not require comprehension to be passed if diagnostic test passed?
+  not_started: Not started
+  not_taken_yet: Not taken yet
+  not_the_same_password:
+    one: You can not use last password
+    other: You can not use the last %{count} passwords
+  not_yet: Not yet
+  note: Note
+  note_that_this_question_type_requires: Please note that this question type requires a Manager, Community Admin or Admin to sign off the question
+  note_that_question_can_be_used_only_with_comprehension_assessments: Please, note that the "free text" question type can only be used in comprehention assessments
+  notes: Notes
+  notification_schedule: Notification schedule (Min. 1)
+  notification_schedule_description: |
+    Control how frequent notifications are sent out before the users learning plan has a deadline or expires.
+    At least one period has to be checked.
+  notification_settings: Notification settings
+  notification_translations: Notification text
+  notification_translations_hint: Allows you to customise the wording for notifications
+  notification_type: Notification
+  note_in_share: note "%{note}" in %{content_name} share
+  notifications_also_send_as_sms: Notifications also send as sms
+  notifications_send_via_sms: Send notifications via sms
+  notifications_step: Notifications
+  notifications_label: Notifications
+  notifications_menu: Notifications settings
+  notifications_feature: Here you can set when the community admin recieves notifications or not.
+  notifications_off: Notifications OFF
+  notifications_on: Notifications ON
+  notifications_header: Notifications
+  notification_message: Notification message
+  notification_template: Notification template
+  notification_was_sent: Notification was sent
+  notify: Notify
+  notify_all: Notify all
+  notify_all_applicants: Notify all applicants
+  notify_all_waiters: Notify all waiters
+  notify_applicant: Notify applicant
+  notify_colleagues: Notify colleagues
+  notify_communities: Notify community / communities?
+  notify_user: Notify user
+  notify_users: Notify users
+  notify_specific_people: 'Optional - Notify specific people - type their name here?'
+  notify_specific_persons: 'Optional - Notify specific persons?'
+  notify_all_community_members: Notify all community members
+  notify_community_members_when_report_uploaded: Notify community members when report has been uploaded
+  notify_specific_users: Notify specific users
+  notify_waiter: Notify waiter
+  notify_waiters: Notify waiters
+  nothing_found: Nothing found
+  nothing_to_see_here: Nothing to see here… for now
+  no_events_to_export: There are no events to export
+  no_contents_to_export: There are no contents to export
+  no_courses_to_export: There are no courses to export
+  no_events_found: No events found
+  no_matching_events_for_query: "No matching events for <strong>\"%{query}\"</strong>. Try another word or phrase."
+  no_tags_found: No tags found
+  no_custom_picture_uploaded: No custom picture uploaded
+  number_of_respondents: Number of repondents
+  number_word: Number
+  notify_everyone_in_community: Notify everyone in community?
+  number_of_attempts: Number of Attempts
+  number_of_page_views: Number of Page views
+  number_of_reports: Number of %{title}
+  number_of_type_page_views: Number of %{request_type} page views
+  number_of_type_engagements: Number of %{engagement_type} engagements for %{content_category} contents
+  number_of_type_views: Number of %{request_type} views for %{content_category} contents
+  number_of_views: Number of Views
+  new_go_to_webinar_token: New GoToWebinar Token
+  oauth_tokens_title: OAuth Tokens
+  organizer_key: Organizer Key
+  object_no_longer_exists: '%{object} no longer exist'
+  object_was_deleted_by: '%{object} was deleted by %{deleted_by} %{deleted_at}'
+  observation_assessment_details: '%{performance_assessment} details'
+  observation_assessment_ended: '%{performance_assessment} ended %{at_time}'
+  observation_assessment_review: '%{performance_assessment} review'
+  observation_assessment_title: '%{performance_assessment} title'
+  observations: Observations
+  occurrence: Occurrence
+  occurrences: Occurrences
+  occurrence_date_format_hint: DD/MM/YYYY
+  occurrence_details: Occurrence details
+  occurrence_finished: Occurrence finished
+  occurrence_has_been_successfully_scheduled: Occurrence has been successfully scheduled for %{date}
+  occurrence_or_occurrences: Occurrence(s)
+  occurrence_shared: Occurrence has been successfully shared
+  occurrence_time_format_hint: HH/MM
+  occurrence_to_share: Occurrence to share
+  number_word: Number
+  of_content: of content
+  of_content_in: of content in
+  on: on
+  off: off
+  once: once
+  one_column: One column
+  one_correct: One correct
+  one_of_required_columns: One of required columns
+  one_to_ones: My Conversations
+  one_to_ones: One-to-Ones
+  one_to_ones_has_not_been_enabled: >
+    Sorry, nothing personal but One-to-Ones haven’t been enabled.
+    Please contact your administrator to discuss this.
+  one_to_ones_objectives: One-to-Ones objectives
+  only_tabs: Classic Tab View without Top Secondary Navigation Bar
+  only_me: Only me
+  only_n_seats_available_please_remove_n_reportees: "Only <strong>%{spaces_count} seats</strong> available, please remove <strong>%{reportees_count}</strong> reportee(s)."
+  open_chat_with: Open chat conversation with %{name}
+  options: Options
+  optional: optional
+  or: Or
+  ok: Ok
+  ordering: Ordering
+  other_occurrences: Other Occurrences
+  other_topics: Other topics
+  overview: Overview
+  outdated_assessment_title: Unable to resume assessment
+  outdated_assessment_description: The assessment has changed since your last session, please start the assessment again.
+  owner: Owner
+  owner_root: 360 owner's page
+  ownership_transfer_request_successfully_cancelled: 'Ownership transfer request successfully cancelled'
+  oauth_authentication_success: The authentication process was successful
+  oauth_authentication_error: We encountered an error during the authentication process. Please try again later
+  page_views: Page views
+  page_view: Page view
+  page_views_available_only_for_all_communities: Page views available only for All Communities
+  participation_approval_created: "%{participant}'s request has been %{status}"
+  participation_request_has_been_sent: Participation request has already been sent
+  participation_request_created: Participation request was successfully created.
+  participation_request_created_and_approved: Participation request was successfully created and approved.
+  pass: Pass
+  passed: Passed
+  passed_with_percent: 'Passed %{percent} %'
+  passing_questions_one_by_one: Passing questions one by one
+  password: Password
+  password_confirmation: Password confirmation
+  password_should_contain: For security reasons your new password needs to match the following requirements
+  past: Past
+  past_imports: Past imports
+  paste_your_css_here: Paste your CSS here
+  paste_your_html_here: Paste your HTML here
+  paste_your_link_here: Paste your link here (required)
+  paste_url_here: Paste URL here
+  pay_by_credit_card: Pay by credit card
+  pay_pal_four_digit_code: >
+    For your safety and security, PayPal requires that you enter your card's security code.
+    The American Express security code is a four-digit number printed on the front of your card.
+    It appears after and to the right of your card number.
+  pay_pal_four_three_code: >
+    For your safety and security, PayPal requires that you enter your card's verification number.
+    The verification number is a three-digit number printed on the back of your card.
+    It appears after and to the right of your card number.
+  participant_community: Participant community
+  pending: Pending
+  people: People
+  percentage_with_percent: 'Percentage: %{percent}%'
+  percentage_not_available: 'Percentage: N/A'
+  percentage_watched: Percentage watched
+  performance_assessment_assessable_completed_text_title: Call to action - Appears at the top of the page once complete
+  performance_assessment_assessable_completed_text_description: (Only placeholder text will be fully translated)
+  performance_assessment_attach_survey_to_learning_plan_hint: You can attach a survey to the learning plan, so upon completion of the learning plan a survey will become available and the user will be notified
+  performance_assessment_attach_survey_to_event_hint: You can attach a survey to this event, so upon attendance of the event a survey will become available and the attendees will be notified.
+  performance_assessment_attach_survey_to_topic_hint: You can attach a survey to this topic, so upon completion of the topic a survey will become available and the user will be notified
+  performance_assessment_create_assessable_item_button_text: Create %{performance_assessment}
+  performance_assessment_delete_assessment_dialog_message: "You are about to delete the %{performance_assessment} and the results will be lost, please ensure you have downloaded the responses if you need them"
+  performance_assessment_delete_question_message: Deleting this question will remove all links to it.
+  performance_assessment_delete_section_message: Deleting this section will remove all questions related to it.
+  performance_assessment_start_assessment_text_title: Button Reads
+  performance_assessments_filter_title: 'Search for %{performance_assessment}'
+  performance_assessments_is_not_available: 'Error: Performance assessments service is not available'
+  performance_assessments_is_not_available_message: 'Sorry, performance assessments is not available right now due to unavailable API. Our team notified about that problem and will try to resolve it as soon as possible.'
+  performance_assessments_is_not_enabled: 'Performance assessments is not enabled'
+  performance_assessments_is_not_enabled_message: 'Sorry, performance assessments is not enabled for your company. Please contact your company administrator'
+  performance_assessments_input_placeholder: 'Enter %{performance_assessment} title here'
+  performance_observation_assessments_empty_message: '%{performance_assessments_title} results will be displayed here'
+  performance_survey_assessments_empty_message: '%{performance_assessments_title} results will be displayed here'
+  permissions: Permissions
+  permission_child_disabled_message: This permission is disabled as it requires '%{parent}' to be enabled
+  personal_data_removed: 'Personal data removed successfully'
+  personal_setting_confirm_remove: Are you sure you want to delete this tab?
+  personal_settings: Personal settings
+  personal_settings_page: personal settings page
+  personal_settings_tab_confirm_remove: Are you sure you want to delete this setting?
+  personal_message: Personal message (optional)
+  personal_message_with_text: 'Personal message: %{message}'
+  phone: Phone
+  phone_verification_instructions: <p>A confirmation code has been sent to...</p><p><span class='phone-number'>%{phone_number}</span></p><p>Please enter the code you receive in the field below to confirm you have access to this phone.</p>
+  phone_verification_sending_code: <p>Sending code to <span class='phone-number'>%{phone_number}</span>...</p>
+  phone_verification_code_placeholder_text: Enter code e.g. XXXX
+  phone_verification_incorrect_code: That code wasn't correct. Please check and try again
+  phone_verification_sending_code_error: An error was encountered. Please try again later
+  piece: piece
+  pie_chart: Pie chart
+  pieces_of_content: Pieces of content
+  pick_a_task_from_the_dropdown: Pick a task from the drop down, just click me
+  pick_an_occurrence: Pick an occurrence(s)
+  pin_topic: Pin topic
+  please_select_a_piece_of_content_first: Please select a piece of content first
+  please_select_manager_role_filter: Please select manager role filter
+  please_finish_active_session_first: Please finish active session first
+  please_choose_csv_file: 'Please choose CSV file...'
+  please_enter_you_payment_details: Please enter you payment details
+  please_enter_topic_name: Please enter topic name
+  please_hit_retry: "Please hit retry and we can forget this moment together."
+  please_write_your_description_here: 'Please write your description here, %{maxlength} character max'
+  please_fill_all_fields: Please fill all fields
+  please_fill_required_fields: Please fill required fields
+  please_read_terms: Please read the Terms and Conditions below
+  please_re_sign: Please re-sign
+  please_select_audience_filter: Please select audience filter
+  please_select_a_group: Please select a group
+  please_select_a_filter: Please select a filter
+  please_select_an_option: Please select an option
+  please_select_an_occurrence_to_share: 'Please select an occurrence to share'
+  please_select_your_reportee: Please select your reportee
+  please_upload_icon:  "Please upload <strong>an icon</strong> (we'll resize it for you)"
+  please_upload_photo: "Please upload <strong>a photo</strong> (we'll resize it for you)"
+  please_wait: 'Please wait...'
+  please_write_title_for_observation_assessment_copy: 'Please write title for %{performance_assessment} copy'
+  please_write_title_for_survey_assessment_copy: 'Please write title for %{performance_assessment} copy'
+  plus_more: '+ Plus %{count} more'
+  points: Points
+  points_displayed_over: Points displayed over
+  port: Port
+  post: Post
+  post_content: Post
+  post_comment_anonymously: Post comment anonymously
+  position: Position
+  practice_questions: Practice questions
+  pre_learning_plans: Pre learning plans
+  pre_requisite_learning: Pre requisite learning
+  prerequisite_learning_completed: Pre Requisite Learning completed
+  prerequisite_learning_description: >
+    Add pre event learning for this event by serching for it in the box below left,
+    than click the + button next to the content to assign it to the event.
+    Assigned content will appear on the right.
+  prerequisite_learning: Pre requisite learning
+  prerequisite_learning_short: Pre req
+  prefer_plain_text_emails_over_html: "Prefer plain-text emails over HTML"
+  prev: Prev
+  preview_content_feed: Preview content feed
+  preview_content_now_displayed: Preview now displayed
+  previous: Previous
+  previous_assessments: 'Previous %{performance_assessment} assessments'
+  previous_with_arrow: '&crarr; Previous'
+  preparing_document_for_printing: Preparing document for printing
+  price: Price
+  print_the_report: Print the report
+  print_the_session: Print the session
+  privacy: Privacy
+  privacy_policy: Privacy Policy
+  privacy_protection_step: Privacy protection (required)
+  privacy_protection_message: I confirm that any personal information of mine, such as my name or email address, has been removed from the file(s)
+  privacy_protection_hint_message: >
+    Files submitted with
+    personally identifiable information will always be
+    deleted by site admins.
+  private_community_radio_hint: Only admins and members can see this community. Members must be invited by an admin to join.
+  profile_custom_options: Profile custom options
+  profile_field_displayed: Profile field displayed
+  profile_fields: Profile Fields
+  profile_field_label: Profile field %{label}
+  profile_value_max_limit: Maximum 255 characters
+  progress: Progress
+  promo: Promo
+  promotion_page: Promotional page
+  promotion_page_description: >
+    Promotional pages can be used to show the user what the community has to offer, they are really
+    if you have a payment attached to the community. Otherwise you use it to say hello!
+    Oh and by the way, the user has the option to not see the page again.
+  promotion_page_example: Promotional page example
+  promotional_content: Promotional content
+  profile_information: Profile information
+  profile_fields_was_successfully_updated: Profile fields was successfully updated.
+  protected_community_radio_hint: 'Any user can search and find this community, but will need permission to join.'
+  public: Public
+  public_communities_disabled_warning: This community is visible only to admins. You have to enable public facing communities in higher admin.
+  public_community: Public
+  public_community_radio_hint: ''
+  public_topics_creation_enabled: Public topics creation enabled
+  members_can_leave_community: Members can leave community
+  publish: Publish
+  published: Published
+  published_on: Published on %{published_date}
+  pull_articles_which_contain_following_words: Pull articles which contain the following words
+  purchase: Purchase
+  purchase_community: 'Purchase %{cost}'
+  q: Q
+  question_bank: Question Bank
+  question_creator: Question creator
+  question_image: Question image
+  question_type: Question type
+  question_value: Question value
+  question_with_number: Question %{number}
+  question: Question
+  questions: Questions
+  questions_empty_list_message: Questions, once created will display here
+  questions_and_answers: Questions and answers
+  questions_answered: Questions answered
+  questions_to_sign_off: Questions to sign off
+  questions_updated_successfull: Questions updated successfully
+  questions_with_choices_should_have_at_least_one_choice: Questions with choices should have at least one choice
+  rating: Rating
+  raw_score: Raw score
+  read: read
+  reason: Reason
+  reason_for_inclusion: Reason for inclusion
+  reactivated_user: Reactivated user %{data}
+  rebuild: Rebuild
+  recently_added: Recently added
+  recently_added_content: Recently added content
+  recently_visited: Recently visited
+  recently_updated: Recently updated
+  recently_accessed: Recently accessed
+  recording: Recording
+  recipients: Recipients
+  recipients_were_deleted: Your recipients were deleted
+  recommended_option: Recommended option
+  record: Record
+  recording_adjust_size: Drag the squares along the frame to adjust size
+  recording_software_has_loaded: "The recording software has loaded…"
+  recording_software_loading: 'The recording software is loading…'
+  regenerate_report: Regenerate report
+  regenerating: regenerating
+  regeneration_was_disabled: Regeneration was disabled for this report. Please create new one.
+  refresh: Refresh
+  registration_date: Registration date
+  register_attendance: Register Attendance
+  regenerate: Regenerate
+  regular_users: All users (excl. admins)
+  reject: Reject
+  rejected: Rejected
+  related_content: Related content
+  remove: remove
+  remove_all_usages: Remove all usages
+  remove_audiences_from_platform: This will remove this audience from every place it is currently used on the platform.
+  remove_applicant_confirmation_message: Are you sure you want to remove the user from this event?
+  remove_phone_number: Remove phone number
+  remove_usage: Remove usage
+  remove_usage_from_platform: This will remove the audience from where it is currently used on the platform.
+  confirm_remove_phone_number: Are you sure you want to remove your phone number?
+  remove_from_community: Remove from community
+  remove_question: Remove?
+  remove_user_from_event: Are you sure you wish to remove this user from the event?
+  remove_file: Remove file
+  remove_filter: Remove filter
+  remove_filter_tool_tip: To remove users that were added using filters, go back to the settings tab and change those filters
+  remove_image: Remove image
+  remove_personal_data_confirm: Are you sure you want remove the users Personal data for this user as they cannot be reactivated once this has been done?
+  remove_personal_data: Remove Personal data
+  remove_user: Remove user
+  remove_waiter: Remove waiter
+  remember_me: Remember me
+  rename_tab_as: Rename tab as
+  renew: Renew
+  renew_your_password: Renew your password
+  need_to_renew_your_subscription: You need to renew your subscription
+  reopen: Reopen
+  reopened: Reopened
+  reopened_by: Reopened by
+  replace_existing_managers_with_new_managers: Replace existing managers with new managers
+  requests: Requests
+  replied: replied
+  replied_to: replied to
+  reply: reply
+  report: report
+  report_criteria: Report criteria
+  report_state: State
+  report_scheduled: Report is scheduled
+  report_sort: Sort
+  report_title: Report title (required)
+  report_type: Report type
+  report_for: Report for
+  report_option: Report option
+  report_information: Report information
+  report_deleted: Report is successfully deleted
+  report_restarted: Report is successfully restarted
+  report_and_manager: Report & Manager
+  reportees: Reportees
+  reportee: Reportee
+  reportee_content_views: Have they seen it?
+  reportees_are_not_available: Reportees are not available
+  reportees_and_managers_are_not_available: Reportees and managers are not available
+  reportees_requests: Reportees requests
+  reporting: Reporting
+  reporting_access: Reporting access
+  reports: Reports
+  reports_are_not_available: "Error: Reports are not available"
+  reports_are_not_available_message: Sorry, Reports are not available right now due to unavailable API. Our team notified about that problem and will try to resolve it as soon as possible.
+  no_reports_message: There are no reports
+  report_files_not_exist: Report files do not exist
+  report_files_count: Number of report files
+  report_filters_count: Number of report filters
+  report_template_was_disabled: Sorry, but this template was disabled
+  resets_in: "Resets in: %{time}"
+  reset_user_progression: Reset user progression
+  restart: Restart
+  restrict_user_access: Restrict user access
+  respondents: Respondents
+  requested_time_already_taken: Requested time is already taken for another appointment
+  require_attendees_to_have_sign_off: Require attendees to have manager sign off?
+  required: Required
+  requirements: Requirements
+  required_correct_questions_number: Required correct questions number
+  required_external_link_title: Title (required)
+  required_view_percentage: Required view percentage
+  reveal_user_information: Reveal user information
+  review_your_members: Review your members
+  revision_questions: Revision questions
+  revision_questions_count: Number of questions per email
+  revision_questions_description: >
+    It uses the informal questions from the topic and sends them to the user via email.
+    Decide how often they are sent and how many questions they contain below.
+  revision_questions_enabled: Enabled?
+  revision_questions_message: Message to accompany questions
+  revision_questions_message_hint: |
+    e.g. I've selected three questions to test your knowledge, complete them when you can.
+    Thanks,
+    Timothy Darling
+  revision_questions_scheduled_on_week_days: On which days notify users?
+  revoke_admin_access: Revoke admin access
+  revoke_membership: Revoke membership
+  request_invoice: Request invoice
+  required_correct_questions_number_hint: >
+    Will continue to next question set if configured number of questions answered correctly or there are no
+    not answered questions in question set
+  required_profile_fields_message: In order to view the report you should fill in the following information
+  resend_unlock_instructions: 'Resend unlock instructions'
+  researcher: Researcher
+  resend_confirmation_instructions: Resend confirmation instructions
+  resend_code: Resend code
+  reset: Reset
+  reset_in_progress: Resetting
+  reset_all_users_to_default_settings: Reset all users to default settings
+  reset_all_users_to_default_settings_confirmation: You are about to reset all users on fuse to these settings. Are you sure you want to do this?
+  reset_defaults: Reset defaults
+  reset_filters: Reset filters
+  reset_password: Reset password
+  reset_password_send_instructions1: If username or email address...
+  reset_password_link_send_instructions2: ...is linked to a Fuse account you should receive an email shortly that will help you create a new password.
+  reset_password_link_send_instructions3: "If you can't find it, then please check your junk mail folder or <a href='mailto:%{support_email}'>contact us</a> for further assistance."
+  reset_password_sms_send_instructions2: ...is linked to a Fuse account you should receive a text message shortly with a new password.
+  reset_password_sms_send_instructions3: "If you can't find it, then please <a href='mailto:%{support_email}'>contact us</a> for further assistance."
+  resize_recording_frame: 'Resize the recording frame:'
+  respond: Respond
+  restore: Restore
+  result: Result
+  result_in_formal_title: Use a user's highest or latest assessment result
+  result_in_formal_highest: Highest
+  result_in_formal_latest: Latest
+  results: Results
+  results_for: Results for
+  resume: Resume
+  resume_formal_assessment: Resume formal assessment
+  resume_survey: Resume survey
+  retry: retry
+  revision_questions: Revision questions
+  reward: Reward
+  reward_point_equals: One Fuse Reward Point equals
+  reward_users_with_gamification_points: Reward users with Gamification points
+  role: Role
+  role_specific_menu: Role specific menu
+  row_is_missing_first_name: 'Row %{data} is missing first name'
+  row_is_missing_last_name: 'Row %{data} is missing last name'
+  rss_feeds: RSS feeds
+  run_time: Run Time
+  run: Run
+  one_to_one_sessions: One-to-Ones
+  one_to_one_sessions_created: One-to-Ones sessions created
+  same_character: same character
+  save: Save
+  saved: Saved
+  save_options: Save options
+  save_widgets: Save widgets
+  save_and_finish: Save and Finish
+  scale: Scale
+  scheduled_actions: Scheduled actions
+  schedule: Schedule
+  schedule_a_share: Schedule a share
+  scheduling: Scheduling
+  scheduling_daily_description: >
+    This report will be scheduled to run next day and the report range will be the previous day
+  scheduling_learning_plans_expiry_daily_description: This report will be scheduled to run as of next day
+  scheduling_learning_plans_expiry_monthly_description: >
+    This report will be scheduled to run as of the beginning of next month
+  scheduling_learning_plans_expiry_once_description: >
+    Expiry and deadline statuses will be determined as of today
+  scheduling_learning_plans_expiry_weekly_description: >
+    This report will be scheduled to run as of the beginning of next Monday
+  scheduling_monthly_description: >
+    This report will be scheduled to run at the beginning of next month and the report range will be the previous month
+  scheduling_permissions: Scheduling permissions
+  scheduling_permissions_message_only_admins: Only admins
+  scheduling_permission_message_for_admins: Only community admin and admin can schedule shares
+  scheduling_permission_message_for_users: All users can schedule shares
+  scheduling_weekly_description: >
+    This report will be scheduled to run next Monday and the report range will be the previous week
+  score: Score
+  score_ranges: Score ranges
+  score_range: Score range
+  chapter_score_ranges:
+    weak: "0 < weak <"
+    ok: "< ok <"
+    strong: "< strong < 100"
+  scorm: SCORM
+  scorms: Scorms
+  scorm_course: scorm course
+  scorm_courses: SCORM courses
+  scored: Scored
+  scoring: Scoring
+  formal_scoring_description: Below you're able to set the score range for chapters, this will determine which score results in a weak, ok or strong score.
+  survey_scoring_description: >-
+    Below you're able to set the score range for chapters, this will determine
+    which score results in a weak, ok or strong score.
+    Once these have been defined you can then add links to be displayed
+    depending on how the user has scored. e.g. if the user scores are weak,
+    you display links to beginner level content.
+  survey_links:
+    weak: weak
+    ok: ok
+    strong: strong
+  formula_and_colour: Formula &amp; colour
+  no_questions: No questions
+  screencast: Screencast
+  screencast_uploaded: Screencast uploaded successfully
+  searching: Searching...
+  seats: Seats
+  search: Search
+  search_for_a_file: Search for a file
+  search_for_a_member: Search for a member
+  search_for_a_user: Search for a user
+  search_for_a_offender: Search for a offender
+  search_and_add_content_or_topics: Search and add content or topics
+  search_all: Search all content types
+  search_for_content: 'Search for content...'
+  search_for_content_here: Search for content here
+  search_for_group: Search for a group
+  search_for_learning_plan_topic_or_event: Search for learning plan, topic or event
+  search_for_notification: Search for notification
+  search_for_users_here: Search for users here
+  search_for_content_using_field_above: Search for content using field above
+  search_for_items_here: Search for items here
+  search_for_topic_content: Search for content to add to your topic
+  search_page: Search
+  search_transcript: Search transcript
+  search_for_keyword: Search for keyword
+  search_for_member: Search for a member
+  search_for_user: Search for a user
+  search_for_items_here: Search for items here
+  search_for_participant: Search for participant
+  search_for_a_report: Search for a report
+  search_for_the_reportee: Search for the reportee
+  search_for_the_manager: Search for the manager
+  second_weekday_of_month: Second %{weekday}
+  secondary_top_menu_enabled: Enable secondary navigation menu
+  sections: Sections
+  sections_should_have_at_least_one_question: sections should have at least one question
+  section_name_optional: Section name (optional)
+  section_with_number: Section %{number}
+  section_and_question_with_number: Section %{section_number} - Question %{question_number}
+  see_approvals: See Approvals
+  see_all: See all
+  see_more: See more
+  see_our: See our
+  see_user_goals: See all users goals
+  see_user_portfolio: See all users evidence portfolio
+  select: Select
+  select_a_community: 'Select a community'
+  select_a_manager: Select a manager
+  select_a_reportee: Select a reportee
+  select_a_scorm_course: 'Select a scorm course'
+  select_a_topic_optional: 'Select a topic (optional)'
+  select_a_topic: 'Select a topic'
+  select_a_user: Select a user
+  select_a_csv_for_fuse_to_import_into_the_banned_words_list: Select a CSV for Fuse to import into the banned words list
+  select_a_performance_assessment: 'Select a %{performance_assessment}'
+  select_content: Select content
+  select_communities: Select communities
+  select_community_s: Select Community(s)
+  select_community: Select community
+  select_community_the_users_are_member_of: Select a community the user(s) are a member of
+  select_csv: Please select a CSV file
+  select_custom_profile_option_to_use: Select custom profile option to use
+  select_date_from: Select date from
+  select_date_to: Select date to
+  select_featured_topics: Select featured topics
+  select_field: Select field
+  select_filter: Select filter
+  select_group: Select group
+  select_fields_to_include_in_the_report: Select fields to include in the report
+  select_link_target: Select how you want the link to open
+  select_one_or_more_reportees: Select one or more reportees
+  select_object: Select Object
+  select_observation_assessment: 'Select %{performance_assessment}'
+  select_promotional_video_for_the_community: Select a promotional video for the community
+  select_subtitles: Select subtitiles
+  select_question_sets_in_random_order: Select question sets in random order?
+  select_questions_in_random_order: Select questions in random order?
+  select_questions_in_random_order_hint: If disabled then question will ordered by creation date
+  select_report: Select %{title}
+  select_reportee: Select reportee
+  select_reportees: Select reportees
+  select_survey_assessment: 'Select %{performance_assessment}'
+  select_users: Select users
+  select_user: Select user
+  selected_audiences: Selected audiences
+  selected_audiences_visible_learning_plan: This learning plan will only be available to members of both audience and community
+  selected_content_will_display_here: Selected content will display here
+  selected_learning_plan: Selected learning plan
+  selected_n: '%{count} Selected'
+  selected_n_items: 'Selected %{count} items'
+  selected_n_users: '%{count} users selected'
+  selected_promotional_content: Selected promotional content
+  select_user_for_tracking: Please select user for tracking
+  select_users_from_the_list: Select the user(s) from the list
+  select_all: Select all
+  select_a_promotional_content: Select a promotional content
+  select_a_promotional_content_description: >
+    This can be used to promote your learning plan, it is shown before the user begins the learning plan
+  select_a_label: Select a label
+  select_which_custom_profile_option_to_use: Select which custom profile option you want to use
+  send: Send
+  send_emails_to_user: Send emails to user
+  send_email_on_commenting: 'send email on commenting'
+  send_email_on_liking: 'send email on liking'
+  send_email_on_sharing: 'send email on sharing'
+  send_email_on_revision: 'send email to take revision questions'
+  send_invitations_for_360: Send invitations for 360
+  send_push_notification_to_the_user: Send push notification to the user
+  send_reminder: Send reminder
+  send_notification_to_applicant: Send a notification to applicant of this event.
+  send_notification_to_applicants: Send a notification to applicants of this event.
+  send_notification_to_waiter: Send a notification to specific waiter of this event.
+  send_notification_to_waiters: Send a notification to all waiters of this event.
+  send_notifications_to_attendees: Send notifications to attendees of the upcoming event
+  send_new_users_welcome_email: Send new users welcome email
+  select_admin: Select admin
+  select_community: Select community
+  select_report_type: Select report type
+  select_topic: Select topic
+  send_welcome_email: Send welcome email
+  send_welcome_email_confirm: Are you sure to send welcome email to this user?
+  send_welcome_email_to_selected_users: Send welcome email to selected users
+  sent_email: Sent email
+  sent_emails: Sent emails
+  sent_email_for: Sent email for
+  send_sms_about_availablity_survey_label: Send user(s) SMS if the Survey is available for them to take
+  sent_at: Sent at
+  sent_at_time: sent %{time}
+  session_cannot_be_started_from_expired_appointment: 'Sorry you can’t start that %{one_to_one} as it’s too far in the past'
+  session_section_required_message: Answer all required questions to end section
+  session_section_of: of %{title}
+  set_as_default_landing_page: Set as default Landing page
+  set_role_of_selected_users_to: Set role of selected users to
+  settings: Settings
+  settings_were_successfully_updated: Settings were successfully updated.
+  sftp_settings: SFTP Settings
+  share: Share
+  shared: Shared
+  shares: Shares
+  shares_with_me_specifically: Shares with me specifically
+  shares_with_my_community: Community wide shares
+  sharing: Sharing
+  sharing_links_count: Links shared
+  share_content: content
+  share_link: Share link
+  share_links: Share links
+  share_performance_assessment: Share %{performance_assessment}
+  share_survey_with_sms: Also send this as a SMS, if applicable
+  share_this: 'Share this %{content}'
+  share_video: video
+  share_with_which_communities: Share with which communities
+  share_with_which_groups: Share with which groups
+  share_with_your_community: Share with your community
+  shared_survey_sms_message: '%{user_name} has shared %{survey_title} with you.'
+  shared_with: 'Shared with: %{list}'
+  should_belong_to_the_same_company: should belong to the same company
+  should_start_with: should start with
+  show_archived: Show archived
+  show_score_as_percentage: Show score as percentage?
+  pass_score_percentage: Pass score percentage
+  check_your_knowledge_button: «Check your knowledge» button
+  button_labeled_as: Button labelled as
+  hide_button: Hide button?
+  skip_results_page: Skip results page?
+  ordering_of_questions: Ordering of questions
+  random: Random
+  exact: Exact
+  start_button_labelled_as:
+    title: Start button labelled as
+    placeholder: e.g. Begin assessment
+  finish_button_labelled_as:
+    title: Finish button labelled as
+    placeholder: e.g. End assessment
+  hide_finish_button_before_completion: Hide finish button before completion?
+  go_back_button_leads:
+    title: Go back button leads to which page
+    relevant_community: Relevant community
+  what_is_pass_score: What is the pass score?
+  pass_score_defined_as_percentage: Pass score defined as percentage
+  show_content_description: Show content description
+  show_description: Show description
+  show_details: Show details
+  show_draft: Show draft
+  show_engagements: Show engagements
+  show_errors: Show errors
+  show_files: Show files
+  show_filters: Show Filters
+  show_historical_events: Show Historical events
+  show_less: Show less
+  show_links_to_answers: Show links to answers
+  show_me_how_to: Show me how to ...
+  show_more: Show more
+  show_next: Show next
+  show_occurrences: Show occurrences
+  show_only_errors: Show only errors
+  show_only_my_reports: Show only my reports
+  show_only_not_passed_questions: Show only question, which answered not correctly on retaking the assessment
+  show_only: Show only
+  show_original_comments: Show original comments
+  show_original: Show original
+  show_previous_session: 'Show previous %{one_to_one}'
+  show_published: Show published
+  show_score_as_percentage: Show score as a percentage
+  show_subchapters_in_chart: Show subchapters in chart
+  show_uncompleted_content: Show uncompleted content filter
+  show_upcoming_events: Show Upcoming events
+  show_widget_borders: Show widget borders
+  show: Show
+  showing_only_first_n_rows: Showing only the first %{n} rows.
+  shown_all_items: 'Shown all (%{total} items)'
+  shown_items_out_of: 'Shown %{count} items out of %{total}'
+  shuffle_answers: Shuffle answers
+  side_panel_to_show: Side panel to show
+  sidebar: Sidebar
+  sign_in: Sign in
+  sign_in_to_launch_course: Please sign in or sign up to launch the course
+  sign_in_using: Sign in using
+  sign_in_via_salesforce: Sign in via Salesforce
+  sign_off: Sign off
+  sign_off_required: Sign off required
+  sign_up: Sign up
+  sign_up_using: Sign up using
+  signed_off: Signed off
+  signed_off_by: Signed off by
+  signature: Signature
+  signature_validity: Signature validity
+  signatures: Signatures
+  by_community: By community
+  single_communities: Single communities
+  single_answer: Single answer
+  site_admin: Site admin
+  site_analyzer: Site analyzer
+  site_moderation: Site moderation
+  site_moderation_title_hint: Allows you to see all reports across all communities
+  skip: Skip
+  skip_importing_new_user: "Row %{data} was skipped. New users are not allowed in scope of this import"
+  skip_importing_user_update: "Row %{data} was skipped. User updates are not allowed in scope of this import"
+  skip_importing_new_participation_request: "Row %{data} was skipped. New participation_requests are not allowed in scope of this import"
+  skip_importing_participation_request_update: "Row %{data} was skipped. Participation request updates are not allowed in scope of this import"
+  sms: SMS
+  sms_notification: SMS Notification
+  sms_password_reset_setting_label: Enable password reset to be sent by SMS
+  sms_survey_settings_label: Enable surveys notifications to be sent by SMS
+  social: Social
+  some_users_are_not_present_in_the_company_database: 'Some users are not present in the company database. '
+  someone_requested_link_to_change_your_password: Someone has requested a link to change your password, please do this using the link below.
+  something_went_wrong: "Sorry, something went wrong…"
+  something_went_wrong_not_uploaded: Something went wrong and file was not uploaded
+  sort_by: 'Sort by...'
+  sorry_you_dont_have_access: Sorry but you don’t have access to this, please speak to the administrator for access
+  sorry_zero_users_were_found: Sorry 0 users were found with that name
+  sorry_but_live_content_temporarily_not_available: Sorry but live content temporarily not available
+  schedule_new_121: Schedule a %{one_to_one}
+  spaces_remaining: Spaces Remaining
+  spaces: Spaces
+  specific_members: Specific members
+  specific_recipients_tab_label: Specific users
+  specific_recipients_tab_label: Specific available recipients
+  specific_report_details: Specific report details
+  specified_approver: Specified approver
+  specified_approval: Specified approval
+  specified_approval_short: Sp app
+  specified_user_sign_off: Specified user sign off
+  spots_left: Spots left
+  start: Start
+  started: Started
+  start_a_new_community: Start a new community
+  start_coaching: Start coaching
+  start_date: Start date
+  start_date_is_greater_than_end_date: Start date is greater than end date
+  start_date_is_not_specified: Start date is not specified
+  start_number: Start number
+  start_learning: Start learning
+  start_new_session: 'Start new %{one_to_one}'
+  start_recording: 'Start recording:'
+  start_typing_user_name: Start typing user name(s) to narrow down the list below
+  start_session: Start session
+  start_chat_with: Start chat with
+  stats: View usage stats
+  status: Status
+  step: 'Step %{number}'
+  step_confirm_remove: Are you sure you want to delete this step?
+  steps: Steps
+  street_address: Street Address
+  strongest_areas: Strongest Areas
+  structure_below_content: Display topic structure below content
+  subject: Subject
+  subject_experts: Subject experts
+  submit: Submit
+  submit_answer: Submit an answer to be assessed
+  submitted: Submitted
+  subscription: Subscription
+  subscription_plan: Subscription plan
+  subtitles: Subtitles
+  subtitles_are_being_translated: Subtitles are being translated to %{languages}
+  subusers: Subusers
+  success_sms_disabling: Sms sending successfully disabled
+  success_sms_enabling: Sms sending successfully enabled
+  successfully_saved: 'Successfully saved %{name}'
+  suggested_tags: Suggested tags
+  super_admin: Super admin
+  support: Support
+  survey: Survey
+  survey_assessment: Survey assessment
+  survey_assessment_details: '%{performance_assessment} details'
+  survey_assessment_ended: '%{performance_assessment} ended %{at_time}'
+  survey_assessment_review: '%{performance_assessment} review'
+  survey_assessment_title: '%{performance_assessment} title'
+  survey_completion_message: Upon completion message
+  survey_completion_default_message: Thank you for completing the survey, we appreciate the time it took and we look forward to reading your answers.
+  survey_courses: Survey courses
+  survey_feedback: Survey feedback
+  survey_feedback_for: Survey feedback for
+  survey_profile: Survey profile
+  survey_scores: Survey scores
+  survey_scores_expected_columns: 'Expected columns: %{headers}'
+  survey_shared: Survey shared
+  surveys: Surveys
+  symbol: symbol
+  system: System
+  table_aligment: Table aligment
+  tags: Tags
+  tags_separate_these: Tags - separate these using a comma
+  take: 'Take %{name}'
+  take_attendance: Take attendance
+  take_360: 'Take 360°'
+  take_formal_assessment_description: When you feel ready, take the formal assessment. It tests you on all of the content in the topic! Good luck!
+  take_formal_assessment: Take formal assessment
+  take_informal_assessment: Take the assessment
+  take_now: Take now
+  take_survey_assessment_description: When you feel ready, take the survey assessment. It tests you on all of the content in the topic! Good luck!
+  take_survey_assessment: Take survey assessment
+  take_comprehension: Take comprehension
+  take_test_again: Take test again
+  target_community_should_be_different: Target community should be different with current community
+  target_scores: Target scores
+  tasks: Tasks
+  tabs_and_secondary_navigation: Classic Tab View with Secondary Navigation Bar
+  teachers_comment: Teachers comment
+  teachers_tip: Teacher's tip
+  test_yourself: Test yourself
+  thank_you: Thank You
+  thank_you_for_comleting_survey_message: 'Thank you for completing the %{assessable_name}: here is your profile!'
+  the_article: The Article
+  the_content_you_follow: the content you follow
+  the_csv_needs_to_contain_list_of_keywords: The CSV needs to contain a list of all the keywords and phrases that you want reported.
+  the_following_issues_restrict_observation_assessment_publishing: 'The following issues restrict %{performance_assessment} publishing'
+  the_following_issues_restrict_survey_assessment_publishing: 'The following issues restrict %{performance_assessment} publishing'
+  the_link: The Link
+  the_question: The Question
+  the_following_sections_were_not_completed: The following sections were not completed
+  theme: Theme
+  there_are_no_audiences_available: There are no audiences available
+  there_are_no_audiences_selected: Selected audiences will be displayed here
+  there_are_no_scheduled_actions_message: There are no actions that match these filters
+  there_are_no_contents_message: There are no contents that match these filters
+  there_is_no_content_to_display: There is no content to display
+  there_were_no_final_thoughts_for_this_observation_assessment: 'There were no final thoughts for this %{performance_assessment}'
+  there_were_no_final_thoughts_for_this_survey_assessment: 'There were no final thoughts for this %{performance_assessment}'
+  there_is_no_deadline_for_this_learning_plan: There is no deadline for this learning plan
+  third_weekday_of_month: Third %{weekday}
+  thirst_for_content: You have a thirst for content,
+  this_audience_has_not_been_used: This audience hasn't been used anywhere yet
+  this_can_be_changed_later_via_settings: Please note that this can be changed at a later date using the settings button.
+  this_content: This content
+  this_course_requires_sign_off_from: This course requires sign off from
+  this_feature_allows_you_to_set: This feature allows you to set custom Links to sites inside or outside Fuse. Just 'Add Custom link' in the menu and enter the URL and descriptor.
+  this_is_embarrassing: This is embarrassing
+  this_is_private_community: This is a private community
+  this_is_protected_community: This is a protected community
+  this_is_public_community: This is a public community
+  this_is_open_community: This is an open community
+  this_month: this month
+  this_week: this week
+  this_is_to_certify_that: This is to certify that
+  three_digit_card_security_code: Three Digit Card Security Code
+  three_sixty: '360°'
+  thumbnail: Thumbnail
+  thumbnail_width_height: Thumbnail (min %{width}px x %{height}px)
+  till: Till
+  time_to_add_the_code_to_your_widget: Time to add the code to your widget
+  time_word: Time
+  times_taken: Times taken
+  times_taken_with_count: Times taken (%{count})
+  tip: Tip
+  title: Title
+  title_of_learning_plan: Title of the Learning plan
+  time_zone_notice: >
+    Your computer's time zone does not appear to match your Fuse time zone preference of %{time_zone}.
+    You can update your time zone on the
+  time_zone: Time zone
+  time_ago: '%{created_at} ago'
+  time_and_location: Time and Location
+  to: To
+  to_be_included: To be included
+  to_csv: to csv
+  to_view_comments: To view comments and comment yourself just sign in
+  today: Today
+  toggle_selected_users: Toggle selected users on/off
+  token: Token
+  tomorrow: Tomorrow
+  tours: Tours
+  tour_confirm_remove: Are you sure you want to delete this tour?
+  tour_step_no_class_alert: Sorry this element have no identificator, please select another one or contact the support
+  topic: Topic
+  topic_editor: Topic editor
+  topic_editor_tabs:
+    search_content_title: Search, drag and drop content onto your chapters
+  topic_overview: Topic Overview
+  topic_formal_assessment: Formal assessment
+  topic_survey_assessment: Survey assessment
+  topic_name: Topic name
+  topic_information: Topic information
+  topic_create_error_message: There was a problem creating the topic
+  topic_create_notice: 'Topic %{name} was created'
+  topic_has_been_successfully_scheduled: Topic has been successfully scheduled for %{date}
+  topic_shared: Topic has been successfully shared
+  topics: Topics
+  topic_description: Topic description
+  topic_description_validation_error: 220 characters max
+  topic_answer_type_validation_error: Topic can not be saved as questions with free text answers have been used in an assessment, please remove and try again
+  topics_include: Topics include
+  topics_input_placeholder: Add to a topic (optional)
+  topics_tab: Topics tab
+  topic_was_left_without_a_community: 'Topic #%{topic_id} was left without a community'
+  topic_structure: Topic structure
+  topic_structure_display: Topic structure display with
+  total: Total
+  total_amount: Total amount
+  total_group_members: Total group members
+  total_observation_assessments: 'Total %{performance_assessments}: %{count}'
+  total_survey_assessments: 'Total %{performance_assessments}: %{count}'
+  total_usages: Total usages
+  total_views: Total views
+  town_city: Town / City
+  transcoding_video_processing_message: 'Your video is now transcribing. This can take several minutes to process.'
+  translate: Translate
+  translations_dialog_hint_title: Sentances which you see using
+  translations_dialog_hint_body: are very important and make notifications readable so please ensure that if you customize these strings that they remain.
+  translations_dialog_note: Notifications you edit will not be translated, only the master is fully translated.
+  translations_dialog_revert_title: Revert to default
+  translations_dialog_revert_body: The default text will overwrite any custom text, all changes to this field will be lost.
+  translate_comments: Translate comments
+  translate_subtitles: Translate subtitles
+  trending: Trending
+  try_again: Try again
+  try_it_now: Try it now
+  turn_off: Turn OFF
+  turn_on: Turn ON
+  turn_on_accessibility_mode: Turn on accessibility mode
+  type: Type
+  type_commitment_or: Type commitment or
+  type_community_description: Type community description
+  type_community_name: Type community name
+  type_reminder_comment: Type reminder comment here
+  type_the_link_description: 'Optional - Type the link description here'
+  type_to_find_the_community: Type to find the community
+  type_user_name: Type user name
+  type_your_link_name: Type your link name
+  type_your_link_url: Type your link url
+  type_your_question: Type your question here
+  type_your_message: Type your message...
+  type_should_be_either_manager_or_reporter: Type should be either manager or reporter
+  tweaking_the_import: Tweaking the import
+  tweak_field_labels: If you wish, tweak the field labels using the select boxes. Click "Import users" when ready.
+  twitter: Twitter
+  two_columns: Two columns
+  url_copied_start_assessment: 'URL Copied - Start %{performance_assessment}'
+  unarchive: Unarchive
+  unavailable_translation_pair: We don't support %{from} to %{to} just yet, sorry about that.
+  uncomplain: Remove report
+  unfavourite: Unfavourite
+  unfavorite: Remove from favourites
+  unfollow: Unfollow
+  unknown_language: Sorry we don't support this language yet
+  unlike: unlike
+  unlimited: Unlimited
+  unlimited_spots: Unlimited spots
+  unlock_my_account: Unlock my account
+  unpin_topic: Unpin topic
+  untitled_chapter: Untitled Chapter
+  untitled_screencast: Untitled Screencast
+  unknown_profile_field: Unknown profile field
+  unresolved: Unresolved
+  unsaved_changes: Unsaved changes
+  unskip: Unskip
+  upcoming: Upcoming
+  update: Update
+  update_my_account: Update my account
+  update_content_with_a_new_file: Update content with a new file
+  update_existing_users: Update existing users
+  update_failed: 'Update failed'
+  update_file: Update file
+  update_link: Update link
+  updated: Updated
+  updated_ago: "Updated %{updated} ago"
+  updated_successfully: 'Updated successfully'
+  updated_successfully_subscription: You've successfully updated your subscription
+  updated_user: Updated user %{data}
+  updated_participation_request: Updated participation request with status '%{status}' for user '%{user}'
+  update_settings: Update settings
+  updates_and_notifications: Updates & Notifications
+  upload: Upload
+  upload_csv_to_auto_assign_managers_and_report: Upload CSV to automatically assign managers and reportees
+  uploading_videos_count: Videos uploaded
+  uploading_files_count: Files uploaded
+  upload_date: Upload date
+  upload_thumbnail: Upload thumbnail
+  upload_content: Upload content
+  uploaded: Uploaded
+  uploaded_ago_by: 'Uploaded %{created} ago by'
+  uploaded_by: uploaded by
+  upload_to_which_community: Upload to which community\communities
+  upload_files_tooltip:
+    one: Maximum %{count} file
+    other: Maximum %{count} files
+  upload_file_dialog_title: Sorry about this
+  upload_file_dialog_message:
+    one: We only allow a maximum of %{count} file
+    other: We only allow a maximum of %{count} files
+  upload_file_dialog_confirm: Ok, I understand
+  upon_the_user_clicking_start_learning_plan: Upon the user clicking "Start" on the learning plan, the user has
+  uppercase_character: uppercase character
+  usage: Usage
+  usages: Usages
+  use_these_to_measure_how_well_your_colleagues_are_performing: Use these to measure how well your colleagues are performing
+  use_classic_homepage_layout: Use classic layout (This expires Q3 2016)
+  use_custom_layout: Use custom layout
+  use_default_community_page_layout: Use default community page layout
+  use_default_homepage_layout: Use "Default homepage" layout
+  use_default_manager_dashboard_layout: Use "Default Manager Dashboard" layout
+  use_search_box_to_filter_topics_events_scorm: >
+    Just use the search box below to filter topics, events and scorm courses on fuse
+  use_sections_to_make_it_easier_for_the_user_to_navigate_your_observation_assessment: 'Use sections to make it easier for the user to navigate your %{performance_assessment}'
+  use_sections_to_make_it_easier_for_the_user_to_navigate_your_survey_assessment: 'Use sections to make it easier for the user to navigate your %{performance_assessment}'
+  used_by: Used by
+  used_when_imporing_users: used when importing users
+  user: User
+  user_able_to_pass_question_again: User able to pass practice question again
+  user_activity:
+    comment:
+      one: comment
+      other: comments
+      many: comments
+    like:
+      one: like
+      other: likes
+      many: likes
+  user_activities: User activities
+  user_instructions_for_assessment: User instructions for the assessment
+  user_agreement_for_assessment: User agreement for the assessment
+  agreement_title: Agreement title
+  accept_button_labelled_as: Accept button labelled as
+  assessment_settings_limit:
+    user_is_allowed: The user is allowed a maximum of
+    attempts_in: (0 for no limit) attempts in
+    days: days (0 for lifelong limit)
+  assessment_settings_formula: 'Formula (you can reference question scores as <strong>q1, q2, q3,</strong> etc. See the appropriate numbers under "Questions" and "Content" sections)'
+  required_profile_fields: Required profile fields
+  assessments_expire:
+    in: Assessments expire in (0 - never expires)
+    from: from
+    result_complete: Result Completion
+    agreement: Agreement
+  user_assessment_expiration_email: User assessment expiration email reads
+  user_and_content_same_company_belong: User and content should belongs to the same company
+  user_cannot_be_approved_event_is_full: Sorry, the user cannot be approved as the event is full
+  user_cannot_be_own_manager_or_reporter: "User with ID %{id} can not be own manager or reporter"
+  user_communities: User Communities
+  user_csv: User CSV
+  user_dashboard: User Dashboard
+  user_dashboard_dialog_message: |
+    Below you can choose which groups of users are displayed in the graphs using profile fields.
+    The user can use these to filter the data in the graphs
+  user_dashboard_pre_filters_message: |
+    You can filter which group of users to display in the graphs, using the drop downs below
+  user_default_settings: User defaults
+  user_did_not_have_access_to_this_content: "%{user_name} did not have access to this content"
+  user_access: User access
+  user_account_was_disabled: The account for %{user_name} was disabled
+  user_does_not_belong_to_any_admin_group: This user does not belong to any admin group
+  user_feedback: User feedback
+  user_id: User ID
+  user_id_invalid: The user id provided is invalid
+  user_identity: Post using the following name
+  user_is_not_member_of_community: "User %{user_id} is not a member of the community %{community_id}"
+  user_is_already_member_of_community: "User %{user_id} is already a member of the community %{community_id}"
+  user_import_settings: User Import Settings
+  user_language_tooltip: (web and mobile)
+  user_manager: User manager
+  user_name: User name
+  user_notification_settings_title: Notifications
+  user_permissions: User permissions
+  user_profile: User Profile
+  user_profile_was_updated: User profile was successfully updated
+  user_sees_all_respondant_reports: User sees all respondent reports
+  user_sees_only_cumulative_report_at_the_end: User sees only cumulative report at the end
+  user_sees_only_cumulative_report_once_owner_will_allow_him: User sees only cumulative report once owner will allow him
+  user_was_disabled: User was successfully disabled
+  user_was_enabled: User was successfully enabled
+  user_was_not_disabled: "An error(s) occurred during user disabling: %{message}"
+  user_was_not_enabled: An error occurred during user enabling
+  user_was_removed_from_event: '%{user_name} was removed from the event'
+  user_was_removed_from_waitlist: '%{user_name} was removed from the event waitlist'
+  user_with_id_doesnt_exist: "User with ID %{id} doesn't exist"
+  users_who_not_finished_assessment: All users who have not replied
+  username: Username
+  username_email_public_name_should_be_filled: or email or public name should be filled
+  username_or_email: Username/Email
+  users: Users
+  users_are_already_in_occurrence: 'The following users: %{user_names} are already in "%{occurrence_name}" event occurrence'
+  users_were_successfully_added: Users were successfully added
+  users_were_successfully_invited: Users were successfully invited
+  users_were_successfully_rewarded: Users were successfully rewarded
+  users_will_be_shown_here: Users will be shown here
+  users_are_already_in_occurrence: 'The following users: %{user_names} are already in "%{occurrence_name}" event occurrence'
+  use_search_box_to_filter_topics_events_scorm: >
+    Just use the search box below to filter topics, events and scorm courses on fuse
+  use_classic_layout: Use classic layout
+  use_default_homepage_layout: Use "Default homepage" layout
+  use_default_manager_dashboard_layout: Use "Default Manager Dashboard" layout
+  use_custom_layout: Use custom layout
+  user_sees_all_respondant_reports: User sees all respondent reports
+  user_sees_only_cumulative_report_at_the_end: User sees only cumulative report at the end
+  user_sees_only_cumulative_report_once_owner_will_allow_him: User sees only cumulative report once owner will allow him
+  users_do_not_require_sign_off: Users do not require sign off
+  unknown_error_while_calculating_formula: Unknown error while calculating the formula
+  unnamed_observation_assessment: 'Unnamed %{performance_assessment}'
+  unnamed_survey_assessment: 'Unnamed %{performance_assessment}'
+  profile: Profile
+  variation: Variation
+  valid: Valid
+  version: Version
+  version_date: Version date
+  version_of_fuse: version of Fuse
+  videos: Videos
+  video_chapters: Video chapters
+  video_from_fuse_widget_title: Video From Fuse
+  video_encoding_message: "We have your video, and are processing it. You can close the browser. Your video will show here when its ready, or we will email you if there is an error."
+  video_encoding_failed: "We could not process this video. The most probable reason is that it is encoded in a format we cannot recognise."
+  video_must_be_encoded: Video must be encoded first in order to create a view progress
+  video_still_encoding: We are currently processing this video, please try viewing again later.
+  view: view
+  viewed: Viewed
+  view_all: View all
+  view_all_of_my_reports: View all of my %{title}
+  view_all_my_goals: View all my goals
+  view_as_pdf: View as PDF
+  view_an_example_promotion_page: View an example of a community promotional page
+  view_certificate: View certificate
+  view_communities_for: View communities for
+  event_logging: Event logging
+  view_events: View events
+  view_event: View event
+  no_chat_sessions: No chat sessions
+  no_events_message: There are no events
+  no_restrictions: No restrictions
+  view_example: View example
+  view_full_screen: View in full screen
+  view_report: View report
+  view_reports: View reports
+  view_more: view more
+  view_schedule: View schedule
+  views: Views
+  views_dataloader: Views dataloader
+  view_and_edit_reports: View & edit reports
+  vips: Vip's
+  vip_users: Vip users
+  vip_users_description: Here you can set users who are considered very important and by doing so when they share
+   content it will override personal notification and email preferences of users so that the share is received, both as an email and notification
+  visibility: Visibility
+  waitlist: Waitlist
+  waitlist_with_counter: Waitlist (%{count})
+  waiters: Waiters
+  waiters_were_added: Waiters were added
+  waitlist_disabled_option: Disabled
+  waitlist_automatic_option: Automatic waitlist (Waiters will be added automatically from the top of the waitlist)
+  waitlist_manual_option: Manual waitlist (Waiters will be added manually)
+  wait_here_or_refresh: Please refresh page shortly or come back later
+  waiting_for_confirmation: Waiting for confirmation
+  want_retake_assessment: 'Are you sure you want to retake the assessment?'
+  warning: Warning!
+  was_added_users: 'was added %{count} user(s)'
+  weak: weak
+  weakest_areas: Weakest Areas
+  web: Web
+  week: week
+  weeks: weeks
+  weekends: Weekends
+  weekly: weekly
+  weekly_digest: Weekly digest
+  weekly_notification_txt_user_message: 'These are the notifications you have received on Fuse:'
+  weekly_report_digest: Weekly %{title} digest
+  weekly_report_digest_text: "Your weekly %{title} digest is here, look below to see how your %{title_plural} are progressing with their assessments and whether they are awaiting your reply on a few questions."
+  welcome_email: Welcome email
+  welcome_to_fuse: Welcome to Fuse
+  we_strongly_recomend_you: We strongly recomend that you speak to your CSM at Fuse before you do this
+  we_will_notify_when_report_is_ready: We will notify you when your report is complete
+  when_learning_plan_becomes_accessible: When learning plan becomes accessible, the user has
+  when_user_comments_on_followed_content: When a user comments on content they follow
+  when_user_comments_on_their_content: When a user comments on their content
+  when_user_likes_their_content: When a user likes their content
+  when_user_shares_with_them: When something is shared with them specifically
+  when_user_shares_with_their_community: When something is shared with a community the user is member of
+  where_and_when_will_event_take_place: Where and when will event take place
+  where_i_can_find_my_cvv_number: Where I can find my CVV number?
+  who_is_it_with: Who is it with?
+  which_members_of_community_can_see_learning_plan: Below you can choose which members in this community can see this learning plan
+  widget: Widget
+  widgets: Widgets
+  widgets_centre: Design Studio
+  widgets_center_acceptance_user_message: By ticking this I accept that I am responsible for the consequences which will occur
+  widget_center_no_communities_message: You don't have any communities. Please create some one and return to this page
+  widget_container_id_invalid: The widget container id provided is invalid
+  widget_layout: Widget layout
+  widget_reference: Widget reference
+  widget_title: Widget title
+  widgets_and_secondary_navigation: Widgets and Top Secondary Navigation Bar
+  widgets_and_sidebar: Widgets with new Side Bar Navigation and new site header
+  widgets_centre_scope: Choose widget centre version
+  while_you_were_away: While you were away
+  whole_questions_answers: 'Whole questions & answers'
+  who_needs_to_approve_the_applicants: 'Who needs to approve the applicants?'
+  who_can_access_this_report: Who can access this report
+  with: with
+  with_colleagues: with colleagues
+  with_community: with a community
+  with_groups: with groups
+  with_user_name: With %{name}
+  working_out: Working out
+  working_out_placeholder: Please enter your working out in this box
+  working_out_text_box: Working out text box
+  write_message_here: Write message here
+  write_your_message_here: Write your message here
+  write_your_description: Write your description here
+  write_your_response_here: Write your response here
+  'yes': 'Yes'
+  years: years
+  yes_i_want_to_delete_this: Yes I want to delete this
+  yesterday: Yesterday
+  you: you
+  you_are_about_to_change_master_widget: You are about to change the master widget, this will erase all layouts which have been applied.
+  you_are_no_longer_a_comunity_admin_of: You're no longer a community admin of
+  you_and_admin_can_view: Just you and admin can view
+  you_are_ready_to_start: "You're ready to start."
+  you_did_not_create_any_goals: 'You did not create any goals in this %{one_to_one}'
+  you_did_not_create_any_notes: 'You did not create any notes in this %{one_to_one}'
+  you_do_not_have_access_to_this_content: You do not have access to this content
+  you_dont_have_any_reports: You don't have any reports
+  you_dont_have_any_upcoming_121: You don't have any upcoming One-to-Ones
+  you_have_been_made_a_community_admin_of: You've been made a community admin of
+  you_have_successfully_changed_ownership_request_for_content: 'You have successfully %{new_state}ed ownership request for this content'
+  you_havent_passed_any_scorm: You haven't passed any SCORM courses.
+  you_can_include_any_scorm_columns: You can include any other SCORM data as additional columns.
+  you_can_not_send_mail_inactive_user: You can not send welcome mail to inactive user.
+  you_can_now_take_the_survey: You can now take the survey
+  you_can_reorder_items: You can reorder items using the mouse
+  you_have_no_messages_in_this_chat: You have no messages in this chat
+  you_have_got: "You've got"
+  you_have_no_new_notifications: 'You have no new notifications.'
+  you_have_no_notifications: 'You have no notifications.'
+  you_have_received_notification: 'You have received a notification at Fusion Universal'
+  you_have_selected: You have selected
+  you_have_chosen_enough: You've chosen enough
+  you_have_unread_chat_messages: 'You have unread chat messages:'
+  you_might_want_to_join: You might want to join ...
+  you_must_assign_another_community_admin: 'You must assign another community admin in community %{community_id}'
+  you_need_to_complete_the_course: You need to complete the course first
+  you_need_to_confirm_your_subscription: In order to continue, you need to confirm your subscription
+  you_need_to_decide_about_custom_profile_option: |
+    Before you start using audience specific widgets, you need to decide which custom profile option you would like to use.
+    This means that all of your widget layouts for audience will be applied to that specific option.
+  you_need_to_decide_about_manager_custom_profile_option: |
+    Before you start using manager specific widgets, you need to decide which custom profile option you would like to use.
+    This means that all of your widget layouts for manager dahboard will be applied to that specific option.
+  you_will_need_to_wait_until_121_session_finished: 'You will need to wait until their current %{one_to_one} has finished then try again.'
+  you_will_loose_your_place_in_waitlist_warning: You will loose your place on the waitlist if you leave now
+  you_successfully_signed_up: |
+    You've successfully signed up.
+    You will receive an e-mail requesting that you confirm your e-mail address in the next few minutes.
+  your: your
+  your_360: 'Your 360°'
+  your_account_has_been_locked: Your account has been locked due to an excessive amount of unsuccessful sign in attempts.
+  your_answer_was_correct: Your answer was correct
+  your_answer_was_incorrect: Your answer was incorrect
+  your_are_not_a_part_of_any_community: 'It looks like you are not part of any community. What about <a href="%{link}">joining</a> one now?'
+  your_billing_info: Your billing info
+  your_daily_fuse_digest_is_here: 'Your daily fuse digest is here. Check out what happened today on Fuse.'
+  your_notifications: 'Your Notifications'
+  your_reports: Your %{title}
+  your_survey_assessments: Your survey assessments
+  your_test_results: Your test results
+  your_friendly_email_system: Your friendly email system
+  your_notifications_last_week: Your notifications in the last week
+  your_notifications_last_day: Your notifications in the last day
+  your_course_is_being_processed: Your course is being processed, it will be available in a few minutes.
+  your_password_must_contain: Your password must meet the following requirements
+  your_password_will_not_change: Your password won't change until you access the link above and create a new one.
+  your_video: Your video
+  your_week_on_fuse: Your week on fuse
+  your_weekly_fuse_digest_is_here: "Your weekly fuse digest in here. Check out what's new and trending."
+  zip_postcode: ZIP / Postcode
+  360_will_be_closed_when_all_invited_participants_will_finish:  Otherwise, the 360 will be closed only when all the invited participants will finish.
+  all_activated_notifications: All activated notifications
+  all_comments: All comments
+  all_likes: All likes
+  all_shares: All shares
+  all_users: All users
+  all_views: All views
+  all_questions_should_have_description: All questions should have description
+  all_choices_should_have_description: All choices should have description
+  formal_assessment: Formal assessment
+  formal_assessments: Formal assessments
+  formal_by_chapters: Formal assessments by chapters
+  formal_by_question: Formal assessments by question
+  formal_by_score: Formal assessments scores
+  learning_plans_completion: Learning plans completion
+  my_conversations: My Conversations
+  transactional: Transactional
+  video_from_fuse: Video From Fuse
+  pdf: PDF
+  image: Image
+  zip: Zip
+  word: Word
+  excel: Excel
+  audio: Audio
+  text: Text
+  video: Video
+  powerpoint: PowerPoint
+  processing: Processing
+  processed: Processed
+  support_user_cannot_update: Ability to edit support user is not allowed
+  support_user_failed_login_error: An error was encountered whilst trying to login as support
+  support_user_credentials_reserved: The specified login credentials are reserved and cannot be used
+  support_user_currently_using_fuse: You are currently viewing fuse as a Support Admin.
+  select_video: Select video
+  remove_selection: Remove selection
+  no_content_selected: No content selected
+  video_from_fuse_forbidden_title: This is awkward
+  video_from_fuse_forbidden_content: It would seem that you don't have access to this content, this should be fixed shortly
+  video_from_fuse_disabled_content: Sorry, nothing personal but Video From Fuse hasn't been enabled. Please contact your administrator to discuss this
+  select_video_description: Select a video from Fuse using the button below. Please bear in mind that the user must have access to the content for the video to be displayed
+  where_would_you_like_to_upload_it_to: Where would you like to upload it to?
