@@ -1,0 +1,16 @@
+{
+  "smartling": {
+    "translate_paths": {
+      "instruction": "*/description", 
+      "key": "strings/id", 
+      "path": "strings/defaultMessage"
+    }
+  }, 
+  "strings": [
+    {
+      "defaultMessage": "Action", 
+      "description": "how to make stuff happen", 
+      "id": "general.action.action"
+    }
+  ]
+}
