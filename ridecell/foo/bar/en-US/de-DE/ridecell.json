@@ -1,0 +1,27 @@
+{
+  "smartling" : {
+    "translate_paths" : {
+      "instruction" : "*/description",
+      "key" : "strings/id",
+      "path" : "strings/defaultMessage"
+    }
+  },
+  "strings" : [
+  {
+    "defaultMessage" : "Aktion {something}",
+    "description" : "how to make stuff happen",
+    "id" : "general.action.action"
+  },
+
+  {
+    "defaultMessage" : "Hallo $$FIRSTNAME, ",
+    "description" : "how to make stuff happen",
+    "id" : "general.action.action"
+  },
+
+  {
+    "defaultMessage" : "SEHEN, WIE",
+    "description" : "Front page button",
+    "id" : "general.CTA"
+  }]
+}
