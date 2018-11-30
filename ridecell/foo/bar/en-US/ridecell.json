@@ -8,9 +8,20 @@
   }, 
   "strings": [
     {
-      "defaultMessage": "Action", 
+      "defaultMessage": "Action {something}", 
+      "description": "how to make stuff happen", 
+      "id": "general.action.action"
+    },
+    {
+      "defaultMessage": "Hello $$FIRSTNAME ", 
       "description": "how to make stuff happen", 
       "id": "general.action.action"
     }
+    
+    ,
+    {
+      "defaultMessage": "SEE HOW", 
+      "description": "Front page button", 
+      "id": "general.CTA"    }
   ]
 }
