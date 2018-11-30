@@ -1,0 +1,27 @@
+{
+  "smartling" : {
+    "translate_paths" : {
+      "instruction" : "*/description",
+      "key" : "strings/id",
+      "path" : "strings/defaultMessage"
+    }
+  },
+  "strings" : [
+  {
+    "defaultMessage" : "操作 {something}",
+    "description" : "how to make stuff happen",
+    "id" : "general.action.action"
+  },
+
+  {
+    "defaultMessage" : "你好 $$FIRSTNAME你好你好 ",
+    "description" : "how to make stuff happen",
+    "id" : "general.action.action"
+  },
+
+  {
+    "defaultMessage" : "如何查看 hello hello Ridecell",
+    "description" : "Front page button",
+    "id" : "general.CTA"
+  }]
+}
